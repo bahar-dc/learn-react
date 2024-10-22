@@ -49,8 +49,8 @@ export const Header = () => {
                     </div>
                 </nav>
                 <div className="navbar-buttons desktop">
-                    <a href="/login" className="link button blue secondary in-mobile-nav" href="">Login</a>
-                    <a href="/get-started" className="link button blue primary" href="">Get started</a>
+                    <a href="/login" className="link button blue secondary in-mobile-nav">Login</a>
+                    <a href="/get-started" className="link button blue primary">Get started</a>
                     <button aria-label="Open Primary Navigation" data-open="Open Primary Navigation"
                         data-closed="Close Primary Navigation" aria-controls="primary-navigation"
                         className="hamburger-button link"></button>
