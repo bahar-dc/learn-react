@@ -12,7 +12,7 @@ export const Banner = () => {
 
                     <div className="image-container">
                         <div>
-                           <img src={bannerImage} alt="Banner image" />
+                           <img src={bannerImage} />
                         </div>
                     </div>
                 </div>

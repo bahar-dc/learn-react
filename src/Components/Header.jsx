@@ -3,13 +3,13 @@ export const Header = () => {
         <>
         <header className="header-nav">
             <div className="site-container">
-                <a className="link site-logo" title="Ielts">
+                <a href="#" className="link site-logo" title="Ielts">
                     Ielts
                 </a>
                 <nav aria-label="Primary Nav">
                     <ul>
                         <li>
-                            <a className="link">
+                            <a href="#" className="link">
                                 <span>How it works</span>
                             </a>
                         </li>
@@ -24,12 +24,12 @@ export const Header = () => {
                                 </svg>
                             </button>
                             <ul className="sub-menu">
-                                <li><a className="link">German</a></li>
-                                <li><a className="link">English</a></li>
-                                <li><a className="link">Business English</a></li>
-                                <li><a className="link">French</a></li>
-                                <li><a className="link">Spanish</a></li>
-                                <li><a className="link">Italian</a></li>
+                                <li><a href="#" className="link">German</a></li>
+                                <li><a href="#" className="link">English</a></li>
+                                <li><a href="#" className="link">Business English</a></li>
+                                <li><a href="#" className="link">French</a></li>
+                                <li><a href="#" className="link">Spanish</a></li>
+                                <li><a href="#" className="link">Italian</a></li>
                             </ul>
                         </li>
                         <li>
@@ -44,8 +44,8 @@ export const Header = () => {
                         </li>
                     </ul>
                     <div className="navbar-buttons mobile">
-                        <a className="link button blue secondary in-mobile-nav">Login</a>
-                        <a className="link button blue primary">Get started</a>
+                        <a href="#" className="link button blue secondary in-mobile-nav">Login</a>
+                        <a href="#" className="link button blue primary">Get started</a>
                     </div>
                 </nav>
                 <div className="navbar-buttons desktop">
