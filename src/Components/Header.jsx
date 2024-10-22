@@ -3,13 +3,13 @@ export const Header = () => {
         <>
         <header className="header-nav">
             <div className="site-container">
-                <a href="#" className="link site-logo" title="Ielts">
+                <a href="/home" className="link site-logo" title="Ielts">
                     Ielts
                 </a>
                 <nav aria-label="Primary Nav">
                     <ul>
                         <li>
-                            <a href="#" className="link">
+                            <a href="/how-it-works" className="link">
                                 <span>How it works</span>
                             </a>
                         </li>
@@ -24,12 +24,12 @@ export const Header = () => {
                                 </svg>
                             </button>
                             <ul className="sub-menu">
-                                <li><a href="#" className="link">German</a></li>
-                                <li><a href="#" className="link">English</a></li>
-                                <li><a href="#" className="link">Business English</a></li>
-                                <li><a href="#" className="link">French</a></li>
-                                <li><a href="#" className="link">Spanish</a></li>
-                                <li><a href="#" className="link">Italian</a></li>
+                                <li><a href="/german" className="link">German</a></li>
+                                <li><a href="/english" className="link">English</a></li>
+                                <li><a href="/business-english" className="link">Business English</a></li>
+                                <li><a href="/french" className="link">French</a></li>
+                                <li><a href="/spanish" className="link">Spanish</a></li>
+                                <li><a href="/italian" className="link">Italian</a></li>
                             </ul>
                         </li>
                         <li>
@@ -44,13 +44,13 @@ export const Header = () => {
                         </li>
                     </ul>
                     <div className="navbar-buttons mobile">
-                        <a href="#" className="link button blue secondary in-mobile-nav">Login</a>
-                        <a href="#" className="link button blue primary">Get started</a>
+                        <a href="/login" className="link button blue secondary in-mobile-nav">Login</a>
+                        <a href="/get-started" className="link button blue primary">Get started</a>
                     </div>
                 </nav>
                 <div className="navbar-buttons desktop">
-                    <a className="link button blue secondary in-mobile-nav" href="">Login</a>
-                    <a className="link button blue primary" href="">Get started</a>
+                    <a href="/login" className="link button blue secondary in-mobile-nav" href="">Login</a>
+                    <a href="/get-started" className="link button blue primary" href="">Get started</a>
                     <button aria-label="Open Primary Navigation" data-open="Open Primary Navigation"
                         data-closed="Close Primary Navigation" aria-controls="primary-navigation"
                         className="hamburger-button link"></button>
