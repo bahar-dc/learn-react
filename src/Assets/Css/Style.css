@@ -5579,7 +5579,8 @@ html.locked #wpadminbar {
 
 .carousel-container {
     text-align: center;
-    margin-bottom: 130px;
+    padding-bottom: 130px;
+    box-sizing: border-box;
 }
 
 .carousel-container .splide{

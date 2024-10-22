@@ -5,25 +5,25 @@ import LearningImage3 from'../Assets/Images/Uploads/learning-image-03.webp';
 export const Learning = () => {
     return (
         <>
-            <section class="learning-styles-carousel splide">
-                <span class="outer-bg" style={{background:'#ECEFFF'}}></span>
+            <section className="learning-styles-carousel">
+                <span className="outer-bg" style={{background:'#ECEFFF'}}></span>
                 <div>
-                    <div class="site-container">
+                    <div className="site-container">
                         <h2>Choose your <span style={{color:'#153bff'}}>learning preference
                             </span></h2>
                     </div>
-                    <div class="site-container learning-styles-cards dekstop-cards">
-                        <div class="cards-container">
-                            <div class=" card">
-                                <div class="card-image">
+                    <div className="site-container learning-styles-cards dekstop-cards">
+                        <div className="cards-container">
+                            <div className=" card">
+                                <div className="card-image">
                                     <img src={LearningImage1} alt="Alt text" />
                                 </div>
-                                <div class="card-content">
-                                    <div class="card-header">
+                                <div className="card-content">
+                                    <div className="card-header">
                                         <p>Sprint</p><span></span>
                                     </div>
-                                    <h3 class="card-title">Beat the 1-month learning challenge!</h3>
-                                    <ul class="text-list">
+                                    <h3 className="card-title">Beat the 1-month learning challenge!</h3>
+                                    <ul className="text-list">
                                         <li>
                                            2 Intensities - 4 or 6 lessons per week
                                         </li>
@@ -34,21 +34,21 @@ export const Learning = () => {
                                            Win 50% money or class credits back
                                         </li>
                                     </ul>
-                                    <div class="link-container"><a href="sprint.html"
-                                            class="link button blue secondary">More about Sprint</a></div>
+                                    <div className="link-container"><a href="sprint.html"
+                                            className="link button blue secondary">More about Sprint</a></div>
                                 </div>
                             </div>
-                            <div class=" card cat-flex">
-                                <div class="card-image">
+                            <div className=" card cat-flex">
+                                <div className="card-image">
                                     <img src={LearningImage2} alt="Alt text" />
                                    <span>Free trial</span>
                                 </div>
-                                <div class="card-content">
-                                    <div class="card-header">
+                                <div className="card-content">
+                                    <div className="card-header">
                                         <p>Flex</p><span></span>
                                     </div>
-                                    <h3 class="card-title">Take your classes whenever you want!</h3>
-                                    <ul class="text-list">
+                                    <h3 className="card-title">Take your classes whenever you want!</h3>
+                                    <ul className="text-list">
                                         <li>
                                           Live classes available 24/7 &ndash; full flexibility
                                         </li>
@@ -59,20 +59,20 @@ export const Learning = () => {
                                           Try up to 3 classes for free before you buy
                                         </li>
                                     </ul>
-                                    <div class="link-container"><a href="flex.html" class="link button blue primary">More
+                                    <div className="link-container"><a href="flex.html" className="link button blue primary">More
                                             about Flex</a></div>
                                 </div>
                             </div>
-                            <div class=" card">
-                                <div class="card-image">
+                            <div className=" card">
+                                <div className="card-image">
                                     <img src={LearningImage3} alt="Alt text" />
                                 </div>
-                                <div class="card-content">
-                                    <div class="card-header">
+                                <div className="card-content">
+                                    <div className="card-header">
                                         <p>Teams</p><span></span>
                                     </div>
-                                    <h3 class="card-title">Complete a course together with a dedicated team!</h3>
-                                    <ul class="text-list">
+                                    <h3 className="card-title">Complete a course together with a dedicated team!</h3>
+                                    <ul className="text-list">
                                         <li>
                                           Progress with the same teacher and team
                                         </li>
@@ -83,7 +83,7 @@ export const Learning = () => {
                                           Finish a level with your team
                                         </li>
                                     </ul>
-                                    <div class="link-container"><a href="teams.html" class="link button blue secondary">More
+                                    <div className="link-container"><a href="teams.html" className="link button blue secondary">More
                                             about Teams</a></div>
                                 </div>
                             </div>

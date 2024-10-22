@@ -9,7 +9,6 @@ export const Banner = () => {
                         <h1>Online language learning <span>made for you</span></h1>
                         <a href="/free-trial" className="link button blue primary">Start for free</a>
                     </div>
-
                     <div className="image-container">
                         <div>
                            <img src={bannerImage}  alt="" />
