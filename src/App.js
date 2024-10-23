@@ -7,6 +7,7 @@ import { Learning } from "./Components/Learning";
 import { FullWidthScrollImage } from "./Components/FullWidthScrollImage";
 import { StickyWIthText } from "./Components/StickyWIthText";
 import { Logolist } from "./Components/Logolist";
+import { Faqs } from "./Components/Faqs";
 import { Footer } from "./Components/Footer";
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
       <FullWidthScrollImage />
       <StickyWIthText />
       <Logolist />
+      <Faqs />
       <Footer />
     </>
   );

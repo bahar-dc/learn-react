@@ -1,4 +1,3 @@
-import SitelogoWhite from'../Assets/Images/site-logo-white.svg';
 
 export const Footer = () => {
     return (
@@ -7,13 +6,10 @@ export const Footer = () => {
                 <footer className="footer">
                     <div className="site-container">
                         <div className="footer-info">
-                            <img src={SitelogoWhite} alt="" />
-                            <p>By speaking someone's language you learn about them, their culture and their ideas.
-                                Breaking down the language barrier bridges cultural differences, fosters a world of
-                                inclusion and is a first step in helping to address humanity&rsquo;s challenges. For us,
-                                language knows no boundaries.</p>
+                            <h2>Ielts Logo Here</h2>
+                           
                         </div>
-                        <nav aria-label="Secondary" className="footer-nav" id="secondary-navigation">
+                        <nav className="footer-nav" >
                             <ul>
                                 <li><a className="link" href="#company"><span>Company</span></a>
                                     <ul>
@@ -54,8 +50,6 @@ export const Footer = () => {
                                         <li><a className="link" href="/affiliate-program">Affiliate</a></li>
                                         <li><a className="link" href="/contract-termination-request">Terminate Contracts
                                                 Here</a></li>
-                                        <li className="footer-btn"><a className="link" href="/become-a-teacher">Become a
-                                                teacher</a></li>
                                     </ul>
                                 </li>
                             </ul><a className="link" href="/become-a-teacher">Become a teacher</a>
@@ -69,8 +63,9 @@ export const Footer = () => {
                                 <li><a href="/privacy" className="link">Privacy</a></li>
                                 <li><a href="/terms" className="link">Terms</a></li>
                             </ul>
-                            <ul className="social">
-                                <li><a href="https://www.linkedin.com/company/lingoda-gmbh" className="link linkedin"
+                           {/* <ul className="social">
+                                 <li>
+                                    <a href="https://www.linkedin.com/company/lingoda-gmbh" className="link linkedin"
                                         title="Linkedin"><svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg"
                                             viewBox="0 0 448 512">
                                             <path
@@ -108,8 +103,8 @@ export const Footer = () => {
                                                 d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
                                             </path>
                                         </svg>
-                                    </a></li>
-                            </ul>
+                                    </a></li> 
+                            </ul>*/}
                         </div>
                     </div>
                 </footer>
