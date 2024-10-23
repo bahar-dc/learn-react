@@ -4836,7 +4836,7 @@ section.accordion-with-animation>div>ul>li.active .chevron {
 .footer {
     color: #fff;
     min-width: 320px;
-    padding: 3rem 0 1.5rem;
+    padding: 5rem 0 5rem;
     width: 100%
 }
 
@@ -5118,7 +5118,7 @@ section.accordion-with-animation>div>ul>li.active .chevron {
     flex-shrink: 0;
     grid-auto-flow: column;
     grid-template-columns: auto auto 1fr;
-    margin-top: 3rem;
+    margin-top: 5rem;
     width: 100%
 }
 
