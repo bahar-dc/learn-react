@@ -1,5 +1,5 @@
 .two-col-title-list {
-    padding-block: 4.0625rem;
+    padding-block: 8rem;
     position: relative
 }
 
@@ -2998,7 +2998,7 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
     border-bottom-left-radius: 2.5rem;
     border-bottom-right-radius: 2.5rem;
     overflow: hidden;
-    padding-block: 4.0625rem 8.125rem;
+    padding-block: 8rem 8rem;
     position: relative
 }
 
@@ -3765,7 +3765,7 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
 
 .fullwidth-scroll-image {
     display: grid;
-    padding-block: 4.0625rem;
+    padding-block: 8rem 8rem;
     position: relative
 }
 
@@ -4056,7 +4056,7 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
     grid-template-columns: 27.25rem 45rem;
     justify-content: space-between;
     color: #2d2d32;
-    padding-top: 60px;
+    padding-top: 100px;
     box-sizing: border-box;
 }
 
@@ -4070,7 +4070,7 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
 .text-with-lottie-animations .text-column {
     width: 436px;
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 100px;
     position: sticky;
     top: 100px;
 }
@@ -4211,7 +4211,7 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
 }
 
 .lottie-column {
-    margin-bottom: 60px;
+    margin-bottom: 100px;
 }
 
 .lottie-image {
