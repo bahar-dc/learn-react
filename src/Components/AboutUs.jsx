@@ -34,7 +34,7 @@ export const AboutUs = () => {
                       <div className="slide">
                         <div className="single-card col-card">
                           <div className="card-wrapper tw-flex tw-flex-col">
-                            <img src={AboutImage01} alt="About Us Hero" />
+                            <img src={AboutImage01} alt="About" />
                             <p className="tw-text-lg">
                             Practice speaking</p>
                             <p className="slider-content tw-font-normal">
@@ -45,7 +45,7 @@ export const AboutUs = () => {
                       <div className="slide">
                         <div className="single-card col-card">
                           <div className="card-wrapper tw-flex tw-flex-col">
-                          <img src={AboutImage02} alt="About Us Hero" />
+                          <img src={AboutImage02} alt="Us" />
                             <p className="tw-text-lg">
                             Practice speaking</p>
                             <p className="slider-content tw-font-normal">
@@ -56,7 +56,7 @@ export const AboutUs = () => {
                       <div className="slide">
                         <div className="single-card col-card">
                           <div className="card-wrapper tw-flex tw-flex-col">
-                            <img src={AboutImage03} alt="About Us Hero" />
+                            <img src={AboutImage03} alt="Hero" />
                             <p className="tw-text-lg">
                             Practice speaking</p>
                             <p className="slider-content tw-font-normal">
