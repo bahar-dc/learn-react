@@ -12,7 +12,7 @@ export const AboutUs = () => {
             <section className="hiw-hero hero-home">
                 <div className="bg-container">
                     <div className="bg-img">
-                        <img src={bannerImage2} alt="About Us Hero Image" />
+                        <img src={bannerImage2} alt="About Us Hero" />
                     </div>
                 </div>
                 <div className="lingoda-container single-col">
@@ -45,7 +45,7 @@ export const AboutUs = () => {
                       <div className="slide">
                         <div className="single-card col-card">
                           <div className="card-wrapper tw-flex tw-flex-col">
-                          <img src={AboutImage02} alt="Us" />
+                          <img src={AboutImage02} alt="About" />
                             <p className="tw-text-lg">
                             Practice speaking</p>
                             <p className="slider-content tw-font-normal">
@@ -56,7 +56,7 @@ export const AboutUs = () => {
                       <div className="slide">
                         <div className="single-card col-card">
                           <div className="card-wrapper tw-flex tw-flex-col">
-                            <img src={AboutImage03} alt="Hero" />
+                            <img src={AboutImage03} alt="About" />
                             <p className="tw-text-lg">
                             Practice speaking</p>
                             <p className="slider-content tw-font-normal">
