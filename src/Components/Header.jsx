@@ -6,7 +6,7 @@ export const Header = () => {
         <>
         <header className="header-nav">
             <div className="site-container">
-           <Link to="/learn-react" className="link site-logo" title="Ielts">
+           <Link to="/" className="link site-logo" title="Ielts">
                 Ielts
                 </Link>
                 <nav aria-label="Primary Nav">
