@@ -3,13 +3,13 @@ export const Header = () => {
         <>
         <header className="header-nav">
             <div className="site-container">
-                <a href="/" className="link site-logo" title="Ielts">
+                <a href="/learn-react" className="link site-logo" title="Ielts">
                     Ielts
                 </a>
                 <nav aria-label="Primary Nav">
                     <ul>
                         <li>
-                            <a href="/about" className="link">
+                            <a href="/about-us" className="link">
                                 <span>About</span>
                             </a>
                         </li>
