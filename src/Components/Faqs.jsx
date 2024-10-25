@@ -42,9 +42,9 @@ export const Faqs = () => {
 							<button className="link">
 								<span className="text">Question 1?</span>
 								<span className="chevron">
-									<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M6 9L12 15L18 9" stroke="white" strokeWidth="2"
-										strokeLinecap="round" strokeLinejoin="round"></path>
+									<svg aria-hidden="true" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6 9L12 15L18 9" stroke="white" stroke-width="2"
+										stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
 								</span>
 							</button>
@@ -64,9 +64,9 @@ export const Faqs = () => {
 							<button className="link">
 								<span className="text">Question 2?</span>
 								<span className="chevron">
-									<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M6 9L12 15L18 9" stroke="white" strokeWidth="2"
-										strokeLinecap="round" strokeLinejoin="round"></path>
+									<svg aria-hidden="true" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6 9L12 15L18 9" stroke="white" stroke-width="2"
+										stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
 								</span>
 							</button>
@@ -86,9 +86,9 @@ export const Faqs = () => {
 							<button className="link">
 								<span className="text">Question 3?</span>
 								<span className="chevron">
-									<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M6 9L12 15L18 9" stroke="white" strokeWidth="2"
-										strokeLinecap="round" strokeLinejoin="round"></path>
+									<svg aria-hidden="true" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6 9L12 15L18 9" stroke="white" stroke-width="2"
+										stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
 								</span>
 							</button>
@@ -108,9 +108,9 @@ export const Faqs = () => {
 							<button className="link">
 								<span className="text">Question 4?</span>
 								<span className="chevron">
-									<svg aria-hidden="true" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-										<path d="M6 9L12 15L18 9" stroke="white" strokeWidth="2"
-										strokeLinecap="round" strokeLinejoin="round"></path>
+									<svg aria-hidden="true" viewbox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M6 9L12 15L18 9" stroke="white" stroke-width="2"
+										stroke-linecap="round" stroke-linejoin="round"></path>
 									</svg>
 								</span>
 							</button>
