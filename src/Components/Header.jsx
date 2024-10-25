@@ -1,14 +1,11 @@
-import { Link } from 'react-router-dom';
-
-
 export const Header = () => {
     return (
         <>
         <header className="header-nav">
             <div className="site-container">
-           <Link to="/" className="link site-logo" title="Ielts">
-                Ielts
-                </Link>
+                 <a to="/learn-react" className="link site-logo" title="Ielts">
+                    Ielts
+                </a>
                 <nav aria-label="Primary Nav">
                     <ul>
                         <li>
