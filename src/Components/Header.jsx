@@ -3,14 +3,14 @@ export const Header = () => {
         <>
         <header className="header-nav">
             <div className="site-container">
-                <a href="/home" className="link site-logo" title="Ielts">
+                <a href="/learn-react" className="link site-logo" title="Ielts">
                     Ielts
                 </a>
                 <nav aria-label="Primary Nav">
                     <ul>
                         <li>
-                            <a href="/how-it-works" className="link">
-                                <span>How it works</span>
+                            <a href="/about" className="link">
+                                <span>About</span>
                             </a>
                         </li>
                         <li className="dropdown">
