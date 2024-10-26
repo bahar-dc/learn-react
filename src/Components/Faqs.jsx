@@ -128,8 +128,8 @@ export const Faqs = () => {
 						</li>
 					</ul>
 					<div className='buttons-row'>
-						<a className="link button primary blue" href="#contact">Contact us</a>
-						<a className="link button secondary blue" href="faq.html">Read all FAQs</a>
+						{/* <a className="link button primary blue" href="/contact">Contact us</a> */}
+						<a className="link button secondary blue" href="/faqs">Read all FAQs</a>
 					</div>
 				</div>
 			</section>
