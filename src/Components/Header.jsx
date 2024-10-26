@@ -16,7 +16,7 @@ export const Header = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="/about" className="link">
+                            <a href="/learn-react/about" className="link">
                                 <span>About Us</span>
                             </a>
                         </li>
