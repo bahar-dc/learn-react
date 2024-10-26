@@ -749,7 +749,6 @@ main > .small-padding-top {
   background: #fff;
   box-shadow: 1px 1px 5px #00000029;
   display: flex;
-  height: 64px;
   justify-content: space-between;
   min-width: 320px;
   position: -webkit-sticky;
@@ -802,7 +801,6 @@ main > .small-padding-top {
 .header-nav > div {
   align-items: center;
   display: flex;
-  height: 64px;
   justify-content: space-between;
   width: 100%;
   z-index: 999;
@@ -817,12 +815,15 @@ main > .small-padding-top {
 .header-nav .site-logo {
   display: block;
   flex-shrink: 0;
-  height: 33px;
-  margin-right: 24px;
+  margin-right: 30px;
   margin-top: 0;
   width: 150px;
   font-size: 30px;
   line-height: 1;
+  padding: 20px 0;
+}
+.header-nav .site-logo img {
+  max-height: 70px;
 }
 
 @media (max-width: 991px) {
@@ -833,7 +834,6 @@ main > .small-padding-top {
 
 @media (max-width: 767px) {
   .header-nav .site-logo {
-    height: 24px;
     margin-top: 3.5px;
     width: 106px;
   }
@@ -868,7 +868,6 @@ main > .small-padding-top {
 .header-nav nav {
   align-items: center;
   display: flex;
-  height: 64px;
   width: 100%;
 }
 
@@ -4868,6 +4867,10 @@ section.accordion-with-animation > div > ul > li.active .chevron {
   align-content: flex-start;
   box-sizing: border-box;
   display: grid;
+}
+
+.footer-info img {
+  max-width: 200px;
 }
 
 @media (max-width: 767px) {

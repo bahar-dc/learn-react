@@ -1,4 +1,4 @@
-import SiteLogo from'../Assets/Images/site-logo.jpeg';
+import SiteLogo from'../Assets/Images/site-logo.png';
 
 export const Header = () => {
     return (
