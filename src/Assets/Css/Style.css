@@ -3009,13 +3009,16 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
   z-index: 1;
 }
 
+.learning-styles-carousel h3 {
+  margin-bottom: 2rem;
+}
 .learning-styles-carousel h2 {
   font-size: 3.125rem;
   font-weight: 700;
   letter-spacing: -0.09375rem;
   line-height: 3.5rem;
   margin-block: -0.5rem;
-  padding-bottom: 4.25rem;
+  padding-bottom: 2rem;
   text-align: center;
 }
 
@@ -11047,4 +11050,11 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
 p.description {
   font-size: 20px;
   margin-bottom: 30px;
+}
+.learning-section-head {
+  text-align: center;
+}
+.learning-section-head p {
+  font-size: 20px;
+  margin-bottom: 48px;
 }

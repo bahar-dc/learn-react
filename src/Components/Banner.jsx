@@ -6,11 +6,11 @@ export const Banner = () => {
             <section  className="hero bottom-tablet-image trustpilot style-homepage-revamp lingoda-grid--first">
                 <div className="site-container">
                     <div className="content-container">
-                        <h1>Unlock Your Future with Expert <span>Language & Communication</span> Training</h1>
+                        <h1>Welcome to Progresso Learning Institute – Your Global Partner in Success</h1>
                         <p className='description'>
-                            Prepare for IELTS, CELPIP, PTE, and Enhance Your English Language Skills for Immigration and Career Success.
+                            Empowering you to excel in Canada and beyond through customized courses in English proficiency, confidence building, public speaking, and cultural adaptation.
                         </p>
-                        <a href="/cources" className="link button blue primary">View Courses</a>
+                        <a href="/cources" className="link button blue primary">Explore Our Courses</a>
                     </div>
                     <div className="image-container">
                         <div>

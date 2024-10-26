@@ -8,9 +8,11 @@ export const Learning = () => {
             <section className="learning-styles-carousel">
                 <span className="outer-bg" style={{background:'#ECEFFF'}}></span>
                 <div>
-                    <div className="site-container">
-                        <h2>Courses Tailored for Your   <span style={{color:'#153bff'}}>Success
+                    <div className="site-container learning-section-head">
+                        <h2>Courses Tailored for Your  <br /> <span style={{color:'#153bff'}}>Success
                             </span></h2>
+                            {/* <h3>Achieve your dreams of studying, working, <br /> or living abroad with expert guidance.</h3> */}
+                           
                     </div>
                     <div className="site-container learning-styles-cards dekstop-cards">
                         <div className="cards-container">
@@ -20,47 +22,30 @@ export const Learning = () => {
                                 </div>
                                 <div className="card-content">
                                     <div className="card-header">
-                                        <p>Sprint</p><span></span>
+                                        <p>IELTS</p><span></span>
                                     </div>
                                     <h3 className="card-title">IELTS Preparation</h3>
                                     <ul className="text-list">
-                                        <li>
-                                           2 Intensities - 4 or 6 lessons per week
-                                        </li>
-                                        <li>
-                                          Continuous learning over 1 month
-                                        </li>
-                                        <li>
-                                           Win 50% money or class credits back
-                                        </li>
+                                        <p>Progresso Learning Institute offers in-depth lessons across all IELTS components: listening, reading, <br /> writing, and speaking. This course includes practice exams, scoring strategies, and personalized feedback to help you excel.</p>
                                     </ul>
                                     <div className="link-container"><a href="sprint.html"
-                                            className="link button blue secondary">More about Sprint</a></div>
+                                            className="link button blue secondary">Enroll Now</a></div>
                                 </div>
                             </div>
                             <div className=" card">
                                 <div className="card-image">
                                     <img src={LearningImage2} alt="Alt text" />
-                                   <span>Free trial</span>
+                                   {/* <span>Free trial</span> */}
                                 </div>
                                 <div className="card-content">
                                     <div className="card-header">
-                                        <p>Flex</p><span></span>
+                                        <p>CELPIP Training</p><span></span>
                                     </div>
-                                    <h3 className="card-title">CELPIP Training</h3>
+                                    <h3 className="card-title">CELPIP Test Preparation for Canadian Permanent Residency</h3>
                                     <ul className="text-list">
-                                        <li>
-                                          Live classes available 24/7 &ndash; full flexibility
-                                        </li>
-                                        <li>
-                                          Monthly subscription &ndash; cancel anytime
-                                        </li>
-                                        <li>
-                                          Try up to 3 classes for free before you buy
-                                        </li>
+                                       <p>Tailored for success, our CELPIP course provides detailed lessons in all four test sections. Practice with mock tests, learn effective strategies, and get personalized support to achieve the score you need.</p>
                                     </ul>
-                                    <div className="link-container"><a href="flex.html" className="link button blue secondary">More
-                                            about Flex</a></div>
+                                    <div className="link-container"><a href="flex.html" className="link button blue secondary">Enroll Now</a></div>
                                 </div>
                             </div>
                             <div className=" card">
@@ -69,22 +54,13 @@ export const Learning = () => {
                                 </div>
                                 <div className="card-content">
                                     <div className="card-header">
-                                        <p>Teams</p><span></span>
+                                        <p>PTE Coaching</p><span></span>
                                     </div>
-                                    <h3 className="card-title">PTE Coaching</h3>
+                                    <h3 className="card-title">Score High on the PTE with Professional Guidance</h3>
                                     <ul className="text-list">
-                                        <li>
-                                          Progress with the same teacher and team
-                                        </li>
-                                        <li>
-                                          Choose a 8-week or 12-week course
-                                        </li>
-                                        <li>
-                                          Finish a level with your team
-                                        </li>
+                                        <p>Progresso Learning Institute's PTE course focuses on core test areas with a mix of test strategies, mock exams, and tailored feedback to help you succeed on your journey.</p>
                                     </ul>
-                                    <div className="link-container"><a href="teams.html" className="link button blue secondary">More
-                                            about Teams</a></div>
+                                    <div className="link-container"><a href="flex.html" className="link button blue secondary">Enroll Now</a></div>
                                 </div>
                             </div>
                             <div className=" card">
@@ -93,22 +69,13 @@ export const Learning = () => {
                                 </div>
                                 <div className="card-content">
                                     <div className="card-header">
-                                        <p>Teams</p><span></span>
+                                        <p>English Language Classes</p><span></span>
                                     </div>
-                                    <h3 className="card-title">English Language Classes</h3>
+                                    <h3 className="card-title">Learn English to Excel in Canada and Beyond</h3>
                                     <ul className="text-list">
-                                        <li>
-                                          Progress with the same teacher and team
-                                        </li>
-                                        <li>
-                                          Choose a 8-week or 12-week course
-                                        </li>
-                                        <li>
-                                          Finish a level with your team
-                                        </li>
+                                        <p>Our English classes are designed for non-native speakers looking to improve grammar, vocabulary, fluency, and writing. Build a solid language foundation with flexible, real-world learning techniques.</p>
                                     </ul>
-                                    <div className="link-container"><a href="teams.html" className="link button blue secondary">More
-                                            about Teams</a></div>
+                                   <div className="link-container"><a href="flex.html" className="link button blue secondary">Enroll Now</a></div>
                                 </div>
                             </div>
                             <div className=" card">
@@ -117,22 +84,13 @@ export const Learning = () => {
                                 </div>
                                 <div className="card-content">
                                     <div className="card-header">
-                                        <p>Teams</p><span></span>
+                                        <p>Confidence Building</p><span></span>
                                     </div>
-                                    <h3 className="card-title">Confidence Building Workshops</h3>
+                                    <h3 className="card-title">Develop Confidence in Communication</h3>
                                     <ul className="text-list">
-                                        <li>
-                                          Progress with the same teacher and team
-                                        </li>
-                                        <li>
-                                          Choose a 8-week or 12-week course
-                                        </li>
-                                        <li>
-                                          Finish a level with your team
-                                        </li>
+                                       <p>Gain communication and assertiveness skills through workshops designed to increase public speaking ability and social confidence. Perfect for newcomers or anyone aiming to strengthen their voice.</p>
                                     </ul>
-                                    <div className="link-container"><a href="teams.html" className="link button blue secondary">More
-                                            about Teams</a></div>
+                                   <div className="link-container"><a href="flex.html" className="link button blue secondary">Enroll Now</a></div>
                                 </div>
                             </div>
                             <div className=" card">
@@ -141,22 +99,13 @@ export const Learning = () => {
                                 </div>
                                 <div className="card-content">
                                     <div className="card-header">
-                                        <p>Teams</p><span></span>
+                                        <p>Public Speaking</p><span></span>
                                     </div>
-                                    <h3 className="card-title">Public Speaking Mastery</h3>
+                                    <h3 className="card-title">Public Speaking Skills for Career & Personal Growth</h3>
                                     <ul className="text-list">
-                                        <li>
-                                          Progress with the same teacher and team
-                                        </li>
-                                        <li>
-                                          Choose a 8-week or 12-week course
-                                        </li>
-                                        <li>
-                                          Finish a level with your team
-                                        </li>
+                                       <p>Our public speaking course covers everything from basic communication techniques to advanced presentation skills. Ideal for students and professionals looking to excel in their fields.</p>
                                     </ul>
-                                    <div className="link-container"><a href="teams.html" className="link button blue secondary">More
-                                            about Teams</a></div>
+                                   <div className="link-container"><a href="flex.html" className="link button blue secondary">Enroll Now</a></div>
                                 </div>
                             </div>
                             <div className=" card">
@@ -165,22 +114,28 @@ export const Learning = () => {
                                 </div>
                                 <div className="card-content">
                                     <div className="card-header">
-                                        <p>Teams</p><span></span>
+                                        <p>Interview Preparation</p><span></span>
                                     </div>
-                                    <h3 className="card-title">Interview Preparation</h3>
+                                    <h3 className="card-title">Ace Your Job Interviews with Expert Guidance</h3>
                                     <ul className="text-list">
-                                        <li>
-                                          Progress with the same teacher and team
-                                        </li>
-                                        <li>
-                                          Choose a 8-week or 12-week course
-                                        </li>
-                                        <li>
-                                          Finish a level with your team
-                                        </li>
+                                        <p>Practice mock interviews, learn to tackle challenging questions, and boost your interview confidence. Perfect for job seekers looking to stand out in competitive fields.</p>
                                     </ul>
-                                    <div className="link-container"><a href="teams.html" className="link button blue secondary">More
-                                            about Teams</a></div>
+                                    <div className="link-container"><a href="flex.html" className="link button blue secondary">Enroll Now</a></div>
+                                </div>
+                            </div>
+                            <div className=" card">
+                                <div className="card-image">
+                                    <img src={LearningImage3} alt="Alt text" />
+                                </div>
+                                <div className="card-content">
+                                    <div className="card-header">
+                                        <p>Confidence and Cultural Adaptation</p><span></span>
+                                    </div>
+                                    <h3 className="card-title">Thriving Abroad: Confidence and Cultural Adaptation</h3>
+                                    <ul className="text-list">
+                                        <p>This course offers newcomers practical skills to adjust to a new culture and build connections confidently. Learn everything from local etiquette, dressing appropriately, interview preparation, to effective networking and making lasting friendships.</p>
+                                    </ul>
+                                   <div className="link-container"><a href="flex.html" className="link button blue secondary">Enroll Now</a></div>
                                 </div>
                             </div>
                         </div>
