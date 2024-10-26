@@ -7,7 +7,7 @@ export const FullWidthScrollImage = () => {
                 <div className="image-container">
                         <img src={Scrollimage} alt='' />
                     <div>
-                        <h2><span>90%</span> of our students speak more confidently after taking Lingoda classes</h2>
+                        <h2><span>90%</span> of our students speak more confidently after taking Progresso classes</h2>
                         <small>- Lingoda student survey 2022</small>
                         <a className="link button primary blue mobile" href="get-started.html">Start for free</a>
                     </div>
