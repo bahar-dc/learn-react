@@ -16,7 +16,7 @@ export const Header = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="/about-us" className="link">
+                            <a href="/learn-react/about-us" className="link">
                                 <span>About Us</span>
                             </a>
                         </li>
@@ -41,7 +41,7 @@ export const Header = () => {
                             </ul>
                         </li>
                         <li>
-                            <a href="/pricing" className="link">
+                            <a href="/learn-react/pricing" className="link">
                                 <span>Pricing</span>
                             </a>
                         </li>
