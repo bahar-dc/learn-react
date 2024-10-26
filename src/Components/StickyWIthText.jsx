@@ -13,7 +13,7 @@ export const StickyWIthText = () => {
 						<h2>Your language learning <span>partner</span></h2>
 						<p>As experts in language learning we will guide and support you every step on the way. With us,
 							you can stay on track and reach your language goals sooner.</p><a
-							className="link button primary blue" href="/get-started">Start for free</a>
+							className="link button primary blue" href="/get-started">Register Now</a>
 					</div>
 				</div>
 				<div className="scroll-container">
@@ -22,7 +22,7 @@ export const StickyWIthText = () => {
 							<h2>Your language learning <span>partner</span></h2>
 							<p>As experts in language learning we will guide and support you every step on the way. With
 								us, you can stay on track and reach your language goals sooner.</p><a
-								className="link button primary blue" href="/get-started">Start for free</a>
+								className="link button primary blue" href="/get-started">Register Now</a>
 						</div>
 					</div>
 					<div className="lottie-column">

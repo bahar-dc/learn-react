@@ -28,8 +28,8 @@ function App() {
       <StickyWIthText />
       <Logolist />
       <Faqs />
-      <About />
-      <div className="img-and-text"></div>
+      {/* <About /> */}
+      {/* <div className="img-and-text"></div> */}
       <Footer />
     </>
   );
