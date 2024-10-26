@@ -10,7 +10,6 @@ export const Twocolumntext = () => {
 						<li><p>● <strong>Qualified Instructors</strong> – Skilled professionals with international teaching experience.</p></li>
 						<li><p>● <strong>Flexible Learning</strong> – Online classes tailored to fit your schedule.</p></li>
 						<li><p>● <strong>Real-World Scenarios</strong> – Hands-on practice to apply your learning confidently.</p></li>
-						<li><p>● <strong>Community Support</strong> – Connect with peers and instructors for constant support.</p></li>
 					</ul>
                 </div>
             </section>

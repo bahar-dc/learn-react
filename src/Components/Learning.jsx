@@ -1,9 +1,15 @@
 import LearningImage1 from'../Assets/Images/Uploads/progresso-image-01-min.jpg';
 import LearningImage2 from'../Assets/Images/Uploads/progresso-image-02-min.jpg';
-import LearningImage3 from'../Assets/Images/Uploads/progresso-image-03-min.jpg';
-import LearningImage4 from'../Assets/Images/Uploads/progresso-image-04-min.jpg';
+// import LearningImage3 from'../Assets/Images/Uploads/progresso-image-03-min.jpg';
+// import LearningImage4 from'../Assets/Images/Uploads/progresso-image-04-min.jpg';
 import LearningImage5 from'../Assets/Images/Uploads/progresso-image-05-min.jpg';
 import LearningImage6 from'../Assets/Images/Uploads/progresso-image-06-min.jpg';
+
+
+import CourseImage1 from'../Assets/Images/Uploads/course-img-01.svg';
+import CourseImage2 from'../Assets/Images/Uploads/course-img-02-min.png';
+import CourseImage3 from'../Assets/Images/Uploads/course-img-03.svg';
+import CourseImage4 from'../Assets/Images/Uploads/course-img-04.svg';
 
 export const Learning = () => {
     return (
@@ -14,14 +20,12 @@ export const Learning = () => {
                     <div className="site-container learning-section-head">
                         <h2>Courses Tailored for Your  <br /> <span style={{color:'#153bff'}}>Success
                             </span></h2>
-                            {/* <h3>Achieve your dreams of studying, working, <br /> or living abroad with expert guidance.</h3> */}
-                           
                     </div>
                     <div className="site-container learning-styles-cards dekstop-cards">
                         <div className="cards-container">
                             <div className=" card">
                                 <div className="card-image">
-                                    <img src={LearningImage1} alt="Alt text" />
+                                    <img src={CourseImage2} alt="Alt text" />
                                 </div>
                                 <div className="card-content">
                                     <div className="card-header">
@@ -37,7 +41,7 @@ export const Learning = () => {
                             </div>
                             <div className=" card">
                                 <div className="card-image">
-                                    <img src={LearningImage2} alt="Alt text" />
+                                    <img src={CourseImage1} alt="Alt text" />
                                    {/* <span>Free trial</span> */}
                                 </div>
                                 <div className="card-content">
@@ -53,7 +57,7 @@ export const Learning = () => {
                             </div>
                             <div className=" card">
                                 <div className="card-image">
-                                    <img src={LearningImage3} alt="Alt text" />
+                                    <img src={CourseImage3} alt="Alt text" />
                                 </div>
                                 <div className="card-content">
                                     <div className="card-header">
@@ -68,7 +72,7 @@ export const Learning = () => {
                             </div>
                             <div className=" card">
                                 <div className="card-image">
-                                    <img src={LearningImage4} alt="Alt text" />
+                                    <img src={CourseImage4} alt="Alt text" />
                                 </div>
                                 <div className="card-content">
                                     <div className="card-header">
