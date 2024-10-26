@@ -3,77 +3,36 @@ import Scrollimage from'../Assets/Images/Uploads/scroll-image.png';
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 
-export const About = () => {
-
+export const Pricing = () => {
 
     return (
         <>
 
             <Header  />
 
-            <section id="tw-block-hero-home-0" data-view="tw-hero-home" className="hero-home trustpilot trustpilot-inside-hero lingoda-flex--first">
+             <section className="hero trustpilot style-standard  style-checklist lingoda-grid--first">
                 <div className="bg-container">
-                    <div className="bg-img bg-img--desktop">
-                        <img src="https://www.lingoda.com/wp-content/uploads/2022/03/hiw-2022-hero-bg-desktop.png" alt="Banner Desktop" />
-                    </div>
+                    <img  src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-hero-d.jpg" alt="" />
                 </div>
-                <div className="lingoda-container single-col">
-                    <div className="text-col">
-                        <h1>How Lingoda works for you</h1>
-                        <p className="content">Read about what happens in a class, how to get started and how Lingoda will help you speak with confidence.</p>
-                    </div>
-                </div>
-            </section>
-
-            <section className="text-banner with-centered-text-cta lingoda-block">
                 <div className="lingoda-container">
-                    <h2 className="toggle-heading title title--lg-dt">90% of students find it easier to complete a course when it is interactive and conducted with the same group</h2>
-                </div>
-            </section>
-
-            <section id="tw-block-cards-with-image-1" className="cards-with-image style-with-icon">
-                <div className="lingoda-container title-container">
-                    <h2 className="toggle-heading">What is Lingoda Teams?</h2>
-                </div>
-                <div className="lingoda-container list-container splide__track">
-                    <ul className="splide__list">
-                        <li className="splide__slide">
-                            <article>
-                                <div className="article-image">
-                                    <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-1.svg" alt="Logo" className="left-alignment" />
-                                </div>
-                                <span>Regular weekly classes</span>
-                                <p>48 hours of live classes on Zoom. Complete a level in 2 months with 6 weekly hours or in 3 months with 4 weekly hours.</p>
-                            </article>
-                        </li>
-                        <li className="splide__slide">
-                            <article>
-                                <div className="article-image">
-                                    <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-2.svg" alt="Logo" className="left-alignment" />
-                                </div>
-                                <span >Dedicated team and teacher</span>
-                                <p >Get support and accountability from learning with the same teacher and classmates. Stay motivated to complete the course with your team.</p>
-                            </article>
-                        </li>
-                        <li className="splide__slide">
-                            <article>
-                            <div className="article-image">
-                            <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-3.svg" alt="Logo" className="left-alignment" />
-                            </div>
-                            <span >Small group classes</span>
-                            <p >Learning in a small group of up to 6 students enables you to speak more and to get personalised feedback.</p>
-                            </article>
-                        </li>
-                        <li className="splide__slide">
-                            <article>
-                            <div className="article-image">
-                                <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-4.svg" alt="Logo" className="left-alignment" />
-                            </div>
-                            <span >Exam preparation</span>
-                            <p >Unlock new opportunities by passing your language exam. We offer exam preparation courses, ensuring you’re ready to succeed.</p>
-                            </article>
-                        </li>
-                    </ul>
+                    <div className="content-container">
+                        <div className="eyebrow">
+                            <div><span>Available in German, English, Italian and Spanish </span></div>
+                        </div>
+                        <h1>Achieve your language goal together with a dedicated team</h1>
+                        <ul className="checkmark-list">
+                            <li>
+                                <span>Live classes with personalised feedback</span>
+                            </li>
+                            <li>
+                                <span>Smallest group classes on the market</span>
+                            </li>
+                            <li>
+                                <span>Interact and connect with your team and teacher</span>
+                            </li>
+                        </ul>
+                        <div className="btn-wrapper"><a className="link button blue primary" href="/see-prices">See prices and schedules</a></div>
+                    </div>
                 </div>
             </section>
 
@@ -85,23 +44,6 @@ export const About = () => {
                 </div>
             </section>
 
-            <section className="img-and-text img-left tablet-row border-rad lingoda-block">
-                <div className="bg" style={{background:'#ffffff'}}></div>
-                <div className="lingoda-container">
-                    <div className="text-container" style={{color:'#051f4e'}}>
-                        <h2 className="toggle-heading">Which level can I reach with Lingoda Teams?</h2>
-                        <div className="content">
-                            <p>Once you completed all 48 classes of your Lingoda Teams course, you’ve completed one level. That means that you can for example go from level A1.1 to level A1.2, or from level A2.2 to level B1.1.</p>
-                        </div>
-                    </div>
-                    <div className="img-container">
-                        <div className="img img--desktop">
-                            <img src="https://www.lingoda.com/wp-content/uploads/2024/06/teams-pricing-graph-d.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
             <section  className="block-lang-selector border-rad left-align centred-bg lingoda-block">
                 <div className="lingoda-container">
                     <div className="lang-row">
@@ -115,6 +57,49 @@ export const About = () => {
                         </div>
                         <div className="img-col">
                             <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-explainer-img-d.svg" alt="Explainer" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+         
+
+            <section className="accordion">
+                <div className="lingoda-container">
+                    <h2 className="toggle-heading">Frequently asked questions</h2>
+                    <div className="content">
+                        <div>
+                            <ul>
+                            <li>
+                                <button className="link">
+                                    <h2>What learning materials will I get?</h2>
+                                    <svg aria-hidden="true" className="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 18.5 11">
+                                        <path fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="square" d="M15.75,0.75l-7.5,7.5l-7.5-7.5"></path>
+                                    </svg>
+                                </button>
+                                <div className='panel'>
+                                    <p>As a Lingoda student, you can download the class materials for free and use them at any time. After your class, you will also find a quiz to help you refresh and practice your new skills. For English and A1 German students, downloadable exercises are available as well. All materials are uniquely created by Lingoda experts to align with CEFR standards. If you want to learn more about CEFR, view <a href="https://www.linguando.com/en/cefr/">here</a>.</p>
+                                </div>
+                            </li>
+                            <li>
+                                <button className="link" >
+                                    <h2>Concretely, what happens in a class?</h2>
+                                    <svg aria-hidden="true" className="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 18.5 11">
+                                        <path fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="square" d="M15.75,0.75l-7.5,7.5l-7.5-7.5"></path>
+                                    </svg>
+                                </button>
+                                <div className='panel'>
+                                    <p>After scheduling a class on our platform, you will be able to join the class with 2-4 fellow students from around the world. The teacher will introduce themselves and begin teaching the lesson using learning materials that you can download at the end of class. During the class, we encourage you to interact not only with the materials and the teacher but also with the students. Towards the end of class, the teacher will recap the lesson and ensure everybody has understood the lesson.</p>
+                                </div>
+                            </li>
+                        </ul>
+                        <div className="buttons-row">
+                            <a className="link button primary blue" href="/contact">Contact us</a>
+                            <a className="link button secondary blue first" href="/faq">Read all FAQs</a>
+                        </div>
+                        </div>
+                        <div>
+                            <img src="https://www.lingoda.com/wp-content/uploads/2024/02/faq-picture-rectangular.jpeg" alt="Text" />
                         </div>
                     </div>
                 </div>
@@ -334,6 +319,75 @@ export const About = () => {
             </div>
             </section>
 
+            <div className="lingoda-container youtube-container">
+                <h2>See what a Lingoda class looks like</h2>
+                <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/dzl7G7ZIfGg" data-src="https://www.youtube-nocookie.com/embed/dzl7G7ZIfGg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen="allowFullScreen"></iframe>
+            </div>
+
+            <section id="tw-after-class-2-2-7" data-view="after-class-2-2" className="tw-section tw-block-after-class-2-2 lottie-player medium:tw-pt-32">
+                <div className="tw-container-custom">
+                    <div className="tw-items-center tw-flex">
+                        <div className="tw-w-full tablet:tw-w-2/5 medium:tw-w-1/2 tw-hidden tablet:tw-block md:tw-pr-20">
+                            <img src="https://www.lingoda.com/wp-content/uploads/2022/03/hiw-after-class.jpeg" alt='Fourth' className="tw-rounded-2xl webpexpress-processed" />
+                        </div>
+                        
+                        <div className="tw-w-full tablet:tw-w-3/5 medium:tw-w-1/2 tw-px-0">
+                            <p className="tw-text-lg tw-inline-block small-text tw-font-normal tw-mb-4">AFTER CLASS</p>
+                            <h1 className="tw-text-2xl lg:tw-text-[35px] tw-font-bold tw-mb-4" >Keep learning at any time</h1>
+                            <p className="tw-text-base tw-font-normal tw-mb-0">To help you build on everything you’re learning, you have access, any time you want, to lots of great resources.</p>
+                            <div className="tw-flex tw-flex-wrap tw-mt-10 lg:tw-mt-14">
+                            <div className="tw-flex md:tw-w-1/2 tw-items-center tw-px-0 tw-mb-6 medium:tw-mb-12">
+                                <div className="cards-left-part">
+                                    
+                                </div>
+                                <div className="cards-right-part tw-pl-5 md:tw-pr-5">
+                                    <div className="info-content">Recap classes to help test your knowledge</div>
+                                </div>
+                            </div>
+                            <div className="tw-flex md:tw-w-1/2 tw-items-center tw-px-0 tw-mb-6 medium:tw-mb-12">
+                                <div className="cards-left-part">
+                                    
+                                </div>
+                                <div className="cards-right-part tw-pl-5 md:tw-pr-5">
+                                    <div className="info-content">Annotated PDFs from all your teachers</div>
+                                </div>
+                            </div>
+                            <div className="tw-flex md:tw-w-1/2 tw-items-center tw-px-0 tw-mb-6 medium:tw-mb-12">
+                                <div className="cards-left-part">
+                                    
+                                </div>
+                                <div className="cards-right-part tw-pl-5 md:tw-pr-5">
+                                    <div className="info-content">Homework for each lesson and a self-study area</div>
+                                </div>
+                            </div>
+                            <div className="tw-flex md:tw-w-1/2 tw-items-center tw-px-0 tw-mb-6 medium:tw-mb-12">
+                                <div className="cards-left-part">
+                                
+                                </div>
+                                <div className="cards-right-part tw-pl-5 md:tw-pr-5">
+                                    <div className="info-content">Blog filled with additional resources and tips</div>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="block-goals-2-2-8" data-view="goals-2-2" className="block lottie-player block-goals-2-2">
+                <div className="container container-custom">
+                    <div className="row align-items-center">
+                        <div className="col-lg-6 content-wrapper px-0">
+                            <p className="block-sm-font d-inline-block small-text font-w400 px-4">SET GOALS</p>
+                            <h1 className="hero-title-2-0 font-w700 mb-3 px-4">Hard work pays off <br /> with Lingoda</h1>
+                            <p className="block-body-font font-w400 mb-0 px-4">Whether you’re looking for a high-frequency course to learn faster or are <br /> committed to a long term goal of fluency, with our selection of courses, you <br /> can choose how often and how quickly you want to learn.</p>
+                        </div>
+                        <div className="col-lg-6 image-wrapper mt-4 mt-lg-0">
+                        <img src={Scrollimage} alt="Scroll " />
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <Footer  />
             
