@@ -3121,8 +3121,10 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
 }
 
 .learning-styles-carousel .learning-styles-cards.dekstop-cards > div {
-  column-gap: 1.25rem;
   display: flex;
+  flex-wrap: wrap;
+  row-gap: 48px;
+  column-gap: 1.25rem;
   position: relative;
   z-index: 1;
 }

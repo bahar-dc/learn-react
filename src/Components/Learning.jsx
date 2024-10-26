@@ -9,7 +9,7 @@ export const Learning = () => {
                 <span className="outer-bg" style={{background:'#ECEFFF'}}></span>
                 <div>
                     <div className="site-container">
-                        <h2>Choose your <span style={{color:'#153bff'}}>learning preference
+                        <h2>Courses Tailored for Your   <span style={{color:'#153bff'}}>Success
                             </span></h2>
                     </div>
                     <div className="site-container learning-styles-cards dekstop-cards">
@@ -22,7 +22,7 @@ export const Learning = () => {
                                     <div className="card-header">
                                         <p>Sprint</p><span></span>
                                     </div>
-                                    <h3 className="card-title">Beat the 1-month learning challenge!</h3>
+                                    <h3 className="card-title">IELTS Preparation</h3>
                                     <ul className="text-list">
                                         <li>
                                            2 Intensities - 4 or 6 lessons per week
@@ -47,7 +47,7 @@ export const Learning = () => {
                                     <div className="card-header">
                                         <p>Flex</p><span></span>
                                     </div>
-                                    <h3 className="card-title">Take your classes whenever you want!</h3>
+                                    <h3 className="card-title">CELPIP Training</h3>
                                     <ul className="text-list">
                                         <li>
                                           Live classes available 24/7 &ndash; full flexibility
@@ -71,7 +71,103 @@ export const Learning = () => {
                                     <div className="card-header">
                                         <p>Teams</p><span></span>
                                     </div>
-                                    <h3 className="card-title">Complete a course together with a dedicated team!</h3>
+                                    <h3 className="card-title">PTE Coaching</h3>
+                                    <ul className="text-list">
+                                        <li>
+                                          Progress with the same teacher and team
+                                        </li>
+                                        <li>
+                                          Choose a 8-week or 12-week course
+                                        </li>
+                                        <li>
+                                          Finish a level with your team
+                                        </li>
+                                    </ul>
+                                    <div className="link-container"><a href="teams.html" className="link button blue secondary">More
+                                            about Teams</a></div>
+                                </div>
+                            </div>
+                            <div className=" card">
+                                <div className="card-image">
+                                    <img src={LearningImage3} alt="Alt text" />
+                                </div>
+                                <div className="card-content">
+                                    <div className="card-header">
+                                        <p>Teams</p><span></span>
+                                    </div>
+                                    <h3 className="card-title">English Language Classes</h3>
+                                    <ul className="text-list">
+                                        <li>
+                                          Progress with the same teacher and team
+                                        </li>
+                                        <li>
+                                          Choose a 8-week or 12-week course
+                                        </li>
+                                        <li>
+                                          Finish a level with your team
+                                        </li>
+                                    </ul>
+                                    <div className="link-container"><a href="teams.html" className="link button blue secondary">More
+                                            about Teams</a></div>
+                                </div>
+                            </div>
+                            <div className=" card">
+                                <div className="card-image">
+                                    <img src={LearningImage3} alt="Alt text" />
+                                </div>
+                                <div className="card-content">
+                                    <div className="card-header">
+                                        <p>Teams</p><span></span>
+                                    </div>
+                                    <h3 className="card-title">Confidence Building Workshops</h3>
+                                    <ul className="text-list">
+                                        <li>
+                                          Progress with the same teacher and team
+                                        </li>
+                                        <li>
+                                          Choose a 8-week or 12-week course
+                                        </li>
+                                        <li>
+                                          Finish a level with your team
+                                        </li>
+                                    </ul>
+                                    <div className="link-container"><a href="teams.html" className="link button blue secondary">More
+                                            about Teams</a></div>
+                                </div>
+                            </div>
+                            <div className=" card">
+                                <div className="card-image">
+                                    <img src={LearningImage3} alt="Alt text" />
+                                </div>
+                                <div className="card-content">
+                                    <div className="card-header">
+                                        <p>Teams</p><span></span>
+                                    </div>
+                                    <h3 className="card-title">Public Speaking Mastery</h3>
+                                    <ul className="text-list">
+                                        <li>
+                                          Progress with the same teacher and team
+                                        </li>
+                                        <li>
+                                          Choose a 8-week or 12-week course
+                                        </li>
+                                        <li>
+                                          Finish a level with your team
+                                        </li>
+                                    </ul>
+                                    <div className="link-container"><a href="teams.html" className="link button blue secondary">More
+                                            about Teams</a></div>
+                                </div>
+                            </div>
+                            <div className=" card">
+                                <div className="card-image">
+                                    <img src={LearningImage3} alt="Alt text" />
+                                </div>
+                                <div className="card-content">
+                                    <div className="card-header">
+                                        <p>Teams</p><span></span>
+                                    </div>
+                                    <h3 className="card-title">Interview Preparation</h3>
                                     <ul className="text-list">
                                         <li>
                                           Progress with the same teacher and team
