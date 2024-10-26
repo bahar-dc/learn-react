@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/learn-react/static/css/main.e6e6b469.css",
-    "main.js": "/learn-react/static/js/main.769c5e64.js",
+    "main.css": "/learn-react/static/css/main.019f78ab.css",
+    "main.js": "/learn-react/static/js/main.7e2b2416.js",
     "static/js/453.86b2f617.chunk.js": "/learn-react/static/js/453.86b2f617.chunk.js",
     "static/media/scroll-image.png": "/learn-react/static/media/scroll-image.3bb354d5c2fac232034c.png",
     "static/media/Herohomeimage.webp": "/learn-react/static/media/Herohomeimage.37bf2b3adc38d4e4c19a.webp",
     "static/media/sticky-image-text.png": "/learn-react/static/media/sticky-image-text.476afe38a2a61087fa2c.png",
+    "static/media/site-logo.png": "/learn-react/static/media/site-logo.8445fb7ff658be5ea719.png",
     "static/media/learning-image-03.webp": "/learn-react/static/media/learning-image-03.8233bedafd44579e8ed1.webp",
+    "static/media/site-logo-white.png": "/learn-react/static/media/site-logo-white.e2f053d5c539931e7dbd.png",
     "static/media/learning-image-02.webp": "/learn-react/static/media/learning-image-02.5a8ce6bfa1a7dc40f6a2.webp",
-    "static/media/site-logo.jpeg": "/learn-react/static/media/site-logo.ff4bc9f224e838e7e5bf.jpeg",
     "static/media/learning-image-01.webp": "/learn-react/static/media/learning-image-01.ab771d17fa7eb7cfa792.webp",
     "static/media/logo-04.svg": "/learn-react/static/media/logo-04.be7332e6a35957587370d4457102db06.svg",
     "static/media/logo-01.svg": "/learn-react/static/media/logo-01.0bef12a32f3e502528bea4c11c84f755.svg",
@@ -18,12 +19,12 @@
     "static/media/logo-02.svg": "/learn-react/static/media/logo-02.9a3e554dc298d0d27f03e315db2cc5c5.svg",
     "static/media/logo-07.svg": "/learn-react/static/media/logo-07.9daaa50a917650bc0a7b12e6da433425.svg",
     "index.html": "/learn-react/index.html",
-    "main.e6e6b469.css.map": "/learn-react/static/css/main.e6e6b469.css.map",
-    "main.769c5e64.js.map": "/learn-react/static/js/main.769c5e64.js.map",
+    "main.019f78ab.css.map": "/learn-react/static/css/main.019f78ab.css.map",
+    "main.7e2b2416.js.map": "/learn-react/static/js/main.7e2b2416.js.map",
     "453.86b2f617.chunk.js.map": "/learn-react/static/js/453.86b2f617.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6e6b469.css",
-    "static/js/main.769c5e64.js"
+    "static/css/main.019f78ab.css",
+    "static/js/main.7e2b2416.js"
   ]
 }
