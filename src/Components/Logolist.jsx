@@ -19,7 +19,7 @@ export const Logolist = () => {
             <section className="carousel-logo-list ">
                 <div style={{backgroundColor:'#051F4E'}}>
                     <div className="site-container">
-                        <h2>Lingoda in the <span>press</span></h2>
+                        <h2>Progresso in the <span>press</span></h2>
                     </div>
                     <div className="carousel-container">
 					<div className="splide">
@@ -36,7 +36,7 @@ export const Logolist = () => {
 						</div>
 					</div>
 					
-					<span className="button primary white cursor">Read article</span>
+					<span className="button primary white cursor">Join Our Community</span>
 				</div>        
                 </div>
             </section>
