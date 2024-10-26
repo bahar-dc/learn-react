@@ -15,6 +15,7 @@ import { StickyWIthText } from "./Components/StickyWIthText";
 import { Logolist } from "./Components/Logolist";
 import { Faqs } from "./Components/Faqs";
 import { Footer } from "./Components/Footer";
+import { About } from "./Components/About";
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <StickyWIthText />
       <Logolist />
       <Faqs />
+      <About />
       <Footer />
     </>
   );

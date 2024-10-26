@@ -34,7 +34,7 @@ export const Faqs = () => {
 
     return (
         <>
-			<section className="accordion-with-animation">
+			<section className="accordion-with-animation bgc-transparent">
 				<div className="site-container">
 					<h2>Frequently asked <span>questions</span></h2>
 					<ul>
