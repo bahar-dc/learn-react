@@ -31,12 +31,13 @@ export const Header = () => {
                                 </svg>
                             </button>
                             <ul className="sub-menu">
-                                <li><a href="/german" className="link">German</a></li>
-                                <li><a href="/english" className="link">English</a></li>
-                                <li><a href="/business-english" className="link">Business English</a></li>
-                                <li><a href="/french" className="link">French</a></li>
-                                <li><a href="/spanish" className="link">Spanish</a></li>
-                                <li><a href="/italian" className="link">Italian</a></li>
+                                <li><a href="/ielts-prepartion" className="link">IELTS Preparation</a></li>
+                                <li><a href="/celpip-training" className="link">CELPIP Training</a></li>
+                                <li><a href="/pte-coaching" className="link">PTE Coaching</a></li>
+                                <li><a href="/english-language-course" className="link">English Language Classes</a></li>
+                                <li><a href="/confindence-building-workshops" className="link">Confidence Building Workshops</a></li>
+                                <li><a href="/public-speaking" className="link">Public Speaking Mastery</a></li>
+                                <li><a href="/interview-prepartion" className="link">Interview Preparation</a></li>
                             </ul>
                         </li>
                         <li>
