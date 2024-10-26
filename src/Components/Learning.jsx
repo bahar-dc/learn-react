@@ -38,7 +38,7 @@ export const Learning = () => {
                                             className="link button blue secondary">More about Sprint</a></div>
                                 </div>
                             </div>
-                            <div className=" card cat-flex">
+                            <div className=" card">
                                 <div className="card-image">
                                     <img src={LearningImage2} alt="Alt text" />
                                    <span>Free trial</span>
@@ -59,7 +59,7 @@ export const Learning = () => {
                                           Try up to 3 classes for free before you buy
                                         </li>
                                     </ul>
-                                    <div className="link-container"><a href="flex.html" className="link button blue primary">More
+                                    <div className="link-container"><a href="flex.html" className="link button blue secondary">More
                                             about Flex</a></div>
                                 </div>
                             </div>
