@@ -3216,7 +3216,7 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
 }
 
 .learning-styles-carousel .card-image span {
-  background: linear-gradient(90deg, #ff509b, #ff8442);
+  background: rgb(21, 59, 255);
   border-radius: 0.5rem;
   bottom: 1rem;
   color: #fff;
