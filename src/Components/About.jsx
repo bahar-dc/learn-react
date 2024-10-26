@@ -34,44 +34,120 @@ export const About = () => {
     return (
         <>
 
-
-            <section id="tw-block-cards-with-image-1" class="cards-with-image style-with-icon">
-                <div class="lingoda-container title-container">
-                    <h2 class="toggle-heading">What is Lingoda Teams?</h2>
+        <section className="img-and-text img-left tablet-row border-rad lingoda-block">
+            <div className="bg" style={{background:'#ffffff'}}></div>
+            <div className="lingoda-container">
+                <div className="text-container" style={{color:'#051f4e'}}>
+                    <h2 className="toggle-heading">Which level can I reach with Lingoda Teams?</h2>
+                    <div className="content">
+                        <p>Once you completed all 48 classes of your Lingoda Teams course, you’ve completed one level. That means that you can for example go from level A1.1 to level A1.2, or from level A2.2 to level B1.1.</p>
+                    </div>
                 </div>
-                <div class="lingoda-container list-container splide__track">
-                    <ul class="splide__list">
-                        <li class="splide__slide">
+                <div className="img-container">
+                    <div className="img img--desktop">
+                        <img src="https://www.lingoda.com/wp-content/uploads/2024/06/teams-pricing-graph-d.png" alt="" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section  className="block-lang-selector border-rad left-align centred-bg lingoda-block">
+            <div className="lingoda-container">
+                <div className="lang-row">
+                    <span className="bg" style={{background: 'linear-gradient(to right,#ff33cc -68.92%,#ff971d 119.48%)'}}></span>
+                    <div className="text-col" style={{color:'#ffffff'}}>
+                        <h2>Ready to join Teams?</h2>
+                        <p>Sign up today and achieve a language level in 2 or 3 months</p>
+                        <div className="lingoda-dropdown-container">
+                            <a className="link button primary blue" href='/see-prices'>See prices and schedules</a>
+                        </div>
+                    </div>
+                    <div className="img-col">
+                        <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-explainer-img-d.svg" alt="Explainer" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section className="text-banner alt lingoda-block">
+            <div className="lingoda-container">
+                <div style={{background: '#9900CC'}}>
+                    <h2 style={{color:'#ffffff'}} className="title title--lg-dt title--sm-mb">Over 100K language learners trust our expert curriculum and award-winning courses</h2>
+                </div>
+            </div>
+        </section>
+
+        <section className="text-banner with-centered-text-cta lingoda-block">
+            <div className="lingoda-container">
+                <h2 className="toggle-heading title title--lg-dt">90% of students find it easier to complete a course when it is interactive and conducted with the same group</h2>
+            </div>
+        </section>
+
+
+        <section className="hero trustpilot style-standard  style-checklist lingoda-grid--first">
+            <div className="bg-container">
+                <img  src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-hero-d.jpg" alt="" />
+            </div>
+            <div className="lingoda-container">
+                <div className="content-container">
+                    <div className="eyebrow">
+                        <div><span>Available in German, English, Italian and Spanish </span></div>
+                    </div>
+                    <h1>Achieve your language goal together with a dedicated team</h1>
+                    <ul className="checkmark-list">
+                        <li>
+                            <span>Live classes with personalised feedback</span>
+                        </li>
+                        <li>
+                            <span>Smallest group classes on the market</span>
+                        </li>
+                        <li>
+                            <span>Interact and connect with your team and teacher</span>
+                        </li>
+                    </ul>
+                    <div className="btn-wrapper"><a className="link button blue primary" href="/see-prices">See prices and schedules</a></div>
+                </div>
+            </div>
+            </section>
+
+
+            <section id="tw-block-cards-with-image-1" className="cards-with-image style-with-icon">
+                <div className="lingoda-container title-container">
+                    <h2 className="toggle-heading">What is Lingoda Teams?</h2>
+                </div>
+                <div className="lingoda-container list-container splide__track">
+                    <ul className="splide__list">
+                        <li className="splide__slide">
                             <article>
                                 <div className="article-image">
-                                    <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-1.svg" alt="Logo" class="left-alignment" />
+                                    <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-1.svg" alt="Logo" className="left-alignment" />
                                 </div>
                                 <span>Regular weekly classes</span>
                                 <p>48 hours of live classes on Zoom. Complete a level in 2 months with 6 weekly hours or in 3 months with 4 weekly hours.</p>
                             </article>
                         </li>
-                        <li class="splide__slide">
+                        <li className="splide__slide">
                             <article>
                                 <div className="article-image">
-                                    <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-2.svg" alt="Logo" class="left-alignment" />
+                                    <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-2.svg" alt="Logo" className="left-alignment" />
                                 </div>
                                 <span >Dedicated team and teacher</span>
                                 <p >Get support and accountability from learning with the same teacher and classmates. Stay motivated to complete the course with your team.</p>
                             </article>
                         </li>
-                        <li class="splide__slide">
+                        <li className="splide__slide">
                             <article>
                             <div className="article-image">
-                            <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-3.svg" alt="Logo" class="left-alignment" />
+                            <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-3.svg" alt="Logo" className="left-alignment" />
                             </div>
                             <span >Small group classes</span>
                             <p >Learning in a small group of up to 6 students enables you to speak more and to get personalised feedback.</p>
                             </article>
                         </li>
-                        <li class="splide__slide">
+                        <li className="splide__slide">
                             <article>
                             <div className="article-image">
-                                <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-4.svg" alt="Logo" class="left-alignment" />
+                                <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-4.svg" alt="Logo" className="left-alignment" />
                             </div>
                             <span >Exam preparation</span>
                             <p >Unlock new opportunities by passing your language exam. We offer exam preparation courses, ensuring you’re ready to succeed.</p>

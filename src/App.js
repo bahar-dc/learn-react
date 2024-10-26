@@ -29,6 +29,7 @@ function App() {
       <Logolist />
       <Faqs />
       <About />
+      <div className="img-and-text"></div>
       <Footer />
     </>
   );
