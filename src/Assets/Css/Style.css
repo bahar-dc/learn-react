@@ -2,6 +2,9 @@
   padding-block: 8rem;
   position: relative;
 }
+.two-col-title-list strong {
+  font-weight: 700;
+}
 
 @media (max-width: 1023px) {
   .two-col-title-list {
@@ -2238,10 +2241,6 @@ section.hero.style-homepage-revamp {
   }
 }
 
-section.hero.style-homepage-revamp + * {
-  padding-top: 8.125rem;
-}
-
 @media (max-width: 1199px) {
   section.hero.style-homepage-revamp + * {
     padding-top: 6.25rem;
@@ -3775,7 +3774,7 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  width: 80%;
+  width: 100%;
   z-index: 1;
 }
 
@@ -3784,42 +3783,9 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
     box-sizing: border-box;
     height: auto;
     margin: 0 auto;
-    max-width: 1364px;
-    min-height: 500px;
-    padding: 0 32px;
+    max-height: 90vh;
     position: relative;
     width: 100%;
-  }
-}
-
-@media (max-height: 620px) and (max-width: 1439px) {
-  .fullwidth-scroll-image .image-container {
-    max-width: 1164px;
-  }
-}
-
-@media (max-height: 620px) and (max-width: 1199px) {
-  .fullwidth-scroll-image .image-container {
-    max-width: 994px;
-  }
-}
-
-@media (max-height: 620px) and (max-width: 1023px) {
-  .fullwidth-scroll-image .image-container {
-    max-width: 978px;
-    padding: 0 24px;
-  }
-}
-
-@media (max-height: 620px) and (max-width: 991px) {
-  .fullwidth-scroll-image .image-container {
-    max-width: 748px;
-  }
-}
-
-@media (max-height: 620px) and (max-width: 767px) {
-  .fullwidth-scroll-image .image-container {
-    max-width: 588px;
   }
 }
 
@@ -3836,26 +3802,7 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
   color: #ffffff;
 }
 
-@media (max-height: 800px) {
-  .fullwidth-scroll-image .image-container > div {
-    bottom: 32px;
-  }
-}
-
-@media (max-width: 1023px) {
-  .fullwidth-scroll-image .image-container > div {
-    max-width: 572px;
-  }
-}
-
-@media (max-width: 767px) {
-  .fullwidth-scroll-image .image-container > div {
-    max-width: 230px;
-  }
-}
-
 .fullwidth-scroll-image img {
-  border-radius: 1.875rem;
   height: 100%;
   max-width: none;
   object-fit: cover;
@@ -9645,9 +9592,7 @@ section.hero.style-homepage-revamp {
     min-height: 43.875rem;
   }
 }
-section.hero.style-homepage-revamp + * {
-  padding-top: 8.125rem;
-}
+
 @media (max-width: 1199px) {
   section.hero.style-homepage-revamp + * {
     padding-top: 6.25rem;
