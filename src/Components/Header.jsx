@@ -46,8 +46,8 @@ export const Header = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="/testimonials" className="link">
-                                <span>Testimonials</span>
+                            <a href="/blocks" className="link">
+                                <span>Blocks</span>
                             </a>
                         </li>
                         <li>

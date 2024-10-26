@@ -1,6 +1,9 @@
-import LearningImage1 from'../Assets/Images/Uploads/learning-image-01.webp';
-import LearningImage2 from'../Assets/Images/Uploads/learning-image-02.webp';
-import LearningImage3 from'../Assets/Images/Uploads/learning-image-03.webp';
+import LearningImage1 from'../Assets/Images/Uploads/progresso-image-01-min.jpg';
+import LearningImage2 from'../Assets/Images/Uploads/progresso-image-02-min.jpg';
+import LearningImage3 from'../Assets/Images/Uploads/progresso-image-03-min.jpg';
+import LearningImage4 from'../Assets/Images/Uploads/progresso-image-04-min.jpg';
+import LearningImage5 from'../Assets/Images/Uploads/progresso-image-05-min.jpg';
+import LearningImage6 from'../Assets/Images/Uploads/progresso-image-06-min.jpg';
 
 export const Learning = () => {
     return (
@@ -65,7 +68,7 @@ export const Learning = () => {
                             </div>
                             <div className=" card">
                                 <div className="card-image">
-                                    <img src={LearningImage3} alt="Alt text" />
+                                    <img src={LearningImage4} alt="Alt text" />
                                 </div>
                                 <div className="card-content">
                                     <div className="card-header">
@@ -80,7 +83,7 @@ export const Learning = () => {
                             </div>
                             <div className=" card">
                                 <div className="card-image">
-                                    <img src={LearningImage3} alt="Alt text" />
+                                    <img src={LearningImage5} alt="Alt text" />
                                 </div>
                                 <div className="card-content">
                                     <div className="card-header">
@@ -95,7 +98,7 @@ export const Learning = () => {
                             </div>
                             <div className=" card">
                                 <div className="card-image">
-                                    <img src={LearningImage3} alt="Alt text" />
+                                    <img src={LearningImage6} alt="Alt text" />
                                 </div>
                                 <div className="card-content">
                                     <div className="card-header">
@@ -110,7 +113,7 @@ export const Learning = () => {
                             </div>
                             <div className=" card">
                                 <div className="card-image">
-                                    <img src={LearningImage3} alt="Alt text" />
+                                    <img src={LearningImage2} alt="Alt text" />
                                 </div>
                                 <div className="card-content">
                                     <div className="card-header">
@@ -125,7 +128,7 @@ export const Learning = () => {
                             </div>
                             <div className=" card">
                                 <div className="card-image">
-                                    <img src={LearningImage3} alt="Alt text" />
+                                    <img src={LearningImage1} alt="Alt text" />
                                 </div>
                                 <div className="card-content">
                                     <div className="card-header">
