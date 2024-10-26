@@ -1,16 +1,19 @@
 {
   "files": {
     "main.css": "/learn-react/static/css/main.cadfc04c.css",
-    "main.js": "/learn-react/static/js/main.52fc8b1b.js",
+    "main.js": "/learn-react/static/js/main.65b5cfcb.js",
     "static/js/453.86b2f617.chunk.js": "/learn-react/static/js/453.86b2f617.chunk.js",
+    "static/media/progresso-image-03-min.jpg": "/learn-react/static/media/progresso-image-03-min.4cea98b25635be99a334.jpg",
+    "static/media/progresso-image-05-min.jpg": "/learn-react/static/media/progresso-image-05-min.5261da243d1c8078b4b3.jpg",
+    "static/media/progresso-image-02-min.jpg": "/learn-react/static/media/progresso-image-02-min.1ab37ede9941615d7e4f.jpg",
+    "static/media/progresso-image-01-min.jpg": "/learn-react/static/media/progresso-image-01-min.4d4f3724bb1e585c752d.jpg",
+    "static/media/progresso-image-04-min.jpg": "/learn-react/static/media/progresso-image-04-min.975df6fd9a82b3c61810.jpg",
+    "static/media/progresso-image-06-min.jpg": "/learn-react/static/media/progresso-image-06-min.26082c91540c899b3613.jpg",
     "static/media/scroll-image.png": "/learn-react/static/media/scroll-image.3bb354d5c2fac232034c.png",
     "static/media/Herohomeimage.webp": "/learn-react/static/media/Herohomeimage.37bf2b3adc38d4e4c19a.webp",
     "static/media/sticky-image-text.png": "/learn-react/static/media/sticky-image-text.476afe38a2a61087fa2c.png",
     "static/media/site-logo.png": "/learn-react/static/media/site-logo.8445fb7ff658be5ea719.png",
-    "static/media/learning-image-03.webp": "/learn-react/static/media/learning-image-03.8233bedafd44579e8ed1.webp",
     "static/media/site-logo-white.png": "/learn-react/static/media/site-logo-white.e2f053d5c539931e7dbd.png",
-    "static/media/learning-image-02.webp": "/learn-react/static/media/learning-image-02.5a8ce6bfa1a7dc40f6a2.webp",
-    "static/media/learning-image-01.webp": "/learn-react/static/media/learning-image-01.ab771d17fa7eb7cfa792.webp",
     "static/media/logo-04.svg": "/learn-react/static/media/logo-04.be7332e6a35957587370d4457102db06.svg",
     "static/media/logo-01.svg": "/learn-react/static/media/logo-01.0bef12a32f3e502528bea4c11c84f755.svg",
     "static/media/logo-05.svg": "/learn-react/static/media/logo-05.11ec79ea5515f5a79032f41f7196a419.svg",
@@ -20,11 +23,11 @@
     "static/media/logo-07.svg": "/learn-react/static/media/logo-07.9daaa50a917650bc0a7b12e6da433425.svg",
     "index.html": "/learn-react/index.html",
     "main.cadfc04c.css.map": "/learn-react/static/css/main.cadfc04c.css.map",
-    "main.52fc8b1b.js.map": "/learn-react/static/js/main.52fc8b1b.js.map",
+    "main.65b5cfcb.js.map": "/learn-react/static/js/main.65b5cfcb.js.map",
     "453.86b2f617.chunk.js.map": "/learn-react/static/js/453.86b2f617.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cadfc04c.css",
-    "static/js/main.52fc8b1b.js"
+    "static/js/main.65b5cfcb.js"
   ]
 }
