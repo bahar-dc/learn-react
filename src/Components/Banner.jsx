@@ -6,8 +6,11 @@ export const Banner = () => {
             <section  className="hero bottom-tablet-image trustpilot style-homepage-revamp lingoda-grid--first">
                 <div className="site-container">
                     <div className="content-container">
-                        <h1>Online language learning <span>made for you</span></h1>
-                        <a href="/free-trial" className="link button blue primary">Start for free</a>
+                        <h1>Unlock Your Future with Expert <span>Language & Communication</span> Training</h1>
+                        <p className='description'>
+                            Prepare for IELTS, CELPIP, PTE, and Enhance Your English Language Skills for Immigration and Career Success.
+                        </p>
+                        <a href="/cources" className="link button blue primary">View Courses</a>
                     </div>
                     <div className="image-container">
                         <div>

@@ -2220,10 +2220,6 @@ section.hero.style-right-image .image-container img {
   }
 }
 
-section.hero.style-homepage-revamp .description {
-  color: #fff !important;
-}
-
 section.hero.style-homepage-revamp .checkmark-list span {
   color: #fff;
 }
@@ -9625,9 +9621,7 @@ section.hero.style-right-image .image-container img {
     max-width: 33.75rem;
   }
 }
-section.hero.style-homepage-revamp .description {
-  color: #fff !important;
-}
+
 section.hero.style-homepage-revamp .checkmark-list span {
   color: #fff;
 }
@@ -11043,4 +11037,9 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
 
 .img-and-text.border-rad .bg {
   border-radius: 0 0 1.875rem 1.875rem;
+}
+
+p.description {
+  font-size: 20px;
+  margin-bottom: 30px;
 }

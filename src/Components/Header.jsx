@@ -1,21 +1,28 @@
+import SiteLogo from'../Assets/Images/site-logo.jpeg';
+
 export const Header = () => {
     return (
         <>
         <header className="header-nav">
             <div className="site-container">
                  <a href="/learn-react" className="link site-logo">
-                    Ielts
+                    <img src={SiteLogo} alt="Site Logo" />
                 </a>
                 <nav aria-label="Primary Nav">
                     <ul>
                         <li>
+                            <a href="/learn-react" className="link">
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li>
                             <a href="/about" className="link">
-                                <span>About</span>
+                                <span>About Us</span>
                             </a>
                         </li>
                         <li className="dropdown">
                             <button className="link">
-                                <span>Languages</span>
+                                <span>Courses</span>
                                 <svg className="chevron" aria-hidden="true" viewBox="0 0 12 8" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path fillRule="evenodd" clipRule="evenodd"
@@ -33,24 +40,34 @@ export const Header = () => {
                             </ul>
                         </li>
                         <li>
-                            <button className="link">
-                                <span>Courses</span>
-                            </button>
+                            <a href="/pricing" className="link">
+                                <span>Pricing</span>
+                            </a>
                         </li>
                         <li>
-                            <button className="link">
-                                <span>More</span>
-                            </button>
+                            <a href="/testimonials" className="link">
+                                <span>Testimonials</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/blog" className="link">
+                                <span>Blog</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="/contact" className="link">
+                                <span>Contact</span>
+                            </a>
                         </li>
                     </ul>
                     <div className="navbar-buttons mobile">
-                        <a href="/login" className="link button blue secondary in-mobile-nav">Log in</a>
-                        <a href="/get-started" className="link button blue primary">Get started</a>
+                        {/* <a href="/login" className="link button blue secondary in-mobile-nav">Log in</a> */}
+                        <a href="/get-started" className="link button blue primary">Register Now</a>
                     </div>
                 </nav>
                 <div className="navbar-buttons desktop">
-                    <a href="/login" className="link button blue secondary in-mobile-nav">Log in</a>
-                    <a href="/get-started" className="link button blue primary">Get started</a>
+                    {/* <a href="/login" className="link button blue secondary in-mobile-nav">Log in</a> */}
+                    <a href="/get-started" className="link button blue primary">Register Now</a>
                     <button aria-label="Open Primary Navigation" data-open="Open Primary Navigation"
                         data-closed="Close Primary Navigation" aria-controls="primary-navigation"
                         className="hamburger-button link"></button>

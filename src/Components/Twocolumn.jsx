@@ -3,27 +3,23 @@ export const Twocolumntext = () => {
         <>
             <section className="two-col-title-list">
                 <div className="site-container">
-                    <h2>The <span style={{ color: '#153bff' }}>best</span> way to learn a language</h2>
+					 <h2>Why  <span style={{ color: '#153bff' }}>Choose Us?</span> </h2>
+
                     <ul>
-					<li>
-						<h3>
-                           Smallest classes in the market</h3>
-						<p className="text">Take group classes with up to 5 other students or learn 1-on-1 with your teacher
-						</p>
-					</li>
-					<li>
-						<h3>
-                           
-                            775K live classes per year</h3>
-						<p className="text">Get personalised feedback from your native-level teachers after each class</p>
-					</li>
-					<li>
-						<h3>
-                        Learn to speak real-life language</h3>
-						<p className="text">Speak confidently in everyday situations and feel like a local from the start
-						</p>
-					</li>
-				</ul>
+					 <h4>Three Key Selling Points:</h4>
+						<li>
+							<p className="text">Certified Language Experts</p>
+						</li>
+						<li>
+							
+							<p className="text">Flexible Learning Schedules (Online & In-person)</p>
+						</li>
+						<li>
+							
+							<p className="text">Proven Success with Immigrants & Students
+							</p>
+						</li>
+					</ul>
                 </div>
             </section>
         </>
