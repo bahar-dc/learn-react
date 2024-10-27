@@ -15,12 +15,14 @@ function App() {
     <>
 
      <Router>
+            <div className="App">
       <Routes>
-        <Route path="/learn-react" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/about-us" element={<About />} />
         <Route path="/pricing" element={<Pricing />} />
         <Route path="/Blocks" element={<Blocks />} />
       </Routes>
+            </div>
     </Router>
      
     </>
