@@ -9,6 +9,7 @@ import { HomePage } from "./Components/HomePage";
 import { About } from "./Components/About";
 import { Pricing } from "./Components/Pricings";
 import { Blocks } from "./Components/Blocks";
+import { Blog } from "./Components/Blog";
 
 function App() {
   return (
@@ -17,10 +18,11 @@ function App() {
      <Router>
             <div className="App">
       <Routes>
-        <Route path="/" element={<HomePage />} />
+        <Route path="/learn-react" element={<HomePage />} />
         <Route path="/about-us" element={<About />} />
         <Route path="/pricing" element={<Pricing />} />
-        <Route path="/Blocks" element={<Blocks />} />
+        <Route path="/blocks" element={<Blocks />} />
+        <Route path="/blog" element={<Blog />} />
       </Routes>
             </div>
     </Router>
