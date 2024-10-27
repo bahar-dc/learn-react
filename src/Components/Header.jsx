@@ -5,13 +5,13 @@ export const Header = () => {
         <>
         <header className="header-nav">
             <div className="site-container">
-                 <a href="#/learn-react" className="link site-logo">
+                 <a href="/learn-react" className="link site-logo">
                     <img src={SiteLogo} alt="Site Logo" />
                 </a>
                 <nav aria-label="Primary Nav">
                     <ul>
                         <li>
-                            <a href="#/learn-react" className="link">
+                            <a href="/learn-react" className="link">
                                 <span>Home</span>
                             </a>
                         </li>
@@ -31,13 +31,13 @@ export const Header = () => {
                                 </svg>
                             </button>
                             <ul className="sub-menu">
-                                <li><a href="/ielts-prepartion" className="link">IELTS Preparation</a></li>
-                                <li><a href="/celpip-training" className="link">CELPIP Training</a></li>
-                                <li><a href="/pte-coaching" className="link">PTE Coaching</a></li>
-                                <li><a href="/english-language-course" className="link">English Language Classes</a></li>
-                                <li><a href="/confindence-building-workshops" className="link">Confidence Building Workshops</a></li>
-                                <li><a href="/public-speaking" className="link">Public Speaking Mastery</a></li>
-                                <li><a href="/interview-prepartion" className="link">Interview Preparation</a></li>
+                                <li><a href="#/ielts-prepartion" className="link">IELTS Preparation</a></li>
+                                <li><a href="#/celpip-training" className="link">CELPIP Training</a></li>
+                                <li><a href="#/pte-coaching" className="link">PTE Coaching</a></li>
+                                <li><a href="#/english-language-course" className="link">English Language Classes</a></li>
+                                <li><a href="#/confindence-building-workshops" className="link">Confidence Building Workshops</a></li>
+                                <li><a href="#/public-speaking" className="link">Public Speaking Mastery</a></li>
+                                <li><a href="#/interview-prepartion" className="link">Interview Preparation</a></li>
                             </ul>
                         </li>
                         <li>
