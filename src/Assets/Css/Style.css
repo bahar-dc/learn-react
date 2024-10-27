@@ -678,14 +678,14 @@ html .admin-bar main {
 
 .button.primary.blue:focus,
 .button.primary.blue:not(:disabled):not(.disabled):hover {
-  background: #0428d1;
-  border-color: #0428d1;
+  background: #205c84;
+  border-color: #205c84;
 }
 
 .button.primary.white {
   background: #fff;
   border-color: #fff;
-  color: #3498db;
+  color: #2c3e50;
 }
 
 .button.primary.white:focus,
@@ -3834,6 +3834,7 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
   font-weight: 700;
   line-height: 1.21;
   text-align: center;
+  color: #ffffff;
 }
 
 @media (max-width: 1023px) {
@@ -4068,7 +4069,6 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
   padding-bottom: 0.75rem;
   position: relative;
   z-index: 1;
-  color: #2d2d32;
 }
 
 @media (max-width: 1023px) {
@@ -4546,7 +4546,6 @@ section.accordion-with-animation > div {
 }
 
 section.accordion-with-animation h2 {
-  color: #051f4e;
   font-size: 3.125rem;
   font-weight: 700;
   letter-spacing: -0.09375rem;
