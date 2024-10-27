@@ -671,8 +671,8 @@ html .admin-bar main {
 }
 
 .button.primary.blue {
-  background: #153bff;
-  border-color: #153bff;
+  background: #3498db;
+  border-color: #3498db;
   color: #fff;
 }
 
@@ -685,7 +685,7 @@ html .admin-bar main {
 .button.primary.white {
   background: #fff;
   border-color: #fff;
-  color: #153bff;
+  color: #3498db;
 }
 
 .button.primary.white:focus,
@@ -699,8 +699,8 @@ html .admin-bar main {
 }
 
 .button.secondary.blue {
-  border-color: #153bff;
-  color: #153bff;
+  border-color: #3498db;
+  color: #3498db;
 }
 
 .button.secondary.blue:focus,
@@ -711,8 +711,8 @@ html .admin-bar main {
 
 @media (max-width: 1023px) {
   .button.secondary.blue--tb {
-    border-color: #153bff;
-    color: #153bff;
+    border-color: #3498db;
+    color: #3498db;
   }
 
   .button.secondary.blue--tb:focus,
@@ -988,7 +988,7 @@ main > .small-padding-top {
 }
 
 .header-nav nav > ul > li > .link > span:after {
-  background: #153bff;
+  background: #3498db;
   content: "";
   display: block;
   height: 2px;
@@ -1125,7 +1125,7 @@ main > .small-padding-top {
 
 @media (min-width: 992px) {
   .header-nav .sub-menu a.link:hover {
-    color: #153bff;
+    color: #3498db;
   }
 }
 
@@ -1269,7 +1269,7 @@ main > .small-padding-top {
 
 @media (min-width: 992px) {
   .header-nav .lang-dropdown .sub-menu a:hover {
-    color: #153bff;
+    color: #3498db;
   }
 }
 
@@ -1561,7 +1561,7 @@ section.hero [data-countdown] p {
 section.hero [data-countdown] span:nth-child(2) {
   background: #fff;
   border-radius: 0.5rem;
-  color: #153bff;
+  color: #3498db;
   font-weight: 600;
   margin-inline: 0.25rem;
   padding: 0.25rem 0.5rem;
@@ -1750,7 +1750,7 @@ section.hero .lingoda-dropdown ul button > * {
 section.hero .lingoda-dropdown .toggle:focus,
 section.hero .lingoda-dropdown ul button:focus {
   border-radius: 0.25rem;
-  outline: 0.125rem solid #153bff;
+  outline: 0.125rem solid #3498db;
   outline-offset: -0.125rem;
 }
 
@@ -1786,7 +1786,7 @@ section.hero .lingoda-dropdown .toggle .badge,
 section.hero .lingoda-dropdown ul button .badge {
   background-color: #e3e7ff;
   border-radius: 4px;
-  color: #153bff;
+  color: #3498db;
   font-size: 0.6875rem;
   font-weight: 600;
   line-height: 1;
@@ -2611,7 +2611,7 @@ section.hero.style-homepage-revamp .language-buttons a span span {
 }
 
 section.hero.style-homepage-revamp .language-buttons li:last-child a span span {
-  color: #153bff;
+  color: #3498db;
   font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -3082,8 +3082,8 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
 }
 
 .learning-styles-carousel .category-pagination button:hover {
-  background: linear-gradient(0deg, #153bff26, #153bff40 50%, #153bff26),
-    linear-gradient(92deg, #153bff40, #153bff26 40%);
+  background: linear-gradient(0deg, #3498db26, #3498db40 50%, #3498db26),
+    linear-gradient(92deg, #3498db40, #3498db26 40%);
 }
 
 .learning-styles-carousel .category-pagination button:focus-visible {
@@ -3097,7 +3097,7 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
 }
 
 .learning-styles-carousel .learning-styles-cards:before {
-  background: #153bff;
+  background: #3498db;
   border-radius: 50%;
   bottom: -31.25rem;
   content: "";
@@ -3243,7 +3243,7 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
 }
 
 .learning-styles-carousel .card-header p {
-  color: #153bff;
+  color: #3498db;
   font-size: 1.125rem;
   font-weight: 700;
 }
@@ -3287,7 +3287,7 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
 }
 
 .learning-styles-carousel .text-list picture {
-  background-color: #153bff;
+  background-color: #3498db;
   border-radius: 50%;
   display: grid;
   height: 1.25rem;
@@ -3305,18 +3305,18 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
 }
 
 .learning-styles-carousel .cat-flex .card-header p {
-  color: #153bff;
+  color: #3498db;
   font-size: 1.125rem;
   line-height: 1.5rem;
 }
 
 .learning-styles-carousel .cat-flex .card-header span {
   background-color: #e3e7ff;
-  color: #153bff;
+  color: #3498db;
 }
 
 .learning-styles-carousel .cat-flex .text-list picture {
-  background-color: #153bff;
+  background-color: #3498db;
 }
 
 @media (min-width: 992px) {
@@ -4616,7 +4616,7 @@ section.accordion-with-animation .text {
 }
 
 section.accordion-with-animation .chevron {
-  background-color: #153bff;
+  background-color: #3498db;
   border-radius: 50%;
   display: block;
   height: 1.5rem;
@@ -4627,7 +4627,7 @@ section.accordion-with-animation .chevron {
 section.accordion-with-animation > div > ul > li:hover,
 section.accordion-with-animation > div > ul > li.active {
   /* background-color: #d0d8ff; */
-  color: #153bff;
+  color: #3498db;
 }
 
 section.accordion-with-animation > div > ul > li.active .chevron {
@@ -4725,7 +4725,7 @@ section.accordion-with-animation > div > ul > li.active .chevron {
 }
 
 .simple-title-and-text a {
-  color: #153bff;
+  color: #3498db;
   font-weight: 600;
 }
 
@@ -4987,7 +4987,7 @@ section.accordion-with-animation > div > ul > li.active .chevron {
 .footer-nav .footer-btn a {
   background-color: #fff;
   border-radius: 0.25rem;
-  color: #153bff;
+  color: #3498db;
   display: block;
   font-weight: 600;
   min-width: 64px;
@@ -5017,7 +5017,7 @@ section.accordion-with-animation > div > ul > li.active .chevron {
   .footer-nav > a {
     background-color: #fff;
     border-radius: 0.25rem;
-    color: #153bff;
+    color: #3498db;
     display: block;
     font-weight: 600;
     margin-top: 2rem;
@@ -5188,7 +5188,7 @@ section.accordion-with-animation > div > ul > li.active .chevron {
 }
 
 .footer-copyright .social a:hover svg {
-  color: #153bff;
+  color: #3498db;
 }
 
 .platform-mobile .footer-copyright .social a:hover svg {
@@ -5272,7 +5272,7 @@ html.locked #wpadminbar {
 }
 
 #block-hero-0 h1 span {
-  color: #153bff;
+  color: #3498db;
 }
 
 #block-hero-0 .description,
@@ -5305,7 +5305,7 @@ html.locked #wpadminbar {
 
 @media (min-width: 768px) {
   #block-hero-0 .bubble-quote blockquote {
-    background: linear-gradient(225deg, #153bff -14.86%, #90c 82.65%);
+    background: linear-gradient(225deg, #3498db -14.86%, #90c 82.65%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -5473,7 +5473,7 @@ button.splide__pagination__page:focus {
 }
 
 button.splide__pagination__page.is-active {
-  background-color: #153bff;
+  background-color: #3498db;
   z-index: 1;
 }
 
@@ -5483,12 +5483,12 @@ button.splide__pagination__page.is-active {
 }
 
 .splide__pagination__page:focus-visible {
-  outline: 3px solid #153bff;
+  outline: 3px solid #3498db;
   outline-offset: 3px;
 }
 
 .splide.is-focus-in .splide__pagination__page:focus {
-  outline: 3px solid #153bff;
+  outline: 3px solid #3498db;
   outline-offset: 3px;
 }
 
@@ -5689,7 +5689,7 @@ button.splide__pagination__page.is-active {
 /* End of NY 2023/2024 */
 
 .accordion p a {
-  color: #153bff;
+  color: #3498db;
   font-weight: 600;
 }
 
@@ -5781,8 +5781,8 @@ button.splide__pagination__page.is-active {
 }
 
 #bts-home-hero .btn-wrapper a {
-  background-color: #153bff;
-  border-color: #153bff;
+  background-color: #3498db;
+  border-color: #3498db;
   color: #ffffff;
 }
 
@@ -6440,7 +6440,7 @@ button.splide__pagination__page.is-active {
 .hero-home .lingoda-dropdown .toggle:focus,
 .hero-home .lingoda-dropdown ul button:focus {
   border-radius: 0.25rem;
-  outline: 0.125rem solid #153bff;
+  outline: 0.125rem solid #3498db;
   outline-offset: -0.125rem;
 }
 
@@ -6472,7 +6472,7 @@ button.splide__pagination__page.is-active {
 .hero-home .lingoda-dropdown ul button .badge {
   background-color: #e3e7ff;
   border-radius: 4px;
-  color: #153bff;
+  color: #3498db;
   font-size: 0.6875rem;
   font-weight: 600;
   line-height: 1;
@@ -7520,7 +7520,7 @@ button.splide__pagination__page.is-active {
 }
 .platform-desktop .video-testimonial-carousel .play-expand:hover span,
 .platform-desktop .video-testimonial-carousel .play-expand:hover svg {
-  color: #153bff;
+  color: #3498db;
 }
 .video-testimonial-carousel .splide__list {
   display: flex;
@@ -8337,7 +8337,7 @@ button.splide__pagination__page.is-active {
   margin-block: -0.3125rem;
 }
 .accordion button svg {
-  color: #153bff;
+  color: #3498db;
   height: 0.625rem;
   position: absolute;
   right: 1.5rem;
@@ -8379,8 +8379,8 @@ button.splide__pagination__page.is-active {
 }
 .accordion .content > div:first-child > div a.first {
   background-color: initial;
-  border-color: #153bff;
-  color: #153bff;
+  border-color: #3498db;
+  color: #3498db;
   padding-inline: 1.5rem;
 }
 .accordion .content > div:first-child > div a.first:focus {
@@ -8393,7 +8393,7 @@ button.splide__pagination__page.is-active {
   background-color: initial;
 }
 .accordion .content > div:first-child > div a.second {
-  background-color: #153bff;
+  background-color: #3498db;
   color: #fff;
   padding-inline: 2.5rem;
 }
@@ -8410,8 +8410,8 @@ button.splide__pagination__page.is-active {
   border-color: #0428d1;
 }
 .platform-mobile .accordion .content > div:first-child > div a.second:hover {
-  background-color: #153bff;
-  border-color: #153bff;
+  background-color: #3498db;
+  border-color: #3498db;
 }
 .accordion .img img {
   display: block;
@@ -8477,8 +8477,8 @@ button.splide__pagination__page.is-active {
 
 .accordion .content > div:first-child > div a.first {
   background-color: initial;
-  border-color: #153bff;
-  color: #153bff;
+  border-color: #3498db;
+  color: #3498db;
   padding-inline: 1.5rem;
   margin: 0;
 }
@@ -9008,7 +9008,7 @@ section.hero [data-countdown] p {
 section.hero [data-countdown] span:nth-child(2) {
   background: #fff;
   border-radius: 0.5rem;
-  color: #153bff;
+  color: #3498db;
   font-weight: 600;
   margin-inline: 0.25rem;
   padding: 0.25rem 0.5rem;
@@ -9171,7 +9171,7 @@ section.hero .lingoda-dropdown ul button > * {
 section.hero .lingoda-dropdown .toggle:focus,
 section.hero .lingoda-dropdown ul button:focus {
   border-radius: 0.25rem;
-  outline: 0.125rem solid #153bff;
+  outline: 0.125rem solid #3498db;
   outline-offset: -0.125rem;
 }
 .platform-desktop section.hero .lingoda-dropdown .toggle:not([disabled]):hover,
@@ -9206,7 +9206,7 @@ section.hero .lingoda-dropdown .toggle .badge,
 section.hero .lingoda-dropdown ul button .badge {
   background-color: #e3e7ff;
   border-radius: 4px;
-  color: #153bff;
+  color: #3498db;
   font-size: 0.6875rem;
   font-weight: 600;
   line-height: 1;
@@ -9908,7 +9908,7 @@ section.hero.style-homepage-revamp .language-buttons a span span {
   }
 }
 section.hero.style-homepage-revamp .language-buttons li:last-child a span span {
-  color: #153bff;
+  color: #3498db;
   font-size: 0.75rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -10505,7 +10505,7 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
 .block-lang-selector .lingoda-dropdown .toggle:focus,
 .block-lang-selector .lingoda-dropdown ul button:focus {
   border-radius: 0.25rem;
-  outline: 0.125rem solid #153bff;
+  outline: 0.125rem solid #3498db;
   outline-offset: -0.125rem;
 }
 
@@ -10551,7 +10551,7 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
 .block-lang-selector .lingoda-dropdown ul button .badge {
   background-color: #e3e7ff;
   border-radius: 4px;
-  color: #153bff;
+  color: #3498db;
   font-size: 0.6875rem;
   font-weight: 600;
   line-height: 1;

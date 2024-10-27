@@ -18,7 +18,7 @@ export const Learning = () => {
                 <span className="outer-bg" style={{background:'#ECEFFF'}}></span>
                 <div>
                     <div className="site-container learning-section-head">
-                        <h2>Courses Tailored for Your  <br /> <span style={{color:'#153bff'}}>Success
+                        <h2>Courses Tailored for Your  <br /> <span style={{color:'#2C3E50'}}>Success
                             </span></h2>
                     </div>
                     <div className="site-container learning-styles-cards dekstop-cards">

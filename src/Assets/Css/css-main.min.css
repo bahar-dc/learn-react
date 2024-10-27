@@ -522,7 +522,7 @@ td strong {
 .footer-nav .footer-btn a {
   background-color: #fff;
   border-radius: 0.25rem;
-  color: #153bff;
+  color: #3498db;
   display: block;
   font-size: 16px;
   font-weight: 600;
@@ -571,12 +571,12 @@ td strong {
 .language-switcher a:hover,
 .main-navigation .sub-menu a:hover {
   background: #e9ecef;
-  color: #153bff;
+  color: #3498db;
 }
 
 .nav-cta-btn {
-  background: #153bff;
-  border: 3px solid #153bff;
+  background: #3498db;
+  border: 3px solid #3498db;
   border-radius: 4px;
   color: #fff;
   font-size: 16px;
@@ -589,8 +589,8 @@ td strong {
 }
 
 .nav-cta-btn:hover {
-  background: #0428d1;
-  border-color: #0428d1;
+  background: #3498db;
+  border-color: #3498db;
 }
 
 .main-navigation > ul > li.menu-item-has-children {
@@ -2127,102 +2127,4 @@ input {
 
 .local-env #onetrust-consent-sdk {
   display: none !important;
-}
-
-.button {
-  align-items: center;
-  border-radius: 4px;
-  border-style: solid;
-  border-width: 3px;
-  display: inline-flex;
-  font-size: 18px;
-  font-weight: 600;
-  height: 55px;
-  justify-content: center;
-  line-height: 25px;
-  padding: 15px 40px;
-  text-align: center;
-  transition: background-color 0.25s ease-in-out, border-color 0.25s ease-in-out,
-    color 0.25s ease-in-out;
-
-  @media (max-width: 767px) {
-    width: 100%;
-  }
-
-  &:focus {
-    outline: none;
-    text-decoration: underline;
-  }
-
-  &.primary {
-    &.blue {
-      background: #153bff;
-      border-color: #153bff;
-      color: #fff !important;
-
-      &:focus {
-        background: #0428d1;
-        border-color: #0428d1;
-      }
-
-      .platform-desktop & {
-        &:not(:disabled):not(.disabled):hover {
-          background: #0428d1;
-          border-color: #0428d1;
-        }
-      }
-    }
-
-    &.white {
-      background: #fff;
-      border-color: #fff;
-      color: #153bff !important;
-
-      &:focus {
-        background: #dbe5fb;
-        border-color: #dbe5fb;
-      }
-
-      .platform-desktop & {
-        &:not(:disabled):not(.disabled):hover {
-          background: #dbe5fb;
-          border-color: #dbe5fb;
-        }
-      }
-    }
-  }
-
-  &.secondary {
-    background: transparent;
-
-    &.blue {
-      border-color: #153bff;
-      color: #153bff !important;
-
-      &:focus {
-        background: #dbe5fb;
-      }
-
-      .platform-desktop & {
-        &:not(:disabled):not(.disabled):hover {
-          background: #dbe5fb;
-        }
-      }
-    }
-  }
-
-  &.white {
-    border-color: #fff;
-    color: #fff !important;
-
-    &:focus {
-      background: #dbe5fb;
-    }
-
-    .platform-desktop & {
-      &:not(:disabled):not(.disabled):hover {
-        background: #dbe5fb;
-      }
-    }
-  }
 }

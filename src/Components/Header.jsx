@@ -5,18 +5,18 @@ export const Header = () => {
         <>
         <header className="header-nav">
             <div className="site-container">
-                 <a href="/learn-react" className="link site-logo">
+                 <a href="/" className="link site-logo">
                     <img src={SiteLogo} alt="Site Logo" />
                 </a>
                 <nav aria-label="Primary Nav">
                     <ul>
                         <li>
-                            <a href="/learn-react" className="link">
+                            <a href="/" className="link">
                                 <span>Home</span>
                             </a>
                         </li>
                         <li>
-                            <a href="/learn-react/about-us" className="link">
+                            <a href="/about-us" className="link">
                                 <span>About Us</span>
                             </a>
                         </li>
@@ -41,7 +41,7 @@ export const Header = () => {
                             </ul>
                         </li>
                         <li>
-                            <a href="/learn-react/pricing" className="link">
+                            <a href="/pricing" className="link">
                                 <span>Pricing</span>
                             </a>
                         </li>

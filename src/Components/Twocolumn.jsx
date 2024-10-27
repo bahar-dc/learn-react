@@ -3,7 +3,7 @@ export const Twocolumntext = () => {
         <>
             <section className="two-col-title-list">
                 <div className="site-container">
-					 <h2>Why Choose <span style={{ color: '#153bff' }}>Progresso</span> Learning Institute? </h2>
+					 <h2>Why Choose <span style={{ color: '#2C3E50' }}>Progresso</span> Learning Institute? </h2>
 
                     <ul>
 					 <h4>Three Key Selling Points:</h4>
