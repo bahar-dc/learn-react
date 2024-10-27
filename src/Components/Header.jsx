@@ -5,18 +5,18 @@ export const Header = () => {
         <>
         <header className="header-nav">
             <div className="site-container">
-                 <a href="/learn-react" className="link site-logo">
+                 <a href="#/learn-react" className="link site-logo">
                     <img src={SiteLogo} alt="Site Logo" />
                 </a>
                 <nav aria-label="Primary Nav">
                     <ul>
                         <li>
-                            <a href="/learn-react" className="link">
+                            <a href="#/learn-react" className="link">
                                 <span>Home</span>
                             </a>
                         </li>
                         <li>
-                            <a href="/about-us" className="link">
+                            <a href="#/about-us" className="link">
                                 <span>About Us</span>
                             </a>
                         </li>
@@ -41,34 +41,34 @@ export const Header = () => {
                             </ul>
                         </li>
                         <li>
-                            <a href="/pricing" className="link">
+                            <a href="#/pricing" className="link">
                                 <span>Pricing</span>
                             </a>
                         </li>
                         <li>
-                            <a href="/blocks" className="link">
+                            <a href="#/blocks" className="link">
                                 <span>Blocks</span>
                             </a>
                         </li>
                         <li>
-                            <a href="/blog" className="link">
+                            <a href="#/blog" className="link">
                                 <span>Blog</span>
                             </a>
                         </li>
                         <li>
-                            <a href="/contact" className="link">
+                            <a href="#/contact" className="link">
                                 <span>Contact</span>
                             </a>
                         </li>
                     </ul>
                     <div className="navbar-buttons mobile">
                         {/* <a href="/login" className="link button blue secondary in-mobile-nav">Log in</a> */}
-                        <a href="/get-started" className="link button blue primary">Register Now</a>
+                        <a href="#/get-started" className="link button blue primary">Register Now</a>
                     </div>
                 </nav>
                 <div className="navbar-buttons desktop">
                     {/* <a href="/login" className="link button blue secondary in-mobile-nav">Log in</a> */}
-                    <a href="/get-started" className="link button blue primary">Register Now</a>
+                    <a href="#/get-started" className="link button blue primary">Register Now</a>
                     <button aria-label="Open Primary Navigation" data-open="Open Primary Navigation"
                         data-closed="Close Primary Navigation" aria-controls="primary-navigation"
                         className="hamburger-button link"></button>
