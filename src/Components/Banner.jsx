@@ -1,4 +1,4 @@
-import bannerImage from'../Assets/Images/Uploads/Herohomeimage.webp';
+import bannerImage from'../Assets/Images/Uploads/hero-section-banner.png';
 
 export const Banner = () => {
     return (
