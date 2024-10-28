@@ -937,8 +937,6 @@ main > .small-padding-top {
 }
 
 .header-nav .dropdown {
-  margin: 0;
-  padding-right: 16px;
   position: relative;
 }
 
@@ -10943,5 +10941,22 @@ p.description {
   margin-bottom: 48px;
 }
 
-.blog-ctn {
+.contact-us-page {
+  padding: 8rem 0;
+  box-sizing: border-box;
+}
+
+.flex-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.contact-us-left {
+  width: 55%;
+}
+
+.contact-us-right {
+  width: 40%;
 }

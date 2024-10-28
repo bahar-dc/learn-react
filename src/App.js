@@ -10,6 +10,7 @@ import { About } from "./Components/About";
 import { Pricing } from "./Components/Pricings";
 import { Blocks } from "./Components/Blocks";
 import { Blog } from "./Components/Blog";
+import { Contact } from "./Components/Contact";
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/blocks" element={<Blocks />} />
           <Route path="/cources" element={<Blog />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
         </div>
       </Router>

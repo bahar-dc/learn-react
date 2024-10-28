@@ -1056,6 +1056,13 @@ textarea {
   margin: 0;
 }
 
+textarea {
+  height: 200px;
+  border: 1px solid #ddd;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
 button,
 input {
   overflow: visible;
@@ -1086,6 +1093,17 @@ button {
 [type="submit"]:not(:disabled),
 button:not(:disabled) {
   cursor: pointer;
+  background-color: #3498db;
+  color: #ffffff;
+  transition: all 0.3s ease-in-out;
+  font-weight: 700;
+}
+
+[type="button"]:not(:disabled):hover,
+[type="reset"]:not(:disabled):hover,
+[type="submit"]:not(:disabled):hover,
+button:not(:disabled):hover {
+  background-color: #205c84;
 }
 
 [type="button"]::-moz-focus-inner,
