@@ -7126,14 +7126,7 @@ button.splide__pagination__page.is-active {
   padding-top: 0.1875rem;
 }
 .courses-cards article.gradient {
-  -webkit-backdrop-filter: blur(40px);
-  backdrop-filter: blur(40px);
-  background: linear-gradient(
-    90deg,
-    #c215cd 0.03%,
-    #9e02cd 50.52%,
-    #7a0ed9 99.98%
-  );
+  background-color: #3498db;
   border-radius: 1rem;
   box-shadow: 1px 1px 31px 0 #9900cc0d, 4px 4px 28px 0 #322ff50d;
   height: calc(100% + 32px);
@@ -8844,7 +8837,7 @@ button.splide__pagination__page.is-active {
 }
 
 .cards-with-image.style-with-icon .title-container {
-  margin-bottom: 0;
+  margin-bottom: 40px;
 }
 
 section.hero {
@@ -10159,11 +10152,6 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
   }
 }
 
-.eyebrow {
-  background: #9900cc;
-  color: #ffffff;
-}
-
 .text-banner {
   padding-block: 5rem;
 }
@@ -10399,7 +10387,6 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
 
 .block-lang-selector .progresso-dropdown-container > a {
   min-width: 11.25rem;
-  padding-inline: 0.5rem;
 }
 
 .block-lang-selector .progresso-dropdown {

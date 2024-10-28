@@ -3,6 +3,7 @@ import Scrollimage from'../Assets/Images/Uploads/scroll-image.png';
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 
+
 export const About = () => {
 
 
@@ -97,24 +98,6 @@ export const About = () => {
                     <div className="img-container">
                         <div className="img img--desktop">
                             <img src="https://www.lingoda.com/wp-content/uploads/2024/06/teams-pricing-graph-d.png" alt="" />
-                        </div>
-                    </div>
-                </div>
-            </section>
-            
-            <section  className="block-lang-selector border-rad left-align centred-bg progresso-block">
-                <div className="progresso-container">
-                    <div className="lang-row">
-                        <span className="bg" style={{background: 'linear-gradient(to right,#ff33cc -68.92%,#ff971d 119.48%)'}}></span>
-                        <div className="text-col" style={{color:'#ffffff'}}>
-                            <h2>Ready to join Teams?</h2>
-                            <p>Sign up today and achieve a language level in 2 or 3 months</p>
-                            <div className="progresso-dropdown-container">
-                                <a className="link button primary blue" href='/see-prices'>See prices and schedules</a>
-                            </div>
-                        </div>
-                        <div className="img-col">
-                            <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-explainer-img-d.svg" alt="Explainer" />
                         </div>
                     </div>
                 </div>

@@ -2,7 +2,7 @@ import SiteLogo from'../Assets/Images/site-logo-white.png';
 export const Footer = () => {
     return (
         <>
-            <div style={{background:'#051F4E'}}>
+            <div style={{background:'#3498db'}}>
                 <footer className="footer">
                     <div className="site-container">
                         <div className="footer-info">
