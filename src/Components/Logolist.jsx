@@ -10,7 +10,7 @@ export const Logolist = () => {
 
     return (
         <>
-           <section className="trustpilot-block trustpilot new-layout lingoda-block" style={{backgroundColor:'#051F4E'}}>
+           <section className="trustpilot-block trustpilot new-layout progresso-block" style={{backgroundColor:'#051F4E'}}>
                 <div className="site-container">
                     <h2 className="toggle-heading" style={{color:'#ffffff'}}>Success Stories from <span>love</span> Cleints</h2>
                 </div>

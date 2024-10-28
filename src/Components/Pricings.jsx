@@ -10,11 +10,11 @@ export const Pricing = () => {
 
             <Header  />
 
-             <section className="hero trustpilot style-standard  style-checklist lingoda-grid--first">
+             <section className="hero trustpilot style-standard  style-checklist progresso-grid--first">
                 <div className="bg-container">
                     <img  src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-hero-d.jpg" alt="" />
                 </div>
-                <div className="lingoda-container">
+                <div className="progresso-container">
                     <div className="content-container">
                         <div className="eyebrow">
                             <div><span>Available in German, English, Italian and Spanish </span></div>
@@ -36,22 +36,22 @@ export const Pricing = () => {
                 </div>
             </section>
 
-            <section className="text-banner alt lingoda-block">
-                <div className="lingoda-container">
+            <section className="text-banner alt progresso-block">
+                <div className="progresso-container">
                     <div style={{background: '#9900CC'}}>
                         <h2 style={{color:'#ffffff'}} className="title title--lg-dt title--sm-mb">Over 100K language learners trust our expert curriculum and award-winning courses</h2>
                     </div>
                 </div>
             </section>
 
-            <section  className="block-lang-selector border-rad left-align centred-bg lingoda-block">
-                <div className="lingoda-container">
+            <section  className="block-lang-selector border-rad left-align centred-bg progresso-block">
+                <div className="progresso-container">
                     <div className="lang-row">
                         <span className="bg" style={{background: 'linear-gradient(to right,#ff33cc -68.92%,#ff971d 119.48%)'}}></span>
                         <div className="text-col" style={{color:'#ffffff'}}>
                             <h2>Ready to join Teams?</h2>
                             <p>Sign up today and achieve a language level in 2 or 3 months</p>
-                            <div className="lingoda-dropdown-container">
+                            <div className="progresso-dropdown-container">
                                 <a className="link button primary blue" href='/see-prices'>See prices and schedules</a>
                             </div>
                         </div>
@@ -65,7 +65,7 @@ export const Pricing = () => {
          
 
             <section className="accordion">
-                <div className="lingoda-container">
+                <div className="progresso-container">
                     <h2 className="toggle-heading">Frequently asked questions</h2>
                     <div className="content">
                         <div>
@@ -78,7 +78,7 @@ export const Pricing = () => {
                                     </svg>
                                 </button>
                                 <div className='panel'>
-                                    <p>As a Lingoda student, you can download the class materials for free and use them at any time. After your class, you will also find a quiz to help you refresh and practice your new skills. For English and A1 German students, downloadable exercises are available as well. All materials are uniquely created by Lingoda experts to align with CEFR standards. If you want to learn more about CEFR, view <a href="https://www.linguando.com/en/cefr/">here</a>.</p>
+                                    <p>As a progresso student, you can download the class materials for free and use them at any time. After your class, you will also find a quiz to help you refresh and practice your new skills. For English and A1 German students, downloadable exercises are available as well. All materials are uniquely created by progresso experts to align with CEFR standards. If you want to learn more about CEFR, view <a href="https://www.linguando.com/en/cefr/">here</a>.</p>
                                 </div>
                             </li>
                             <li>
@@ -105,14 +105,14 @@ export const Pricing = () => {
                 </div>
             </section>
         
-            <section className="video-testimonial-carousel splide four-testimonials-layout lingoda-grid is-overflow is-initialized">
+            <section className="video-testimonial-carousel splide four-testimonials-layout progresso-grid is-overflow is-initialized">
                 <div className="content">
                     <span className="bg"></span>
-                    <div className="lingoda-container">
+                    <div className="progresso-container">
                         <h2 className="toggle-heading">Get inspired by our students' success stories</h2>
                         <p>Hear how our students transformed their first language steps into life-changing moments. Let their stories motivate you to get your own language wins.</p>
                     </div>
-                    <div className="lingoda-container splide__track">
+                    <div className="progresso-container splide__track">
                         <ul className="splide__list">
                             <li className="splide__slide">
                             <article>
@@ -123,7 +123,7 @@ export const Pricing = () => {
                                     <span className="item-title closed">Savannah</span>
                                     <div className="inner-container">
                                         <span className="item-title open">Savannah</span>
-                                        <blockquote>Join Savannah as she explores South America and shares how Lingoda sparked unforgettable Spanish conversations!</blockquote>
+                                        <blockquote>Join Savannah as she explores South America and shares how progresso sparked unforgettable Spanish conversations!</blockquote>
                                     </div>
                                 </div>
                             </article>
@@ -137,7 +137,7 @@ export const Pricing = () => {
                                     <span className="item-title closed">Kwok</span>
                                     <div className="inner-container">
                                         <span className="item-title open">Kwok</span>
-                                        <blockquote>Kwok shares her Lingoda success: mastering French and making friends through humour and flexible learning!</blockquote>
+                                        <blockquote>Kwok shares her progresso success: mastering French and making friends through humour and flexible learning!</blockquote>
                                     </div>
                                 </div>
                             </article>
@@ -151,7 +151,7 @@ export const Pricing = () => {
                                     <span className="item-title closed">Veronika</span>
                                     <div className="inner-container">
                                         <span className="item-title open">Veronika</span>
-                                        <blockquote>See how Veronika turned English lessons into career wins and summer fun with Lingoda!</blockquote>
+                                        <blockquote>See how Veronika turned English lessons into career wins and summer fun with progresso!</blockquote>
                                     </div>
                                 </div>
                             </article>
@@ -165,7 +165,7 @@ export const Pricing = () => {
                                     <span className="item-title closed">Olivera</span>
                                     <div className="inner-container">
                                         <span className="item-title open">Olivera</span>
-                                        <blockquote>From no German to seamless chats: Olivera tells how Lingoda transformed her language skills in Berlin!</blockquote>
+                                        <blockquote>From no German to seamless chats: Olivera tells how progresso transformed her language skills in Berlin!</blockquote>
                                     </div>
                                 </div>
                             </article>
@@ -175,9 +175,9 @@ export const Pricing = () => {
                 </div>
             </section>
 
-            <div id="image-and-text-2024-3" className="image-and-text-2024 lottie-player lingoda-grid" data-view="image-and-text-2024">
-                <h2 className="title title--lg-dt lingoda-container">Why is Lingoda Flex right for me?</h2>
-                <ul className="lingoda-container">
+            <div id="image-and-text-2024-3" className="image-and-text-2024 lottie-player progresso-grid" data-view="image-and-text-2024">
+                <h2 className="title title--lg-dt progresso-container">Why is progresso Flex right for me?</h2>
+                <ul className="progresso-container">
                     <li>
                         <article className="right" style={{color: '#051F4E',background: '#f7ebfb'}}>
                             <div className="content">
@@ -215,10 +215,10 @@ export const Pricing = () => {
             </div>
 
             <section id="tw-block-cards-with-image-1" data-view="tw-cards-with-image" className="cards-with-image default">
-                <div className="lingoda-container title-container">
-                    <h2 className="toggle-heading">Learning online with Lingoda</h2>
+                <div className="progresso-container title-container">
+                    <h2 className="toggle-heading">Learning online with progresso</h2>
                 </div>
-                <div className="lingoda-container list-container splide__track">
+                <div className="progresso-container list-container splide__track">
                     <ul className="splide__list">
                         <li className="splide__slide">
                             <article>
@@ -251,9 +251,9 @@ export const Pricing = () => {
                 </div>
             </section>
 
-           <section id="courses" className="courses-cards lingoda-block">
-            <div className="lingoda-container">
-                <h2 className="toggle-heading title title--lg-dt">What courses does Lingoda offer?</h2>
+           <section id="courses" className="courses-cards progresso-block">
+            <div className="progresso-container">
+                <h2 className="toggle-heading title title--lg-dt">What courses does progresso offer?</h2>
                 <ul className="cards cards--3">
                     <li>
                         <article>
@@ -319,8 +319,8 @@ export const Pricing = () => {
             </div>
             </section>
 
-            <div className="lingoda-container youtube-container">
-                <h2>See what a Lingoda class looks like</h2>
+            <div className="progresso-container youtube-container">
+                <h2>See what a progresso class looks like</h2>
                 <iframe width="100%" height="100%" src="https://www.youtube-nocookie.com/embed/dzl7G7ZIfGg" data-src="https://www.youtube-nocookie.com/embed/dzl7G7ZIfGg" title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen="allowFullScreen"></iframe>
             </div>
 
@@ -379,7 +379,7 @@ export const Pricing = () => {
                     <div className="row align-items-center">
                         <div className="col-lg-6 content-wrapper px-0">
                             <p className="block-sm-font d-inline-block small-text font-w400 px-4">SET GOALS</p>
-                            <h1 className="hero-title-2-0 font-w700 mb-3 px-4">Hard work pays off <br /> with Lingoda</h1>
+                            <h1 className="hero-title-2-0 font-w700 mb-3 px-4">Hard work pays off <br /> with progresso</h1>
                             <p className="block-body-font font-w400 mb-0 px-4">Whether you’re looking for a high-frequency course to learn faster or are <br /> committed to a long term goal of fluency, with our selection of courses, you <br /> can choose how often and how quickly you want to learn.</p>
                         </div>
                         <div className="col-lg-6 image-wrapper mt-4 mt-lg-0">

@@ -21,7 +21,7 @@ export const Header = () => {
                             </a>
                         </li>
                         <li className="dropdown">
-                            <button className="link">
+                            <a href='#/cources' className="link">
                                 <span>Courses</span>
                                 <svg className="chevron" aria-hidden="true" viewBox="0 0 12 8" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -29,7 +29,7 @@ export const Header = () => {
                                         d="M0.469668 0.969668C0.762558 0.676777 1.23744 0.676777 1.53033 0.969668L6 5.43934L10.4697 0.969668C10.7626 0.676777 11.2374 0.676777 11.5303 0.969668C11.8232 1.26256 11.8232 1.73744 11.5303 2.03033C9.37058 4.19007 8.15971 5.40095 6 7.5607L0.469668 2.03033C0.176777 1.73744 0.176777 1.26256 0.469668 0.969668Z"
                                         fill="#051F4E"></path>
                                 </svg>
-                            </button>
+                            </a>
                             <ul className="sub-menu">
                                 <li><a href="#/ielts-prepartion" className="link">IELTS Preparation</a></li>
                                 <li><a href="#/celpip-training" className="link">CELPIP Training</a></li>

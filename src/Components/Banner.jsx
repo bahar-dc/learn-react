@@ -3,7 +3,7 @@ import bannerImage from'../Assets/Images/Uploads/hero-section-banner.png';
 export const Banner = () => {
     return (
         <>
-            <section  className="hero bottom-tablet-image trustpilot style-homepage-revamp lingoda-grid--first">
+            <section  className="hero bottom-tablet-image trustpilot style-homepage-revamp progresso-grid--first">
                 <div className="site-container">
                     <div className="content-container">
                         <h1>Welcome to Progresso Learning Institute – Your Global Partner in <strong>Success</strong></h1>

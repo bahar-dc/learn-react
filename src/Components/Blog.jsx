@@ -9,16 +9,16 @@ export const Blog = () => {
         <>
             <Header  />
 
-            <section className="hero-home trustpilot trustpilot-inside-hero lingoda-flex--first">
+            <section className="hero-home trustpilot trustpilot-inside-hero progresso-flex--first">
                 <div className="bg-container">
                     <div className="bg-img bg-img--desktop">
                         <img src="https://www.lingoda.com/wp-content/uploads/2022/03/hiw-2022-hero-bg-desktop.png" alt="Banner Desktop" />
                     </div>
                 </div>
-                <div className="lingoda-container single-col">
+                <div className="progresso-container single-col">
                     <div className="text-col">
-                        <h1>How Lingoda works for you</h1>
-                        <p className="content">Read about what happens in a class, how to get started and how Lingoda will help you speak with confidence.</p>
+                        <h1>How progresso works for you</h1>
+                        <p className="content">Read about what happens in a class, how to get started and how progresso will help you speak with confidence.</p>
                     </div>
                 </div>
             </section>

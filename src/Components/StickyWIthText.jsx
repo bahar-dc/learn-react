@@ -4,7 +4,7 @@ export const StickyWIthText = () => {
     return (
         <>
         <section id="block-text-with-lottie-animations-6"
-			className="text-with-lottie-animations lottie-player gsap lingoda-grid" data-view="text-with-lottie-animations"
+			className="text-with-lottie-animations lottie-player gsap progresso-grid" data-view="text-with-lottie-animations"
 			style={{backgroundColor:'#ECEFFF',color:'#FFFFFF'}}>
 			<div className="bg"></div>
 			<div className="site-container">
