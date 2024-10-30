@@ -258,14 +258,6 @@ ul {
   padding: 0;
 }
 
-iframe {
-  border: none;
-}
-
-strong {
-  font-weight: 400;
-}
-
 table,
 tbody,
 td,
@@ -6104,10 +6096,11 @@ button.splide__pagination__page.is-active {
 
 .hero-home .content {
   color: #434a50;
-  font-size: 1rem;
-  font-weight: 600;
+  font-size: 18px;
+  font-weight: 400;
   margin: -0.3125rem 0;
   max-width: 450px;
+  line-height: 1.7;
 }
 
 .hero-home .bullets {
@@ -8469,7 +8462,7 @@ button.splide__pagination__page.is-active {
 
 .cards-with-image > div > ul {
   display: grid;
-  grid-auto-columns: minmax(0, 1fr);
+  grid-auto-columns: minmax(300px, 1fr);
   grid-auto-flow: column;
 }
 
@@ -10959,4 +10952,39 @@ p.description {
 
 .contact-us-right {
   width: 40%;
+}
+
+.light-blue-container {
+  background-color: #3498db;
+}
+
+.light-blue-container,
+.light-blue-container h1 span,
+.light-blue-container h2 span,
+.light-blue-container h3 span,
+.light-blue-container h4 span,
+.light-blue-container h5 span,
+.light-blue-container h6 span,
+.light-blue-container p {
+  color: #2c3e50;
+}
+
+.text-col a.button {
+  max-width: max-content;
+}
+
+.with-centered-text-cta p {
+  text-align: center;
+  line-height: 1.5;
+  font-size: 32px;
+  margin-bottom: 0;
+}
+
+.text-white,
+.text-white p {
+  color: #ffffff;
+}
+
+.bg-img img {
+  pointer-events: none;
 }
