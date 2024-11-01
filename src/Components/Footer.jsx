@@ -1,4 +1,4 @@
-import SiteLogo from'../Assets/Images/site-logo-white.png';
+import SiteLogo from'../Assets/Images/site-logo.png';
 export const Footer = () => {
     return (
         <>

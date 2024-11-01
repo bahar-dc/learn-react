@@ -86,6 +86,18 @@ export const About = () => {
                 </div>
             </section>
 
+            
+
+            <section className="text-banner alt progresso-block">
+                <div className="progresso-container text-white light-blue-container">
+                    <div>
+                        <h2 style={{color:'#ffffff'}} className="title title--lg-dt title--sm-mb">Your Journey Starts Here!</h2>
+                        <p>We’re here to make your transition smooth, your learning meaningful, and your success inevitable. Explore our courses, meet our instructors, and join a learning experience designed just for you.</p>
+                        <a href="/join" className="button primary white cursor">Enroll Today!</a>
+                    </div>
+                </div>
+            </section>
+
               <section className="img-and-text img-left tablet-row border-rad progresso-block">
                 <div className="progresso-container">
                     <div className="text-container" style={{color:'#051f4e'}}>
@@ -98,16 +110,6 @@ export const About = () => {
                         <div className="img img--desktop">
                             <img src="https://www.lingoda.com/wp-content/uploads/2024/06/teams-pricing-graph-d.png" alt="" />
                         </div>
-                    </div>
-                </div>
-            </section>
-
-            <section className="text-banner alt progresso-block">
-                <div className="progresso-container text-white light-blue-container">
-                    <div>
-                        <h2 style={{color:'#ffffff'}} className="title title--lg-dt title--sm-mb">Your Journey Starts Here!</h2>
-                        <p>We’re here to make your transition smooth, your learning meaningful, and your success inevitable. Explore our courses, meet our instructors, and join a learning experience designed just for you.</p>
-                        <a href="/join" className="button primary white cursor">Enroll Today!</a>
                     </div>
                 </div>
             </section>

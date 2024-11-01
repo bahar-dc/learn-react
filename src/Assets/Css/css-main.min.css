@@ -495,7 +495,6 @@ td strong {
 
 .footer-copyright a:not(.social-icon),
 .footer-copyright p {
-  color: hsla(0, 0%, 100%, 0.75);
   text-decoration: none;
 }
 
