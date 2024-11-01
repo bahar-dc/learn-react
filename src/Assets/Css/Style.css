@@ -8251,6 +8251,7 @@ button.splide__pagination__page.is-active {
   -webkit-user-select: none;
   user-select: none;
   width: 100%;
+  background-color: transparent !important;
 }
 .accordion button h2 {
   display: block;
