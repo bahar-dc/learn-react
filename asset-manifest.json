@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/learn-react/static/css/main.4a1737e5.css",
-    "main.js": "/learn-react/static/js/main.bafdcec4.js",
+    "main.css": "/learn-react/static/css/main.b1fc590e.css",
+    "main.js": "/learn-react/static/js/main.e81e81ff.js",
     "static/js/453.86b2f617.chunk.js": "/learn-react/static/js/453.86b2f617.chunk.js",
     "static/media/course-img-01.svg": "/learn-react/static/media/course-img-01.01134a227a039ed1bb44385c0efc5932.svg",
     "static/media/course-img-04.svg": "/learn-react/static/media/course-img-04.6abb15646a90809145fd34da59e7cd86.svg",
@@ -22,12 +22,12 @@
     "static/media/logo-02.svg": "/learn-react/static/media/logo-02.9a3e554dc298d0d27f03e315db2cc5c5.svg",
     "static/media/logo-07.svg": "/learn-react/static/media/logo-07.9daaa50a917650bc0a7b12e6da433425.svg",
     "index.html": "/learn-react/index.html",
-    "main.4a1737e5.css.map": "/learn-react/static/css/main.4a1737e5.css.map",
-    "main.bafdcec4.js.map": "/learn-react/static/js/main.bafdcec4.js.map",
+    "main.b1fc590e.css.map": "/learn-react/static/css/main.b1fc590e.css.map",
+    "main.e81e81ff.js.map": "/learn-react/static/js/main.e81e81ff.js.map",
     "453.86b2f617.chunk.js.map": "/learn-react/static/js/453.86b2f617.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a1737e5.css",
-    "static/js/main.bafdcec4.js"
+    "static/css/main.b1fc590e.css",
+    "static/js/main.e81e81ff.js"
   ]
 }
