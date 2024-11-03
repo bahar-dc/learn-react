@@ -11,6 +11,7 @@ import { Pricing } from "./Components/Pricings";
 import { Blocks } from "./Components/Blocks";
 import { Blog } from "./Components/Blog";
 import { Contact } from "./Components/Contact";
+import { NotFound } from "./Components/404";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
           <Route path="/cources" element={<Blog />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         </div>
       </Router>

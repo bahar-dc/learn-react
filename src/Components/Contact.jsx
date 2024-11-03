@@ -5,8 +5,6 @@ import { Footer } from "./Footer";
 
 export const Contact = () => {
 
-    	
-
     return (
         <>
 
@@ -30,7 +28,7 @@ export const Contact = () => {
                 <div className="site-container flex-row">
                     <div className="contact-us-left">
                         <h2>Any questions? Send us a message</h2>
-                        <p>We would be happy to assist you! If you decided to learn with a tutor, please fill out a form and a member of our team will get in touch with <br /> you within 48 hours. Thanks for trusting us with your test prep needs.</p>
+                        <p>We would be happy to assist you! If you decided to learn with a tutor, please fill out a form and a member of our team will get in touch with  you within 48 hours. Thanks for trusting us with your test prep needs.</p>
                         <p><a href="tel:(416) 670-4415">(416) 670-4415</a> <br /></p>
                         <p>400 Applewood Cres. Suite 100 Vaughan, ON L4K OC3 <br /></p>
                         <p><a href="mailto:hello@progresso.com">hello@progresso.com</a></p>

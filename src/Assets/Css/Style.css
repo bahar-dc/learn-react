@@ -10990,3 +10990,23 @@ p.description {
 .bg-img img {
   pointer-events: none;
 }
+
+.not-found-btn {
+  text-align: center;
+  margin-top: 36px;
+  min-height: auto !important;
+  padding: 0 !important;
+  justify-content: center !important;
+}
+
+.not-found-btn a.button {
+  width: max-content;
+}
+
+.error-page h2 {
+  font-size: 60px !important;
+}
+
+.contact-form h2 {
+  margin-bottom: 30px;
+}
