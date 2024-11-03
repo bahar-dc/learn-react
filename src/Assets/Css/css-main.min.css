@@ -952,11 +952,7 @@ td strong {
   .grid-container,
   .related-grid-container {
     grid-template-columns: repeat(1, 1fr);
-    row-gap: 40px;
-  }
-
-  .grid-main {
-    padding: 30px 30px 100px;
+    row-gap: 30px;
   }
 
   .footer-main {

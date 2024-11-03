@@ -3,14 +3,38 @@ import SiteLogo from '../Assets/Images/site-logo.png';
 
 export const Header = () => {
     const [activePath, setActivePath] = useState('');
+    const [isNavOpen, setIsNavOpen] = useState(false); // New state variable for tracking menu open/close
 
     useEffect(() => {
         setActivePath(window.location.hash); // Gets the current URL hash
     }, []);
 
+     const toggleNav = () => {
+        setIsNavOpen(!isNavOpen);
+    };
+
+
+    useEffect(() => {
+        setActivePath(window.location.hash); // Gets the current URL hash
+
+        // Add a listener to update activePath on hash change
+        const handleHashChange = () => setActivePath(window.location.hash);
+        window.addEventListener('hashchange', handleHashChange);
+
+        return () => {
+            window.removeEventListener('hashchange', handleHashChange);
+        };
+    }, []);
+
+    // Scroll to the top whenever activePath changes
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [activePath]);
+
+
     return (
         <>
-            <header className="header-nav">
+            <header className={`header-nav ${isNavOpen ? 'is-open' : ''}`}>
                 <div className="site-container">
                     <a href="#/" className="link site-logo">
                         <img src={SiteLogo} alt="Site Logo" />
@@ -65,9 +89,12 @@ export const Header = () => {
                     </nav>
                     <div className="navbar-buttons desktop">
                         <a href="#/get-started" className="link button blue primary">Register Now</a>
-                        <button aria-label="Open Primary Navigation" data-open="Open Primary Navigation"
-                            data-closed="Close Primary Navigation" aria-controls="primary-navigation"
-                            className="hamburger-button link"></button>
+                        <button 
+                        aria-label="Open Primary Navigation"
+                        data-open="Open Primary Navigation"
+                        data-closed="Close Primary Navigation"
+                        aria-controls="primary-navigation"
+                        className="hamburger-button link" onClick={toggleNav}></button>
                     </div>
                 </div>
             </header>
