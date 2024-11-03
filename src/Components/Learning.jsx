@@ -15,7 +15,6 @@ export const Learning = () => {
     return (
         <>
             <section className="learning-styles-carousel">
-                <span className="outer-bg" style={{background:'#ECEFFF'}}></span>
                 <div>
                     <div className="site-container learning-section-head">
                         <h2>Courses Tailored for Your  <br /> <span>Success

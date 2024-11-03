@@ -40,10 +40,8 @@
 }
 
 .two-col-title-list h2 {
-  font-size: 3.75rem;
   font-weight: 700;
   letter-spacing: -0.09375rem;
-  line-height: 4rem;
   margin-block: -0.5625rem -0.5rem;
   padding-right: 1.375rem;
 }
@@ -2192,7 +2190,7 @@ section.hero.style-homepage-revamp .site-container {
 }
 
 section.hero.style-homepage-revamp .site-container:before {
-  background: #90c;
+  background: #3498db;
   border-radius: 50%;
   content: "";
   filter: blur(274.7336425781px);
@@ -2257,7 +2255,6 @@ section.hero.style-homepage-revamp h1 {
   letter-spacing: -0.09375rem;
   line-height: 3.5rem;
   margin-block: -0.625rem -0.5625rem;
-  padding-bottom: 2.5rem;
 }
 
 @media (max-width: 1199px) {
@@ -3148,7 +3145,7 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
 }
 
 .learning-styles-carousel .card-content {
-  background-color: #fff;
+  background-color: #fafafa;
   border-bottom-left-radius: 1rem;
   border-bottom-right-radius: 1rem;
   display: grid;
@@ -3183,7 +3180,6 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
   font-weight: 700;
   line-height: 2.25rem;
   margin-block: -0.5rem;
-  padding-bottom: 1.5rem;
 }
 
 @media (max-width: 440px) {
@@ -9604,7 +9600,6 @@ section.hero.style-homepage-revamp h1 {
   letter-spacing: -0.09375rem;
   line-height: 3.5rem;
   margin-block: -0.625rem -0.5625rem;
-  padding-bottom: 2.5rem;
 }
 @media (max-width: 1199px) {
   section.hero.style-homepage-revamp h1 {
