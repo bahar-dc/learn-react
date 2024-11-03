@@ -10766,6 +10766,11 @@ p.description {
   width: 55%;
 }
 
+.contact-us-left svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
 .contact-us-right {
   width: 40%;
 }
@@ -10906,4 +10911,8 @@ p.description {
   .accordion button {
     padding: 1rem 2rem 1rem 1rem;
   }
+}
+
+.space-80 {
+  margin-top: 80px;
 }

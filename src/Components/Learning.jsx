@@ -1,11 +1,3 @@
-import LearningImage1 from'../Assets/Images/Uploads/progresso-image-01-min.jpg';
-import LearningImage2 from'../Assets/Images/Uploads/progresso-image-02-min.jpg';
-// import LearningImage3 from'../Assets/Images/Uploads/progresso-image-03-min.jpg';
-// import LearningImage4 from'../Assets/Images/Uploads/progresso-image-04-min.jpg';
-import LearningImage5 from'../Assets/Images/Uploads/progresso-image-05-min.jpg';
-import LearningImage6 from'../Assets/Images/Uploads/progresso-image-06-min.jpg';
-
-
 import CourseImage1 from'../Assets/Images/Uploads/course-img-01.svg';
 import CourseImage2 from'../Assets/Images/Uploads/course-img-02-min.png';
 import CourseImage3 from'../Assets/Images/Uploads/course-img-03.svg';
@@ -86,62 +78,34 @@ export const Learning = () => {
                             </div>
                             <div className=" card">
                                 <div className="card-image">
-                                    <img src={LearningImage5} alt="Alt text" />
+                                    <img src={CourseImage4} alt="Alt text" />
                                 </div>
                                 <div className="card-content">
                                     <div className="card-header">
-                                        <p>Confidence Building</p><span></span>
+                                        <p>Confidence & Public Speaking Essentials</p><span></span>
                                     </div>
-                                    <h3 className="card-title">Develop Confidence in Communication</h3>
+                                    <h3 className="card-title">Build Confidence & Master Public Speaking</h3>
                                     <ul className="text-list">
-                                       <p>Gain communication and assertiveness skills through workshops designed to increase public speaking ability and social confidence. Perfect for newcomers or anyone aiming to strengthen their voice.</p>
+                                        <p>A course crafted to empower individuals with essential communication and presentation skills, helping you present confidently in personal and professional settings.</p>
                                     </ul>
                                    <div className="link-container"><a href="flex.html" className="link button blue secondary">Learn more</a></div>
                                 </div>
                             </div>
-                            <div className=" card">
+                              <div className=" card">
                                 <div className="card-image">
-                                    <img src={LearningImage6} alt="Alt text" />
+                                    <img src={CourseImage1} alt="Alt text" />
+                                   {/* <span>Free trial</span> */}
                                 </div>
                                 <div className="card-content">
                                     <div className="card-header">
-                                        <p>Public Speaking</p><span></span>
+                                        <p>Everyday English: Interview & Cultural Adaptation</p><span></span>
                                     </div>
-                                    <h3 className="card-title">Public Speaking Skills for Career & Personal Growth</h3>
+                                    <h3 className="card-title">Flourish Abroad with Everyday English</h3>
                                     <ul className="text-list">
-                                       <p>Our public speaking course covers everything from basic communication techniques to advanced presentation skills. Ideal for students and professionals looking to excel in their fields.</p>
-                                    </ul>
-                                   <div className="link-container"><a href="flex.html" className="link button blue secondary">Learn more</a></div>
-                                </div>
-                            </div>
-                            <div className=" card">
-                                <div className="card-image">
-                                    <img src={LearningImage2} alt="Alt text" />
-                                </div>
-                                <div className="card-content">
-                                    <div className="card-header">
-                                        <p>Interview Preparation</p><span></span>
-                                    </div>
-                                    <h3 className="card-title">Ace Your Job Interviews with Expert Guidance</h3>
-                                    <ul className="text-list">
-                                        <p>Practice mock interviews, learn to tackle challenging questions, and boost your interview confidence. Perfect for job seekers looking to stand out in competitive fields.</p>
+                                       <p>An integrated program for newcomers to Canada focusing on English fluency, interview prep, and cultural adaptation, making everyday interactions seamless and comfortable.
+</p>
                                     </ul>
                                     <div className="link-container"><a href="flex.html" className="link button blue secondary">Learn more</a></div>
-                                </div>
-                            </div>
-                            <div className=" card">
-                                <div className="card-image">
-                                    <img src={LearningImage1} alt="Alt text" />
-                                </div>
-                                <div className="card-content">
-                                    <div className="card-header">
-                                        <p>Confidence and Cultural Adaptation</p><span></span>
-                                    </div>
-                                    <h3 className="card-title">Thriving Abroad: Confidence and Cultural Adaptation</h3>
-                                    <ul className="text-list">
-                                        <p>This course offers newcomers practical skills to adjust to a new culture and build connections confidently. Learn everything from local etiquette, dressing appropriately, interview preparation, to effective networking and making lasting friendships.</p>
-                                    </ul>
-                                   <div className="link-container"><a href="flex.html" className="link button blue secondary">Learn more</a></div>
                                 </div>
                             </div>
                         </div>

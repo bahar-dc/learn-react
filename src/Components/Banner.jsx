@@ -10,7 +10,7 @@ export const Banner = () => {
                         <p className='description'>
                             Unlock Your Potential in Canada and Beyond! Master English with our customized online courses in CELPIP, IELTS, Business English, and Confidence Building. Whether you’re aiming for fluency, career success, or cultural confidence, we’ll help you communicate powerfully and thrive in any setting!
                         </p>
-                        <a href="/cources" className="link button blue primary">Explore Our Courses</a>
+                        <a href="#/contact" className="link button blue primary">Free sample class with Progresso Expert</a>
                     </div>
                     <div className="image-container">
                         <div>

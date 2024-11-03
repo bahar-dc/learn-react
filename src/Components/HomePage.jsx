@@ -6,7 +6,6 @@ import { Learning } from "./Learning";
 import { FullWidthScrollImage } from "./FullWidthScrollImage";
 import { StickyWIthText } from "./StickyWIthText";
 import { Logolist } from "./Logolist";
-import { Faqs } from "./Faqs";
 import { Footer } from "./Footer";
 
 export const HomePage = () => {
@@ -19,7 +18,7 @@ export const HomePage = () => {
             <FullWidthScrollImage />
             <StickyWIthText />
             <Logolist />
-            <Faqs />
+            <div className="space-80"></div>
             <Footer />
         </>
     )

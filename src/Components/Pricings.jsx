@@ -43,9 +43,7 @@ export const Pricing = () => {
                 </div>
                 <div className="progresso-container">
                     <div className="content-container">
-                        <div className="eyebrow">
-                            <div><span>Available in German, English, Italian and Spanish </span></div>
-                        </div>
+                        
                         <h1>Progresso Pricing Plans</h1>
                         <p>Choose the ideal learning format for your needs and save more with our bundled packages.</p>
                         <div className="btn-wrapper"><a className="link button blue primary" href="#/see-prices">See prices and schedules</a></div>
@@ -97,8 +95,7 @@ export const Pricing = () => {
                             <li><span className="text"><strong>Per Class : </strong>$32</span></li>
                             <li> <span className="text"><strong>8-Class Package : </strong>$245 (save 5%)</span></li>
                             <li><span className="text"><strong>12-Class Package : </strong>$345 (save 10%)</span></li>
-                            <li><span className="text"><strong>20-Class Package : </strong>$545 (save 15%) + 1 Free
-Bonus Class</span></li>
+                            <li><span className="text"><strong>20-Class Package : </strong>$545 (save 15%) + 1 Free Bonus Class</span></li>
                         </ul>
                         <a href="https://www.lingoda.com/en/teams/" className="link button secondary blue">Enroll Now</a>
                         </article>
@@ -141,43 +138,43 @@ Bonus Class</span></li>
                             </li>
                             <li>
                                 <button className="link">
-                                    <h2> Flexible Payment Options</h2>
+                                    <h2>Flexible Payment Options</h2>
                                     <svg aria-hidden="true" className="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 18.5 11">
                                         <path fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="square" d="M15.75,0.75l-7.5,7.5l-7.5-7.5"></path>
                                     </svg>
                                 </button>
                                 <div className='panel'>
-                                    <p>  Progresso offers flexible payment plans for the 12- and 20-class packages, allowing you to spread out payments. Affordable learning without compromise!<br /><br />
+                                    <p>Progresso offers flexible payment plans for the 12- and 20-class packages, allowing you to spread out payments. Affordable learning without compromise!<br /><br />
                                     <a href="#/">Sign Up Today and Claim Your Free Starter Class!</a></p>
                                 </div>
                             </li>
                             <li>
                                 <button className="link">
-                                    <h2> . Exclusive Access to Learning Resources</h2>
+                                    <h2> Exclusive Access to Learning Resources</h2>
                                     <svg aria-hidden="true" className="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 18.5 11">
                                         <path fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="square" d="M15.75,0.75l-7.5,7.5l-7.5-7.5"></path>
                                     </svg>
                                 </button>
                                 <div className='panel'>
-                                    <p>  All students enrolled in the 20-class packages get unlimited access to Progresso’s exclusive resources: on-demand webinars, recorded sessions, study guides, and additional practice materials.<br /><br />
+                                    <p> All students enrolled in the 20-class packages get unlimited access to Progresso’s exclusive resources: on-demand webinars, recorded sessions, study guides, and additional practice materials.<br /><br />
                                     <a href="#/">Sign Up Today and Claim Your Free Starter Class!</a></p>
                                 </div>
                             </li>
                             <li>
                                 <button className="link">
-                                    <h2>  Complimentary Practice Exam Sessions</h2>
+                                    <h2> Complimentary Practice Exam Sessions</h2>
                                     <svg aria-hidden="true" className="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 18.5 11">
                                         <path fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="square" d="M15.75,0.75l-7.5,7.5l-7.5-7.5"></path>
                                     </svg>
                                 </button>
                                 <div className='panel'>
-                                    <p>  Get exam-ready with two free mock exams (IELTS, CELPIP, or PTE) included with all 12- and 20-class packages. Real exam simulations will prepare you to perform your best.<br /><br />
+                                    <p> Get exam-ready with two free mock exams (IELTS, CELPIP, or PTE) included with all 12- and 20-class packages. Real exam simulations will prepare you to perform your best.<br /><br />
                                     <a href="#/">Sign Up Today and Claim Your Free Starter Class!</a></p>
                                 </div>
                             </li>
                             <li>
                                 <button className="link">
-                                    <h2>  Bonus Class for Package Deals</h2>
+                                    <h2> Bonus Class for Package Deals</h2>
                                     <svg aria-hidden="true" className="chevron" xmlns="http://www.w3.org/2000/svg" viewBox="-1 -1 18.5 11">
                                         <path fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="square" d="M15.75,0.75l-7.5,7.5l-7.5-7.5"></path>
                                     </svg>
