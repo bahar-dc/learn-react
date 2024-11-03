@@ -774,6 +774,10 @@ main > .small-padding-top {
   align-items: center;
 }
 
+.header-nav li .link.active {
+  color: #3498db;
+}
+
 @media (max-width: 1199px) {
   .header-nav li .link {
     font-size: 14px;
