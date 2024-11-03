@@ -9,7 +9,7 @@ export const Twocolumntext = () => {
 					 <h4>Three Key Selling Points:</h4>
 						<li><p>● <strong>Qualified Instructors</strong> – Skilled professionals with international teaching experience.</p></li>
 						<li><p>● <strong>Flexible Learning</strong> – Online classes tailored to fit your schedule.</p></li>
-						<li><p>● <strong>Real-World Scenarios</strong> – Hands-on practice to apply your learning confidently.</p></li>
+						<li><p>● <strong>Real-Life Practice</strong> –  Master English with confidence through scenarios you’ll use every day!</p></li>
 					</ul>
                 </div>
             </section>

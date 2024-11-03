@@ -35,7 +35,7 @@ export const Learning = () => {
                                         <p>Progresso Learning Institute offers in-depth lessons across all IELTS components: listening, reading, <br /> writing, and speaking. This course includes practice exams, scoring strategies, and personalized feedback to help you excel.</p>
                                     </ul>
                                     <div className="link-container"><a href="sprint.html"
-                                            className="link button blue secondary">Enroll Now</a></div>
+                                            className="link button blue secondary">Learn more</a></div>
                                 </div>
                             </div>
                             <div className=" card">
@@ -51,7 +51,7 @@ export const Learning = () => {
                                     <ul className="text-list">
                                        <p>Tailored for success, our CELPIP course provides detailed lessons in all four test sections. Practice with mock tests, learn effective strategies, and get personalized support to achieve the score you need.</p>
                                     </ul>
-                                    <div className="link-container"><a href="flex.html" className="link button blue secondary">Enroll Now</a></div>
+                                    <div className="link-container"><a href="flex.html" className="link button blue secondary">Learn more</a></div>
                                 </div>
                             </div>
                             <div className=" card">
@@ -66,7 +66,7 @@ export const Learning = () => {
                                     <ul className="text-list">
                                         <p>Progresso Learning Institute's PTE course focuses on core test areas with a mix of test strategies, mock exams, and tailored feedback to help you succeed on your journey.</p>
                                     </ul>
-                                    <div className="link-container"><a href="flex.html" className="link button blue secondary">Enroll Now</a></div>
+                                    <div className="link-container"><a href="flex.html" className="link button blue secondary">Learn more</a></div>
                                 </div>
                             </div>
                             <div className=" card">
@@ -81,7 +81,7 @@ export const Learning = () => {
                                     <ul className="text-list">
                                         <p>Our English classes are designed for non-native speakers looking to improve grammar, vocabulary, fluency, and writing. Build a solid language foundation with flexible, real-world learning techniques.</p>
                                     </ul>
-                                   <div className="link-container"><a href="flex.html" className="link button blue secondary">Enroll Now</a></div>
+                                   <div className="link-container"><a href="flex.html" className="link button blue secondary">Learn more</a></div>
                                 </div>
                             </div>
                             <div className=" card">
@@ -96,7 +96,7 @@ export const Learning = () => {
                                     <ul className="text-list">
                                        <p>Gain communication and assertiveness skills through workshops designed to increase public speaking ability and social confidence. Perfect for newcomers or anyone aiming to strengthen their voice.</p>
                                     </ul>
-                                   <div className="link-container"><a href="flex.html" className="link button blue secondary">Enroll Now</a></div>
+                                   <div className="link-container"><a href="flex.html" className="link button blue secondary">Learn more</a></div>
                                 </div>
                             </div>
                             <div className=" card">
@@ -111,7 +111,7 @@ export const Learning = () => {
                                     <ul className="text-list">
                                        <p>Our public speaking course covers everything from basic communication techniques to advanced presentation skills. Ideal for students and professionals looking to excel in their fields.</p>
                                     </ul>
-                                   <div className="link-container"><a href="flex.html" className="link button blue secondary">Enroll Now</a></div>
+                                   <div className="link-container"><a href="flex.html" className="link button blue secondary">Learn more</a></div>
                                 </div>
                             </div>
                             <div className=" card">
@@ -126,7 +126,7 @@ export const Learning = () => {
                                     <ul className="text-list">
                                         <p>Practice mock interviews, learn to tackle challenging questions, and boost your interview confidence. Perfect for job seekers looking to stand out in competitive fields.</p>
                                     </ul>
-                                    <div className="link-container"><a href="flex.html" className="link button blue secondary">Enroll Now</a></div>
+                                    <div className="link-container"><a href="flex.html" className="link button blue secondary">Learn more</a></div>
                                 </div>
                             </div>
                             <div className=" card">
@@ -141,7 +141,7 @@ export const Learning = () => {
                                     <ul className="text-list">
                                         <p>This course offers newcomers practical skills to adjust to a new culture and build connections confidently. Learn everything from local etiquette, dressing appropriately, interview preparation, to effective networking and making lasting friendships.</p>
                                     </ul>
-                                   <div className="link-container"><a href="flex.html" className="link button blue secondary">Enroll Now</a></div>
+                                   <div className="link-container"><a href="flex.html" className="link button blue secondary">Learn more</a></div>
                                 </div>
                             </div>
                         </div>

@@ -951,13 +951,13 @@ button:not(:disabled) {
   font-weight: 700;
 }
 
-[type="button"]:not(:disabled):hover,
+/* [type="button"]:not(:disabled):hover,
 [type="reset"]:not(:disabled):hover,
 [type="submit"]:not(:disabled):hover,
 button:not(:disabled):hover {
   background-color: #3498b8;
   color: #ffffff;
-}
+} */
 
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
