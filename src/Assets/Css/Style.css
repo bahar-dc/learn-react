@@ -6879,7 +6879,6 @@ button.splide__pagination__page.is-active {
   justify-content: space-between;
 }
 .courses-cards article:after {
-  background: #f7ebfb;
   height: 100%;
   position: absolute;
   top: 0;

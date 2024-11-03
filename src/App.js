@@ -4,7 +4,7 @@ import './Assets/Css/css-main.min.css';
 import './Assets/Css/style-main.css';
 import './Assets/Css/style-main-two.css';
 import './Assets/Css/Style.css';
-import { HashRouter as Router, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { HomePage } from "./Components/HomePage";
 import { About } from "./Components/About";
 import { Pricing } from "./Components/Pricings";
