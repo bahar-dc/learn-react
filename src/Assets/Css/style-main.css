@@ -945,8 +945,8 @@ button {
 [type="submit"]:not(:disabled),
 button:not(:disabled) {
   cursor: pointer;
-  background-color: #3498db;
-  color: #ffffff;
+  background-color: #3498b820;
+  color: #000000;
   transition: all 0.3s ease-in-out;
   font-weight: 700;
 }
@@ -955,7 +955,8 @@ button:not(:disabled) {
 [type="reset"]:not(:disabled):hover,
 [type="submit"]:not(:disabled):hover,
 button:not(:disabled):hover {
-  background-color: #205c84;
+  background-color: #3498b8;
+  color: #ffffff;
 }
 
 [type="button"]::-moz-focus-inner,
