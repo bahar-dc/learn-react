@@ -3891,6 +3891,8 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
   width: 100%;
   aspect-ratio: 2 / 1;
   line-height: 0;
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .lottie-image img {
@@ -3901,7 +3903,7 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
 
 .lottie-content {
   line-height: normal;
-  margin: 20px 0 0 0;
+  margin: 30px 0 0 0;
 }
 
 .lottie-content h3 {

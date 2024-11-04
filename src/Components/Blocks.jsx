@@ -1,5 +1,5 @@
 import React from 'react';
-import Scrollimage from'../Assets/Images/Uploads/scroll-image.png';
+import Scrollimage from'../Assets/Images/Uploads/scroll-image.webp';
 // import { useEffect } from 'react';
 // import $ from "jquery";
 import { Header } from "./Header";

@@ -1,4 +1,6 @@
-import StickyImage from'../Assets/Images/Uploads/sticky-image-text.png';
+import StickyImage9 from'../Assets/Images/Uploads/learn-09.webp';
+import StickyImag10 from'../Assets/Images/Uploads/learn-10.webp';
+import StickyImage11 from'../Assets/Images/Uploads/learn-11.webp';
 
 export const StickyWIthText = () => {
     return (
@@ -35,7 +37,7 @@ export const StickyWIthText = () => {
 									<div className="lottie-inner">
 										<div>
 											<div className="lottie-image">
-												<img src={StickyImage} alt='' />
+												<img src={StickyImage9} alt='' />
 											</div>
 											<div className="lottie-content">
 												<h3>Interactive, immersive classes</h3>
@@ -55,7 +57,7 @@ export const StickyWIthText = () => {
 									<div className="lottie-inner">
 										<div>
 											<div className="lottie-image">
-												<img src={StickyImage} alt='' />
+												<img src={StickyImag10} alt='' />
 											</div>
 											<div className="lottie-content">
 												<h3>World-class curriculum</h3>
@@ -75,7 +77,7 @@ export const StickyWIthText = () => {
 									<div className="lottie-inner">
 										<div>
 											<div className="lottie-image">
-												<img src={StickyImage} alt='' />
+												<img src={StickyImage11} alt='' />
 											</div>
 											<div className="lottie-content">
 												<h3>Keep learning after class</h3>

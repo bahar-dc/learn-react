@@ -1,4 +1,4 @@
-import Scrollimage from'../Assets/Images/Uploads/scroll-image.png';
+import Scrollimage from'../Assets/Images/Uploads/scroll-image.webp';
 
 export const FullWidthScrollImage = () => {
     return (

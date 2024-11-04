@@ -1,7 +1,9 @@
-import CourseImage1 from'../Assets/Images/Uploads/course-img-01.svg';
-import CourseImage2 from'../Assets/Images/Uploads/course-img-02-min.png';
-import CourseImage3 from'../Assets/Images/Uploads/course-img-03.svg';
-import CourseImage4 from'../Assets/Images/Uploads/course-img-04.svg';
+import CourseImage1 from'../Assets/Images/Uploads/learn-01.webp';
+import CourseImage2 from'../Assets/Images/Uploads/learn-02.webp';
+import CourseImage3 from'../Assets/Images/Uploads/learn-03.webp';
+import CourseImage4 from'../Assets/Images/Uploads/learn-04.webp';
+import CourseImage6 from'../Assets/Images/Uploads/learn-06.webp';
+import CourseImage8 from'../Assets/Images/Uploads/learn-08.webp';
 
 export const Learning = () => {
     return (
@@ -78,7 +80,7 @@ export const Learning = () => {
                             </div>
                             <div className=" card">
                                 <div className="card-image">
-                                    <img src={CourseImage4} alt="Alt text" />
+                                    <img src={CourseImage8} alt="Alt text" />
                                 </div>
                                 <div className="card-content">
                                     <div className="card-header">
@@ -91,9 +93,9 @@ export const Learning = () => {
                                    <div className="link-container"><a href="flex.html" className="link button blue secondary">Learn more</a></div>
                                 </div>
                             </div>
-                              <div className=" card">
+                            <div className=" card">
                                 <div className="card-image">
-                                    <img src={CourseImage1} alt="Alt text" />
+                                    <img src={CourseImage6} alt="Alt text" />
                                    {/* <span>Free trial</span> */}
                                 </div>
                                 <div className="card-content">
