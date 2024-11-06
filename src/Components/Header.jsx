@@ -80,7 +80,7 @@ export const Header = () => {
                                     <li><a href="#/ielts-preparation" className={`link ${activePath === '#/ielts-preparation' ? 'active' : ''}`}>IELTS Preparation</a></li>
                                     <li><a href="#/celpip-training" className={`link ${activePath === '#/celpip-training' ? 'active' : ''}`}>CELPIP Training</a></li>
                                     <li><a href="#/pte-coaching" className={`link ${activePath === '#/pte-coaching' ? 'active' : ''}`}>PTE Coaching</a></li>
-                                    <li><a href="#/english-language-courses" className={`link ${activePath === '#/english-language-classes' ? 'active' : ''}`}>English Language Classes</a></li>
+                                    <li><a href="#/english-language-courses" className={`link ${activePath === '#/english-language-courses' ? 'active' : ''}`}>English Language Classes</a></li>
                                     <li><a href="#/confidence-and-public-speaking" className={`link ${activePath === '#/confidence-and-public-speaking' ? 'active' : ''}`}>Confidence & Public Speaking Essentials</a></li>
                                     <li><a href="#/interview-and-cultural-adaptation" className={`link ${activePath === '#/interview-and-cultural-adaptation' ? 'active' : ''}`}> Interview & Cultural Adaptation</a></li>
                                     {/* Add the other sub-menu items here */}

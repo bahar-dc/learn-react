@@ -26,11 +26,11 @@ export const Footer = () => {
                         <nav className="footer-nav" >
                             <ul>
                                 <li>
-                                    <a className="link" href="#company"><span>Company</span></a>
+                                    <a className="link" href="#/about"><span>Company</span></a>
                                     <ul>
-                                        <li><a className="link" href="/about-us">About us</a></li>
-                                        <li><a className="link" href="/en">Blog</a></li>
-                                        <li><a className="link" href="/careers">Careers</a></li>
+                                        <li><a className="link" href="#/about-us">About us</a></li>
+                                        <li><a className="link" href="#/blog">Blog</a></li>
+                                        <li><a className="link" href="#/contact">Careers</a></li>
                                     </ul>
                                 </li>
                                 <li>
