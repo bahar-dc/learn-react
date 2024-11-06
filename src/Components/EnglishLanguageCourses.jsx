@@ -90,6 +90,11 @@ export const EnglishLanguageCourses = () => {
                         </li>
                     </ul>
                 </div>
+                <div className="progresso-container">
+                    <div className="space-80"></div>
+                    <h3>Why English Language Skills Are Important</h3>
+                    <p>Strong English skills are essential for thriving in English-speaking environments, especially for students, professionals, and newcomers. This course builds foundational proficiency, enabling students to express themselves with confidence, connect with others meaningfully, and pursue broader educational and career opportunities.</p>
+                </div>
             </section>
 
             <section className="text-banner alt progresso-block">
