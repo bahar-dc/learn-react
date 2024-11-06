@@ -3,7 +3,7 @@ import { Header } from "./Header";
 import { Footer } from "./Footer";
 import CourseImage2 from'../Assets/Images/Uploads/learn-03.webp';
 
-export const IeltsPreparation = () => {
+export const InterviewAndCulturalAdaptation = () => {
 
     return (
         <>
@@ -18,7 +18,7 @@ export const IeltsPreparation = () => {
                 </div>
                 <div className="progresso-container single-col">
                     <div className="text-col">
-                        <h1>Excel in IELTS with Comprehensive Guidance</h1>
+                        <h1>Flourish Abroad with Everyday English</h1>
                     </div>
                 </div>
             </section>
@@ -26,7 +26,7 @@ export const IeltsPreparation = () => {
             <section className="text-banner with-centered-text-cta progresso-block">
                 <div className="progresso-container">
                     <h2 className="toggle-heading title title--lg-dt">Overview</h2>
-                    <p>Tailored to support students in mastering both the academic and general IELTS exams, this course covers all four modules (Listening, Reading, Writing, and Speaking) through skill-specific lessons and expert-led strategies.</p>
+                    <p>This course offers a unique blend of English language fluency, interview skills, and cultural understanding, ideal for newcomers to Canada. The focus is on conversational English, workplace expectations, and the nuances of Canadian culture.</p>
                 </div>
             </section>
 
@@ -42,7 +42,7 @@ export const IeltsPreparation = () => {
                                     <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-1.svg" alt="Logo" className="left-alignment" />
                                 </div>
                                 <span>8 Classes:</span>
-                                <p>Students will gain an understanding of CELPIP basics, beginning with skill-building for each module (listening comprehension, reading fluency, writing basics, and spoken responses).</p>
+                                <p>Basics of conversational English, understanding Canadian etiquette, and an introduction to interview dynamics.</p>
                             </article>
                         </li>
                         <li className="splide__slide">
@@ -51,7 +51,7 @@ export const IeltsPreparation = () => {
                                     <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-2.svg" alt="Logo" className="left-alignment" />
                                 </div>
                                 <span >12 Classes:</span>
-                                <p>Enhanced focus on critical writing techniques for task 1 and 2, speaking skills for interview-style questions, and intensive listening practice.</p>
+                                <p>In-depth exploration of Canadian workplace culture, practical interview preparation, and vocabulary for professional and social settings.</p>
                             </article>
                         </li>
                         <li className="splide__slide">
@@ -60,7 +60,7 @@ export const IeltsPreparation = () => {
                             <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-3.svg" alt="Logo" className="left-alignment" />
                             </div>
                             <span > 20 Classes:</span>
-                            <p>Full proficiency in IELTS modules, advanced grammar and vocabulary, as well as mock exams for a real test environment.</p>
+                            <p>Mastery in conversational fluency, nuanced social interactions, handling complex interview questions, and deep cultural understanding for smooth integration.</p>
                             </article>
                         </li>
                     </ul>
@@ -75,20 +75,25 @@ export const IeltsPreparation = () => {
                     <ul className="splide__list">
                         <li className="splide__slide">
                             <article>
-                                <p>In-depth feedback on writing assignments and speaking performance.</p>
+                                <p>Practical, scenario-based learning to prepare students for real-world interactions..</p>
                             </article>
                         </li>
                         <li className="splide__slide">
                             <article>
-                                <p>Access to practice resources tailored to IELTS standards.</p>
+                                <p>Individualized sessions to address cultural challenges and workplace etiquette.</p>
                             </article>
                         </li>
                         <li className="splide__slide">
                             <article>
-                           <p>Real-life scenario practice, including exam timing and pacing.</p>
+                           <p>Focused support for career building, from job interview strategies to socializing in professional contexts.</p>
                             </article>
                         </li>
                     </ul>
+                </div>
+                <div className="progresso-container">
+                    <div className="space-80"></div>
+                    <h3> Why Everyday English & Cultural Adaptation Are Important:</h3>
+                    <p>Adjusting to a new culture and language can be challenging, especially in a professional setting. This course not only improves English fluency but also teaches the social and cultural norms essential for career growth and personal well-being in Canada. Students gain confidence in everyday interactions, ensuring they thrive in both their personal and professional lives.</p>
                 </div>
             </section>
 

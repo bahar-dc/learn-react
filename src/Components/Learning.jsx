@@ -90,7 +90,7 @@ export const Learning = () => {
                                     <ul className="text-list">
                                         <p>A course crafted to empower individuals with essential communication and presentation skills, helping you present confidently in personal and professional settings.</p>
                                     </ul>
-                                   <div className="link-container"><a href="#/public-speaking" className="link button blue secondary">Learn more</a></div>
+                                   <div className="link-container"><a href="#/confidence-and-public-speaking" className="link button blue secondary">Learn more</a></div>
                                 </div>
                             </div>
                             <div className=" card">
@@ -107,7 +107,7 @@ export const Learning = () => {
                                        <p>An integrated program for newcomers to Canada focusing on English fluency, interview prep, and cultural adaptation, making everyday interactions seamless and comfortable.
 </p>
                                     </ul>
-                                    <div className="link-container"><a href="#/everyday-english" className="link button blue secondary">Learn more</a></div>
+                                    <div className="link-container"><a href="#/interview-and-cultural-adaptation" className="link button blue secondary">Learn more</a></div>
                                 </div>
                             </div>
                         </div>

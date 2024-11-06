@@ -3,7 +3,7 @@ import { Header } from "./Header";
 import { Footer } from "./Footer";
 import CourseImage2 from'../Assets/Images/Uploads/learn-03.webp';
 
-export const IeltsPreparation = () => {
+export const  PteCoaching = () => {
 
     return (
         <>
@@ -18,7 +18,7 @@ export const IeltsPreparation = () => {
                 </div>
                 <div className="progresso-container single-col">
                     <div className="text-col">
-                        <h1>Excel in IELTS with Comprehensive Guidance</h1>
+                        <h1>Score Higher with Pro PTE Coaching</h1>
                     </div>
                 </div>
             </section>
@@ -26,7 +26,7 @@ export const IeltsPreparation = () => {
             <section className="text-banner with-centered-text-cta progresso-block">
                 <div className="progresso-container">
                     <h2 className="toggle-heading title title--lg-dt">Overview</h2>
-                    <p>Tailored to support students in mastering both the academic and general IELTS exams, this course covers all four modules (Listening, Reading, Writing, and Speaking) through skill-specific lessons and expert-led strategies.</p>
+                    <p>Professional training for the PTE exam, focusing on a skills-based approach that strengthens proficiency in English listening, reading, writing, and speaking.</p>
                 </div>
             </section>
 
@@ -42,7 +42,7 @@ export const IeltsPreparation = () => {
                                     <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-1.svg" alt="Logo" className="left-alignment" />
                                 </div>
                                 <span>8 Classes:</span>
-                                <p>Students will gain an understanding of CELPIP basics, beginning with skill-building for each module (listening comprehension, reading fluency, writing basics, and spoken responses).</p>
+                                <p>Core components of PTE, foundational listening, and basic speaking exercises for clarity and pronunciation.</p>
                             </article>
                         </li>
                         <li className="splide__slide">
@@ -51,7 +51,7 @@ export const IeltsPreparation = () => {
                                     <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-2.svg" alt="Logo" className="left-alignment" />
                                 </div>
                                 <span >12 Classes:</span>
-                                <p>Enhanced focus on critical writing techniques for task 1 and 2, speaking skills for interview-style questions, and intensive listening practice.</p>
+                                <p>Advanced exercises in writing coherence, structured reading comprehension, and listening accuracy under time constraints.</p>
                             </article>
                         </li>
                         <li className="splide__slide">
@@ -60,7 +60,7 @@ export const IeltsPreparation = () => {
                             <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-3.svg" alt="Logo" className="left-alignment" />
                             </div>
                             <span > 20 Classes:</span>
-                            <p>Full proficiency in IELTS modules, advanced grammar and vocabulary, as well as mock exams for a real test environment.</p>
+                            <p>Mastery of test-taking techniques, complex vocabulary, and full-length practice tests that closely mimic the PTE exam structure.</p>
                             </article>
                         </li>
                     </ul>
@@ -75,17 +75,17 @@ export const IeltsPreparation = () => {
                     <ul className="splide__list">
                         <li className="splide__slide">
                             <article>
-                                <p>In-depth feedback on writing assignments and speaking performance.</p>
+                                <p>Timed practice to manage exam pressure.</p>
                             </article>
                         </li>
                         <li className="splide__slide">
                             <article>
-                                <p>Access to practice resources tailored to IELTS standards.</p>
+                                <p>Specialized PTE techniques with progress tracking.</p>
                             </article>
                         </li>
                         <li className="splide__slide">
                             <article>
-                           <p>Real-life scenario practice, including exam timing and pacing.</p>
+                           <p>Custom feedback on mock test responses to maximize scores.</p>
                             </article>
                         </li>
                     </ul>

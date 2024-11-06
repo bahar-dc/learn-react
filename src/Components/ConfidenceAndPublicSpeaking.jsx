@@ -3,7 +3,7 @@ import { Header } from "./Header";
 import { Footer } from "./Footer";
 import CourseImage2 from'../Assets/Images/Uploads/learn-03.webp';
 
-export const IeltsPreparation = () => {
+export const ConfidenceAndPublicSpeaking = () => {
 
     return (
         <>
@@ -18,7 +18,7 @@ export const IeltsPreparation = () => {
                 </div>
                 <div className="progresso-container single-col">
                     <div className="text-col">
-                        <h1>Excel in IELTS with Comprehensive Guidance</h1>
+                        <h1>Build Confidence & Master Public Speaking</h1>
                     </div>
                 </div>
             </section>
@@ -26,7 +26,7 @@ export const IeltsPreparation = () => {
             <section className="text-banner with-centered-text-cta progresso-block">
                 <div className="progresso-container">
                     <h2 className="toggle-heading title title--lg-dt">Overview</h2>
-                    <p>Tailored to support students in mastering both the academic and general IELTS exams, this course covers all four modules (Listening, Reading, Writing, and Speaking) through skill-specific lessons and expert-led strategies.</p>
+                    <p>Public speaking and confidence are integral to professional success. This course is crafted to enhance students’ presentation skills, instill confidence, and empower effective communication for any audience.</p>
                 </div>
             </section>
 
@@ -42,7 +42,7 @@ export const IeltsPreparation = () => {
                                     <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-1.svg" alt="Logo" className="left-alignment" />
                                 </div>
                                 <span>8 Classes:</span>
-                                <p>Students will gain an understanding of CELPIP basics, beginning with skill-building for each module (listening comprehension, reading fluency, writing basics, and spoken responses).</p>
+                                <p>Basics of self-confidence building, body language, voice modulation, and constructing a compelling speech.</p>
                             </article>
                         </li>
                         <li className="splide__slide">
@@ -51,7 +51,7 @@ export const IeltsPreparation = () => {
                                     <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-2.svg" alt="Logo" className="left-alignment" />
                                 </div>
                                 <span >12 Classes:</span>
-                                <p>Enhanced focus on critical writing techniques for task 1 and 2, speaking skills for interview-style questions, and intensive listening practice.</p>
+                                <p>Advanced techniques in speech delivery, handling nerves, audience engagement, and the essentials of persuasive speaking.</p>
                             </article>
                         </li>
                         <li className="splide__slide">
@@ -60,7 +60,7 @@ export const IeltsPreparation = () => {
                             <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-3.svg" alt="Logo" className="left-alignment" />
                             </div>
                             <span > 20 Classes:</span>
-                            <p>Full proficiency in IELTS modules, advanced grammar and vocabulary, as well as mock exams for a real test environment.</p>
+                            <p>Comprehensive training on various presentation styles, debate skills, storytelling, and real-world simulation for different settings.</p>
                             </article>
                         </li>
                     </ul>
@@ -75,20 +75,25 @@ export const IeltsPreparation = () => {
                     <ul className="splide__list">
                         <li className="splide__slide">
                             <article>
-                                <p>In-depth feedback on writing assignments and speaking performance.</p>
+                                <p>Real-time feedback from expert instructors with personalized improvement plans.</p>
                             </article>
                         </li>
                         <li className="splide__slide">
                             <article>
-                                <p>Access to practice resources tailored to IELTS standards.</p>
+                                <p>Role-play exercises and live feedback in every class to simulate real-life speaking scenarios.</p>
                             </article>
                         </li>
                         <li className="splide__slide">
                             <article>
-                           <p>Real-life scenario practice, including exam timing and pacing.</p>
+                           <p>Dedicated sessions for building resilience and overcoming public-speaking anxiety.</p>
                             </article>
                         </li>
                     </ul>
+                </div>
+                <div className="progresso-container">
+                      <div className="space-80"></div>
+                    <h3>Why Confidence & Public Speaking Are Important:</h3>
+                   <p> Public speaking is not only a critical skill in professional and academic settings but also essential for personal development. Progresso’s training helps individuals articulate their ideas clearly, engage effectively with others, and approach opportunities with confidence.</p>
                 </div>
             </section>
 

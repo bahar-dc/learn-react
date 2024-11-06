@@ -3,7 +3,7 @@ import { Header } from "./Header";
 import { Footer } from "./Footer";
 import CourseImage2 from'../Assets/Images/Uploads/learn-03.webp';
 
-export const IeltsPreparation = () => {
+export const EnglishLanguageCourses = () => {
 
     return (
         <>
@@ -18,7 +18,7 @@ export const IeltsPreparation = () => {
                 </div>
                 <div className="progresso-container single-col">
                     <div className="text-col">
-                        <h1>Excel in IELTS with Comprehensive Guidance</h1>
+                        <h1>Learn English to Excel in Canada and Beyond</h1>
                     </div>
                 </div>
             </section>
@@ -26,7 +26,7 @@ export const IeltsPreparation = () => {
             <section className="text-banner with-centered-text-cta progresso-block">
                 <div className="progresso-container">
                     <h2 className="toggle-heading title title--lg-dt">Overview</h2>
-                    <p>Tailored to support students in mastering both the academic and general IELTS exams, this course covers all four modules (Listening, Reading, Writing, and Speaking) through skill-specific lessons and expert-led strategies.</p>
+                    <p>Progresso’s English Language course is designed to build a strong foundation for non-native speakers, covering grammar, vocabulary, conversation, and writing skills to empower students in all facets of English.</p>
                 </div>
             </section>
 
@@ -42,7 +42,7 @@ export const IeltsPreparation = () => {
                                     <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-1.svg" alt="Logo" className="left-alignment" />
                                 </div>
                                 <span>8 Classes:</span>
-                                <p>Students will gain an understanding of CELPIP basics, beginning with skill-building for each module (listening comprehension, reading fluency, writing basics, and spoken responses).</p>
+                                <p>Grammar basics, vocabulary building, introduction to everyday conversation.</p>
                             </article>
                         </li>
                         <li className="splide__slide">
@@ -51,7 +51,7 @@ export const IeltsPreparation = () => {
                                     <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-2.svg" alt="Logo" className="left-alignment" />
                                 </div>
                                 <span >12 Classes:</span>
-                                <p>Enhanced focus on critical writing techniques for task 1 and 2, speaking skills for interview-style questions, and intensive listening practice.</p>
+                                <p>Structured exercises to improve fluency, sentence structure, and contextual vocabulary.</p>
                             </article>
                         </li>
                         <li className="splide__slide">
@@ -60,7 +60,7 @@ export const IeltsPreparation = () => {
                             <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-3.svg" alt="Logo" className="left-alignment" />
                             </div>
                             <span > 20 Classes:</span>
-                            <p>Full proficiency in IELTS modules, advanced grammar and vocabulary, as well as mock exams for a real test environment.</p>
+                            <p>Mastery of grammar, vocabulary, and pronunciation for confident, effective communication.</p>
                             </article>
                         </li>
                     </ul>
@@ -75,17 +75,17 @@ export const IeltsPreparation = () => {
                     <ul className="splide__list">
                         <li className="splide__slide">
                             <article>
-                                <p>In-depth feedback on writing assignments and speaking performance.</p>
+                                <p>Customized learning path based on students’ skill level.</p>
                             </article>
                         </li>
                         <li className="splide__slide">
                             <article>
-                                <p>Access to practice resources tailored to IELTS standards.</p>
+                                <p>Engaging, real-life language applications in a supportive environment.</p>
                             </article>
                         </li>
                         <li className="splide__slide">
                             <article>
-                           <p>Real-life scenario practice, including exam timing and pacing.</p>
+                           <p>Access to resources and practice material, including conversational practice for everyday scenarios.</p>
                             </article>
                         </li>
                     </ul>

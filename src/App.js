@@ -14,8 +14,12 @@ import { Blog } from "./Components/Blog";
 import { Contact } from "./Components/Contact";
 import { Enroll } from "./Components/Enroll";
 // Courses
-import { Ieltspreparation } from "./Components/IeltsPreparation";
-// import { PteCoaching } from "./Components/PteCoaching";
+import { IeltsPreparation } from "./Components/IeltsPreparation";
+import { Celpiptraining } from "./Components/Celpiptraining";
+import { PteCoaching } from "./Components/PteCoaching";
+import { EnglishLanguageCourses } from "./Components/EnglishLanguageCourses";
+import { ConfidenceAndPublicSpeaking } from "./Components/ConfidenceAndPublicSpeaking";
+import { InterviewAndCulturalAdaptation } from "./Components/InterviewAndCulturalAdaptation";
 
 
 import { NotFound } from "./Components/404";
@@ -35,12 +39,12 @@ function App() {
           <Route path="/contact" element={<Contact />} />
           <Route path="/enroll" element={<Enroll />} />
           {/* courses */}
-          <Route path="/ielts-preparation" element={<Ieltspreparation />} />
-          <Route path="/celpip-training" element={<Enroll />} />
-          <Route path="/pte-coaching" element={<Enroll />} />
-          <Route path="/english-language-courses" element={<Enroll />} />
-          <Route path="/public-speaking" element={<Enroll />} />
-          <Route path="/everyday-english" element={<Enroll />} />
+          <Route path="/ielts-preparation" element={<IeltsPreparation />} />
+          <Route path="/celpip-training" element={<Celpiptraining />} />
+          <Route path="/pte-coaching" element={<PteCoaching />} />
+          <Route path="/english-language-courses" element={<EnglishLanguageCourses />} />
+          <Route path="/confidence-and-public-speaking" element={<ConfidenceAndPublicSpeaking />} />
+          <Route path="/interview-and-cultural-adaptation" element={<InterviewAndCulturalAdaptation />} />
 
           <Route path="*" element={<NotFound />} />
         </Routes>
