@@ -58,22 +58,22 @@ Sunday: Closed <br /></p>
                     </div>
                     <div className="contact-us-right">
                        <div class="contact-form">
-  <h2>Contact Us</h2>
-  <form>
-    <div class="form-group">
-      <input type="text" name="name" required placeholder="Enter your full name" />
-    </div>
-    <div class="form-group">
-      <input type="email" name="email" required placeholder="Your email (e.g., name@example.com)" />
-    </div>
-    <div class="form-group">
-      <textarea name="message" required placeholder="Enter your message"></textarea>
-    </div>
-    <div class="form-group">
-      <input type="submit" value="Send Message" />
-    </div>
-  </form>
-</div>
+                            <h2>Contact Us</h2>
+                            <form>
+                                <div class="form-group">
+                                <input type="text" name="name" required placeholder="Enter your full name" />
+                                </div>
+                                <div class="form-group">
+                                <input type="email" name="email" required placeholder="Your email (e.g., name@example.com)" />
+                                </div>
+                                <div class="form-group">
+                                <textarea name="message" required placeholder="Enter your message"></textarea>
+                                </div>
+                                <div class="form-group">
+                                <input type="submit" value="Send Message" />
+                                </div>
+                            </form>
+                            </div>
 
                     </div>
                 </div>
