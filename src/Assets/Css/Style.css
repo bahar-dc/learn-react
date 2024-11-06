@@ -8647,6 +8647,10 @@ button.splide__pagination__page.is-active {
   margin-bottom: 24px;
 }
 
+.article-image + span {
+  font-size: 22px;
+}
+
 .cards-with-image.style-with-icon .title-container {
   margin-bottom: 40px;
 }

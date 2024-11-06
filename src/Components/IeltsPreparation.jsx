@@ -2,7 +2,7 @@ import React from 'react';
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import StickyImage11 from'../Assets/Images/Uploads/about-banner-img.webp';
-import CourseImage2 from'../Assets/Images/Uploads/learn-02.webp';
+import CourseImage2 from'../Assets/Images/Uploads/learn-03.webp';
 
 export const Ieltspreparation = () => {
 
@@ -62,6 +62,30 @@ export const Ieltspreparation = () => {
                             </div>
                             <span > 20 Classes:</span>
                             <p>Enjoy focused attention with our commitment to small class sizes, ensuring a highly interactive and personalized experience.</p>
+                            </article>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section id="tw-block-cards-with-image-1" className="cards-with-image style-with-icon">
+                <div className="progresso-container title-container">
+                    <h2 className="toggle-heading">Unique Offerings by Progresso:</h2>
+                </div>
+                <div className="progresso-container list-container splide__track">
+                    <ul className="splide__list">
+                        <li className="splide__slide">
+                            <article>
+                                <p>Full-length mock exams with detailed feedback for self-assessment.</p>
+                            </article>
+                        </li>
+                        <li className="splide__slide">
+                            <article>
+                                <p>Customized improvement plans and personalized score-building strategies.</p>
+                            </article>
+                        </li>
+                        <li className="splide__slide">
+                            <article>
+                           <p>Flexible scheduling options with 1:1 or buddy sessions for focused learning.</p>
                             </article>
                         </li>
                     </ul>
