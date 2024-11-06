@@ -34,7 +34,7 @@ export const Footer = () => {
                                     </ul>
                                 </li>
                                 <li>
-                                    <a className="link" href="#/courses"><span>Cources</span></a>
+                                    <a className="link" href="#/courses"><span>Courses</span></a>
                                     <ul>
                                         {/* <li><a className="link" href="/german">IELTS Preparation</a></li>
                                         <li><a className="link" href="/english">CELPIP Test Preparation for Canadian Permanent Residency</a></li>
