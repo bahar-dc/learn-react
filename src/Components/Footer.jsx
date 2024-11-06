@@ -10,41 +10,31 @@ export const Footer = () => {
                         </div>
                         <nav className="footer-nav" >
                             <ul>
-                                <li><a className="link" href="#company"><span>Company</span></a>
+                                <li>
+                                    <a className="link" href="#company"><span>Company</span></a>
                                     <ul>
-                                        <li><a className="link" href="/corporate">Corporate</a></li>
                                         <li><a className="link" href="/about-us">About us</a></li>
                                         <li><a className="link" href="/en">Blog</a></li>
                                         <li><a className="link" href="/careers">Careers</a></li>
-                                        <li><a className="link" href="/press">Press</a></li>
-                                        <li><a className="link" href="/research">Research &amp; Studies</a></li>
                                     </ul>
                                 </li>
-                                <li><a className="link" href="#language"><span>Cources</span></a>
+                                <li>
+                                    <a className="link" href="#/courses"><span>Cources</span></a>
                                     <ul>
-                                        <li><a className="link" href="/german">German</a></li>
-                                        <li><a className="link" href="/english">English</a></li>
-                                        <li><a className="link" href="/business-english">Business English</a></li>
-                                        <li><a className="link" href="/french">French</a></li>
-                                        <li><a className="link" href="/spanish">Spanish</a></li>
-                                        <li><a className="link" href="/italian">Italian</a></li>
+                                        <li><a className="link" href="/german">IELTS Preparation</a></li>
+                                        <li><a className="link" href="/english">CELPIP Test Preparation for Canadian Permanent Residency</a></li>
+                                        <li><a className="link" href="/business-english">Score High on the PTE with Professional Guidance</a></li>
+                                        <li><a className="link" href="/french">Learn English to Excel in Canada and Beyond</a></li>
+                                        <li><a className="link" href="/spanish">Build Confidence & Master Public Speaking</a></li>
+                                        <li><a className="link" href="/italian">Flourish Abroad with Everyday English</a></li>
                                     </ul>
                                 </li>
-                                <li><a className="link" href="#how-it-works"><span>How it works</span></a>
+                                <li>
+                                    <a className="link" href="#contact"><span>Support</span></a>
                                     <ul>
-                                        <li><a className="link" href="/how-it-works">Our platform</a></li>
-                                        <li><a className="link" href="/resources">Blog</a></li>
-                                    </ul>
-                                </li>
-                                <li><a className="link" href="#contact"><span>Support</span></a>
-                                    <ul>
-                                        <li><a className="link" href="/faq">FAQ</a></li>
-                                        <li><a className="link diva"
-                                                href="/contact">Contact us</a></li>
-                                        <li><a className="link" href="/content-creators">Content creators</a></li>
-                                        <li><a className="link" href="/affiliate-program">Affiliate</a></li>
-                                        <li><a className="link" href="/contract-termination-request">Terminate Contracts
-                                                Here</a></li>
+                                        <li><a className="link" href="#/faqs">FAQ</a></li>
+                                        <li><a className="link diva" href="#/contact-us">Contact us</a></li>
+                                        <li><a className="link" href="#/consultation">Free Consultation</a></li>
                                     </ul>
                                 </li>
                             </ul><a className="link" href="/become-a-teacher">Become a teacher</a>

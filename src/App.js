@@ -12,6 +12,7 @@ import { Pricing } from "./Components/Pricings";
 import { Blocks } from "./Components/Blocks";
 import { Blog } from "./Components/Blog";
 import { Contact } from "./Components/Contact";
+import { Enroll } from "./Components/Enroll";
 import { NotFound } from "./Components/404";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path="/courses" element={<Courses />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/enroll" element={<Enroll />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         </div>

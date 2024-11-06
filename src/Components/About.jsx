@@ -1,6 +1,7 @@
 import React from 'react';
 import { Header } from "./Header";
 import { Footer } from "./Footer";
+import StickyImage11 from'../Assets/Images/Uploads/about-banner-img.webp';
 
 export const About = () => {
 
@@ -12,7 +13,7 @@ export const About = () => {
             <section id="tw-block-hero-home-0" data-view="tw-hero-home" className="hero-home trustpilot trustpilot-inside-hero progresso-flex--first">
                 <div className="bg-container">
                     <div className="bg-img bg-img--desktop">
-                        <img src="https://www.lingoda.com/wp-content/uploads/2022/03/hiw-2022-hero-bg-desktop.png" alt="Banner Desktop" />
+                        <img src={StickyImage11} alt="Banner Desktop" />
                     </div>
                 </div>
                 <div className="progresso-container single-col">
@@ -26,14 +27,14 @@ export const About = () => {
 
             <section className="text-banner with-centered-text-cta progresso-block">
                 <div className="progresso-container">
-                    <h2 className="toggle-heading title title--lg-dt">Our Mission</h2>
+                    <h2 className="toggle-heading title title--lg-dt">Our <span>Mission</span></h2>
                     <p>Our mission is to deliver accessible, impactful education that enables every student to achieve their goals in Canada and beyond. We strive to create a welcoming and supportive learning community where students not only pass tests but gain the cultural, linguistic, and professional skills needed to thrive.</p>
                 </div>
             </section>
 
             <section id="tw-block-cards-with-image-1" className="cards-with-image style-with-icon">
                 <div className="progresso-container title-container">
-                    <h2 className="toggle-heading">Why Choose Progresso?</h2>
+                    <h2 className="toggle-heading">Why Choose <span>Progresso?</span></h2>
                 </div>
                 <div className="progresso-container list-container splide__track">
                     <ul className="splide__list">
@@ -86,8 +87,6 @@ export const About = () => {
                 </div>
             </section>
 
-            
-
             <section className="text-banner alt progresso-block">
                 <div className="progresso-container text-white light-blue-container">
                     <div>
@@ -98,7 +97,7 @@ export const About = () => {
                 </div>
             </section>
 
-              <section className="img-and-text img-left tablet-row border-rad progresso-block">
+            <section className="img-and-text img-left tablet-row border-rad progresso-block">
                 <div className="progresso-container">
                     <div className="text-container" style={{color:'#051f4e'}}>
                         <h2 className="toggle-heading">A World of Opportunities for Every Learner</h2>
@@ -113,9 +112,6 @@ export const About = () => {
                     </div>
                 </div>
             </section>
-
-          
-    
 
             <Footer  />
             
