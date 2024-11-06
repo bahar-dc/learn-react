@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/learn-react/static/css/main.7247291d.css",
-    "main.js": "/learn-react/static/js/main.979fb048.js",
+    "main.css": "/learn-react/static/css/main.fb0f266e.css",
+    "main.js": "/learn-react/static/js/main.d6755e9e.js",
     "static/js/453.86b2f617.chunk.js": "/learn-react/static/js/453.86b2f617.chunk.js",
     "static/media/hero-section-banner.png": "/learn-react/static/media/hero-section-banner.e87dc15c24e4f690f67b.png",
     "static/media/learn-09.webp": "/learn-react/static/media/learn-09.cbb00ca0c5ae078b66e1.webp",
@@ -23,12 +23,12 @@
     "static/media/logo-02.svg": "/learn-react/static/media/logo-02.9a3e554dc298d0d27f03e315db2cc5c5.svg",
     "static/media/logo-07.svg": "/learn-react/static/media/logo-07.9daaa50a917650bc0a7b12e6da433425.svg",
     "index.html": "/learn-react/index.html",
-    "main.7247291d.css.map": "/learn-react/static/css/main.7247291d.css.map",
-    "main.979fb048.js.map": "/learn-react/static/js/main.979fb048.js.map",
+    "main.fb0f266e.css.map": "/learn-react/static/css/main.fb0f266e.css.map",
+    "main.d6755e9e.js.map": "/learn-react/static/js/main.d6755e9e.js.map",
     "453.86b2f617.chunk.js.map": "/learn-react/static/js/453.86b2f617.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7247291d.css",
-    "static/js/main.979fb048.js"
+    "static/css/main.fb0f266e.css",
+    "static/js/main.d6755e9e.js"
   ]
 }
