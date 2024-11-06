@@ -3,6 +3,7 @@ import { Header } from "./Header";
 import { Footer } from "./Footer";
 import $ from "jquery";
 import { useEffect } from 'react';
+import bannerimage from '../Assets/Images/Uploads/pricing-banner.webp'
 
 export const Pricing = () => {
 
@@ -39,7 +40,7 @@ export const Pricing = () => {
 
             <section className="hero trustpilot style-standard  style-checklist progresso-grid--first">
                 <div className="bg-container">
-                    <img  src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-hero-d.jpg" alt="" />
+                    <img  src={bannerimage} alt="Banner pricing" />
                 </div>
                 <div className="progresso-container">
                     <div className="content-container">
