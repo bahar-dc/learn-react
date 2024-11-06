@@ -13,6 +13,11 @@ import { Blocks } from "./Components/Blocks";
 import { Blog } from "./Components/Blog";
 import { Contact } from "./Components/Contact";
 import { Enroll } from "./Components/Enroll";
+// Courses
+import { Ieltspreparation } from "./Components/IeltsPreparation";
+// import { PteCoaching } from "./Components/PteCoaching";
+
+
 import { NotFound } from "./Components/404";
 
 function App() {
@@ -29,6 +34,14 @@ function App() {
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/enroll" element={<Enroll />} />
+          {/* courses */}
+          <Route path="/ielts-preparation" element={<Ieltspreparation />} />
+          <Route path="/celpip-training" element={<Enroll />} />
+          <Route path="/pte-coaching" element={<Enroll />} />
+          <Route path="/english-language-courses" element={<Enroll />} />
+          <Route path="/public-speaking" element={<Enroll />} />
+          <Route path="/everyday-english" element={<Enroll />} />
+
           <Route path="*" element={<NotFound />} />
         </Routes>
         </div>
