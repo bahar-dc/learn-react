@@ -134,7 +134,7 @@ export const Pricing = () => {
                                 </button>
                                 <div className='panel'>
                                     <p>Experience Progresso's learning approach before you commit! Every student receives a complimentary starter class with any package purchase. Discover our engaging, student-focused environment first-hand. <br /><br />
-                                    <a href="#/">Sign Up Today and Claim Your Free Starter Class!</a></p>
+                                    <a href="#/enroll">Sign Up Today and Claim Your Free Starter Class!</a></p>
                                 </div>
                             </li>
                             <li>
@@ -146,7 +146,7 @@ export const Pricing = () => {
                                 </button>
                                 <div className='panel'>
                                     <p>Progresso offers flexible payment plans for the 12- and 20-class packages, allowing you to spread out payments. Affordable learning without compromise!<br /><br />
-                                    <a href="#/">Sign Up Today and Claim Your Free Starter Class!</a></p>
+                                    <a href="#/enroll">Sign Up Today and Claim Your Free Starter Class!</a></p>
                                 </div>
                             </li>
                             <li>
@@ -158,7 +158,7 @@ export const Pricing = () => {
                                 </button>
                                 <div className='panel'>
                                     <p> All students enrolled in the 20-class packages get unlimited access to Progresso’s exclusive resources: on-demand webinars, recorded sessions, study guides, and additional practice materials.<br /><br />
-                                    <a href="#/">Sign Up Today and Claim Your Free Starter Class!</a></p>
+                                    <a href="#/enroll">Sign Up Today and Claim Your Free Starter Class!</a></p>
                                 </div>
                             </li>
                             <li>
@@ -170,7 +170,7 @@ export const Pricing = () => {
                                 </button>
                                 <div className='panel'>
                                     <p> Get exam-ready with two free mock exams (IELTS, CELPIP, or PTE) included with all 12- and 20-class packages. Real exam simulations will prepare you to perform your best.<br /><br />
-                                    <a href="#/">Sign Up Today and Claim Your Free Starter Class!</a></p>
+                                    <a href="#/enroll">Sign Up Today and Claim Your Free Starter Class!</a></p>
                                 </div>
                             </li>
                             <li>
@@ -182,7 +182,7 @@ export const Pricing = () => {
                                 </button>
                                 <div className='panel'>
                                     <p>  Gain even more with our 8-class or larger packages, where you’ll receive a free bonus class in one of Progresso’s specialty courses, like Confidence Building, Interview Preparation, or the Newcomer Adjustment Program.<br /><br />
-                                    <a href="#/">Sign Up Today and Claim Your Free Starter Class!</a></p>
+                                    <a href="#/enroll">Sign Up Today and Claim Your Free Starter Class!</a></p>
                                 </div>
                             </li>
 
