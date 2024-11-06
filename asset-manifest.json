@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/learn-react/static/css/main.71f6697c.css",
-    "main.js": "/learn-react/static/js/main.3641af26.js",
+    "main.js": "/learn-react/static/js/main.627dfbab.js",
     "static/js/453.86b2f617.chunk.js": "/learn-react/static/js/453.86b2f617.chunk.js",
     "static/media/hero-section-banner.png": "/learn-react/static/media/hero-section-banner.e87dc15c24e4f690f67b.png",
     "static/media/learn-09.webp": "/learn-react/static/media/learn-09.cbb00ca0c5ae078b66e1.webp",
@@ -12,6 +12,7 @@
     "static/media/learn-02.webp": "/learn-react/static/media/learn-02.d3078a74f85a4c85c6df.webp",
     "static/media/learn-10.webp": "/learn-react/static/media/learn-10.dc526367d9bc8ad1217b.webp",
     "static/media/learn-08.webp": "/learn-react/static/media/learn-08.466e7d345c2a28eae279.webp",
+    "static/media/pricing-banner.webp": "/learn-react/static/media/pricing-banner.25fbda22ff4d64b61943.webp",
     "static/media/about-banner-img.webp": "/learn-react/static/media/about-banner-img.299b81b995c485b7e4d4.webp",
     "static/media/learn-11.webp": "/learn-react/static/media/learn-11.303f6909d9c8eccd3eda.webp",
     "static/media/learn-06.webp": "/learn-react/static/media/learn-06.1b3d0113124012081ae4.webp",
@@ -24,11 +25,11 @@
     "static/media/logo-07.svg": "/learn-react/static/media/logo-07.9daaa50a917650bc0a7b12e6da433425.svg",
     "index.html": "/learn-react/index.html",
     "main.71f6697c.css.map": "/learn-react/static/css/main.71f6697c.css.map",
-    "main.3641af26.js.map": "/learn-react/static/js/main.3641af26.js.map",
+    "main.627dfbab.js.map": "/learn-react/static/js/main.627dfbab.js.map",
     "453.86b2f617.chunk.js.map": "/learn-react/static/js/453.86b2f617.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71f6697c.css",
-    "static/js/main.3641af26.js"
+    "static/js/main.627dfbab.js"
   ]
 }
