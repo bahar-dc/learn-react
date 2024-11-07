@@ -46,7 +46,6 @@ export const Header = () => {
         window.scrollTo(0, 0);
     }, [activePath]);
 
-
     return (
         <>
             <header className={`header-nav ${isNavOpen ? 'is-open' : ''}`}>
