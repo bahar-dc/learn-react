@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/learn-react/static/css/main.634be919.css",
-    "main.js": "/learn-react/static/js/main.cd241f99.js",
+    "main.js": "/learn-react/static/js/main.e72a7ad4.js",
     "static/js/453.86b2f617.chunk.js": "/learn-react/static/js/453.86b2f617.chunk.js",
     "static/media/hero-section-banner.png": "/learn-react/static/media/hero-section-banner.e87dc15c24e4f690f67b.png",
     "static/media/learn-09.webp": "/learn-react/static/media/learn-09.cbb00ca0c5ae078b66e1.webp",
@@ -25,11 +25,11 @@
     "static/media/logo-07.svg": "/learn-react/static/media/logo-07.9daaa50a917650bc0a7b12e6da433425.svg",
     "index.html": "/learn-react/index.html",
     "main.634be919.css.map": "/learn-react/static/css/main.634be919.css.map",
-    "main.cd241f99.js.map": "/learn-react/static/js/main.cd241f99.js.map",
+    "main.e72a7ad4.js.map": "/learn-react/static/js/main.e72a7ad4.js.map",
     "453.86b2f617.chunk.js.map": "/learn-react/static/js/453.86b2f617.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.634be919.css",
-    "static/js/main.cd241f99.js"
+    "static/js/main.e72a7ad4.js"
   ]
 }
