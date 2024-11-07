@@ -51,23 +51,23 @@ export const Header = () => {
         <>
             <header className={`header-nav ${isNavOpen ? 'is-open' : ''}`}>
                 <div className="site-container">
-                    <a href="#/" className="link site-logo">
+                    <a href="/" className="link site-logo">
                         <img src={SiteLogo} alt="Site Logo" />
                     </a>
                     <nav aria-label="Primary Nav">
                         <ul>
                             <li>
-                                <a href="#/" className={`link ${activePath === '#/' ? 'active' : ''}`}>
+                                <a href="/" className={`link ${activePath === '#/' ? 'active' : ''}`}>
                                     <span>Home</span>
                                 </a>
                             </li>
                             <li>
-                                <a href="#/about-us" className={`link ${activePath === '#/about-us' ? 'active' : ''}`}>
+                                <a href="/about-us" className={`link ${activePath === '#/about-us' ? 'active' : ''}`}>
                                     <span>About Us</span>
                                 </a>
                             </li>
                             <li className="dropdown">
-                                <a href='#/courses' className={`link ${activePath === '#/courses' ? 'active' : ''}`}>
+                                <a href='/courses' className={`link ${activePath === '#/courses' ? 'active' : ''}`}>
                                     <span>Courses</span>
                                     <svg className="chevron" aria-hidden="true" viewBox="0 0 12 8" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -77,12 +77,12 @@ export const Header = () => {
                                     </svg>
                                 </a>
                                 <ul className="sub-menu">
-                                    <li><a href="#/ielts-preparation" className={`link ${activePath === '#/ielts-preparation' ? 'active' : ''}`}>IELTS Preparation</a></li>
-                                    <li><a href="#/celpip-training" className={`link ${activePath === '#/celpip-training' ? 'active' : ''}`}>CELPIP Training</a></li>
-                                    <li><a href="#/pte-coaching" className={`link ${activePath === '#/pte-coaching' ? 'active' : ''}`}>PTE Coaching</a></li>
-                                    <li><a href="#/english-language-courses" className={`link ${activePath === '#/english-language-courses' ? 'active' : ''}`}>English Language Classes</a></li>
-                                    <li><a href="#/confidence-and-public-speaking" className={`link ${activePath === '#/confidence-and-public-speaking' ? 'active' : ''}`}>Confidence & Public Speaking Essentials</a></li>
-                                    <li><a href="#/interview-and-cultural-adaptation" className={`link ${activePath === '#/interview-and-cultural-adaptation' ? 'active' : ''}`}> Interview & Cultural Adaptation</a></li>
+                                    <li><a href="/ielts-preparation" className={`link ${activePath === '/ielts-preparation' ? 'active' : ''}`}>IELTS Preparation</a></li>
+                                    <li><a href="/celpip-training" className={`link ${activePath === '/celpip-training' ? 'active' : ''}`}>CELPIP Training</a></li>
+                                    <li><a href="/pte-coaching" className={`link ${activePath === '/pte-coaching' ? 'active' : ''}`}>PTE Coaching</a></li>
+                                    <li><a href="/english-language-courses" className={`link ${activePath === '/english-language-courses' ? 'active' : ''}`}>English Language Classes</a></li>
+                                    <li><a href="/confidence-and-public-speaking" className={`link ${activePath === '/confidence-and-public-speaking' ? 'active' : ''}`}>Confidence & Public Speaking Essentials</a></li>
+                                    <li><a href="/interview-and-cultural-adaptation" className={`link ${activePath === '/interview-and-cultural-adaptation' ? 'active' : ''}`}> Interview & Cultural Adaptation</a></li>
                                     {/* Add the other sub-menu items here */}
                                 </ul>
                             </li>
