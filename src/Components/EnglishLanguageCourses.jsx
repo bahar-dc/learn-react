@@ -2,11 +2,16 @@ import React from 'react';
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import CourseImage2 from'../Assets/Images/Uploads/learn-03.webp';
+import { Helmet } from 'react-helmet';
 
 export const EnglishLanguageCourses = () => {
 
     return (
         <>
+             <Helmet>
+                <title>English Language Course - Progresso Learning</title>
+                <meta name="description" content="English Language Course - Progresso Learning" />
+            </Helmet>
 
             <Header  />
 

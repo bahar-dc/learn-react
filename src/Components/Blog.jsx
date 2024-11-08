@@ -2,12 +2,19 @@ import React from 'react';
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import bannerimage from '../Assets/Images/Uploads/pricing-banner.webp'
+import { Helmet } from 'react-helmet';
+
 
 export const Blog = () => {
 
 
     return (
         <>
+
+            <Helmet>
+                <title>Blog - Progresso Learning</title>
+                <meta name="description" content="Blog - Progresso Learning" />
+            </Helmet>
             <Header  />
 
             <section className="hero-home trustpilot trustpilot-inside-hero progresso-flex--first">

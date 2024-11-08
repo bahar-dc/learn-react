@@ -4,12 +4,19 @@ import { Faqs } from "./Faqs";
 import { Footer } from "./Footer";
 import { RegistrationForm } from "./RegistrationForm";
 import bannerimage from '../Assets/Images/Uploads/pricing-banner.webp'
+import { Helmet } from 'react-helmet';
+
 
 
 export const Contact = () => {
 
     return (
         <>
+
+            <Helmet>
+                <title>Conatact - Progresso Learning</title>
+                <meta name="description" content="Conatact - Progresso Learning" />
+            </Helmet>
 
             <Header  />
 

@@ -7,10 +7,16 @@ import { FullWidthScrollImage } from "./FullWidthScrollImage";
 import { StickyWIthText } from "./StickyWIthText";
 import { Logolist } from "./Logolist";
 import { Footer } from "./Footer";
+import { Helmet } from 'react-helmet';
 
 export const HomePage = () => {
     return (
         <>
+
+            <Helmet>
+                <title>Home - Progresso Learning</title>
+                <meta name="description" content="Home - Progresso Learning" />
+            </Helmet>
             <Header/>
             <Banner />
             <Twocolumntext />

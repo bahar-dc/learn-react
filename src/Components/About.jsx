@@ -2,11 +2,16 @@ import React from 'react';
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import StickyImage11 from'../Assets/Images/Uploads/about-banner-img.webp';
-
+import { Helmet } from 'react-helmet';
 export const About = () => {
 
     return (
         <>
+
+           <Helmet>
+                <title>About - Progresso Learning</title>
+                <meta name="description" content="About - Progresso Learning" />
+            </Helmet>
 
             <Header  />
 

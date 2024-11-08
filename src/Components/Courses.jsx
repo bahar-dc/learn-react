@@ -2,12 +2,19 @@ import React from 'react';
 import { Header } from "./Header";
 import { Learning } from "./Learning";
 import { Footer } from "./Footer";
-import bannerimage from '../Assets/Images/Uploads/pricing-banner.webp'
+import bannerimage from '../Assets/Images/Uploads/pricing-banner.webp';
+import { Helmet } from 'react-helmet';
+
 
 export const Courses = () => {
 
     return (
         <>
+
+            <Helmet>
+                <title>Courses - Progresso Learning</title>
+                <meta name="description" content="Courses - Progresso Learning" />
+            </Helmet>
 
             <Header  />
 

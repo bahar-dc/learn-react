@@ -2,13 +2,20 @@ import React from 'react';
 import { Header } from "./Header";
 import { Faqs } from "./Faqs";
 import { Footer } from "./Footer";
-import bannerimage from '../Assets/Images/Uploads/pricing-banner.webp'
+import bannerimage from '../Assets/Images/Uploads/pricing-banner.webp';
+import { Helmet } from 'react-helmet';
+
 
 
 export const Enroll = () => {
 
     return (
         <>
+
+            <Helmet>
+                <title>Enroll - Progresso Learning</title>
+                <meta name="description" content="Enroll - Progresso Learning" />
+            </Helmet>
 
             <Header  />
 

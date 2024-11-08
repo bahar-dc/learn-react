@@ -2,11 +2,18 @@ import React from 'react';
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import CourseImage2 from'../Assets/Images/Uploads/learn-03.webp';
+import { Helmet } from 'react-helmet';
+
 
 export const ConfidenceAndPublicSpeaking = () => {
 
     return (
         <>
+
+             <Helmet>
+                <title>Confidence & Public Speaking - Progresso Learning</title>
+                <meta name="description" content="Confidence & Public Speaking - Progresso Learning" />
+            </Helmet>
 
             <Header  />
 

@@ -1,37 +1,9 @@
 import React from 'react';
 import Scrollimage from'../Assets/Images/Uploads/scroll-image.webp';
-// import { useEffect } from 'react';
-// import $ from "jquery";
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 
 export const Blocks = () => {
-
-    // useEffect(() => {
-	// 	const handleAccordionClick = function() {
-	// 	  if ($(this).hasClass('active')) {
-	// 		$(this).removeClass('active');
-	// 		$(this).closest('li').removeClass('active');
-	// 		$(this).siblings('.panel').slideUp(300);
-	// 	  } else {
-	// 		$('li button.link').removeClass('active');
-	// 		$('li').removeClass('active');
-	// 		$('.panel').slideUp(300);
-	// 		$(this).closest('li').addClass('active');
-	// 		$(this).addClass('active');
-	// 		$(this).siblings('.panel').slideDown(300);
-	// 	  }
-	// 	};
-	
-	// 	if ($('.accordion-with-animation').length > 0) {
-	// 	  $('li button.link').on('click', handleAccordionClick);
-	// 	}
-	
-	// 	// Cleanup function to remove the event listener when component unmounts
-	// 	return () => {
-	// 	  $('li button.link').off('click', handleAccordionClick);
-	// 	};
-	//   }, []);
 
     return (
         <>
