@@ -11057,3 +11057,9 @@ button[type="submit"]:hover {
   position: relative;
   color: #ffffff !important;
 }
+
+.color-white {
+  color: #ffffff !important;
+  font-size: 24px;
+  margin-bottom: 0;
+}

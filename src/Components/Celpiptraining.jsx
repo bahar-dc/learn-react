@@ -102,6 +102,7 @@ export const Celpiptraining = () => {
             <section className="text-banner alt progresso-block">
                 <div className="progresso-container text-white light-blue-container">
                     <div>
+                         <h2 className='color-white'>Enroll Now for Immediate Access</h2>
                         <a href="#/enroll" className="button primary white cursor">Enroll Today!</a>
                     </div>
                 </div>
