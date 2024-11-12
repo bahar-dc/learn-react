@@ -2,6 +2,7 @@ import React from 'react';
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 import StickyImage11 from'../Assets/Images/Uploads/about-banner-img.webp';
+import BottomImage from'../Assets/Images/Uploads/scroll-image-01.webp';
 import { Helmet } from 'react-helmet';
 export const About = () => {
 
@@ -112,7 +113,7 @@ export const About = () => {
                     </div>
                     <div className="img-container">
                         <div className="img img--desktop">
-                            <img src="https://www.lingoda.com/wp-content/uploads/2024/06/teams-pricing-graph-d.png" alt="" />
+                            <img src={BottomImage} alt="" />
                         </div>
                     </div>
                 </div>

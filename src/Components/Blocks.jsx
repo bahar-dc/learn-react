@@ -1,5 +1,6 @@
 import React from 'react';
 import Scrollimage from'../Assets/Images/Uploads/scroll-image.webp';
+import BottomImage from'../Assets/Images/Uploads/scroll-image-01.webp';
 import { Header } from "./Header";
 import { Footer } from "./Footer";
 
@@ -41,7 +42,7 @@ export const Blocks = () => {
                     </div>
                     <div className="img-container">
                         <div className="img img--desktop">
-                            <img src="https://www.lingoda.com/wp-content/uploads/2024/06/teams-pricing-graph-d.png" alt="" />
+                            <img src={BottomImage} alt="" />
                         </div>
                     </div>
                 </div>
