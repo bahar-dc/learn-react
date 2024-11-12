@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from "./Header";
 import { Footer } from "./Footer";
-import CourseImage2 from'../Assets/Images/Uploads/learn-03.webp';
+import CourseImage2 from'../Assets/Images/Uploads/services-img-01.webp';
 import { Helmet } from 'react-helmet';
 
 

@@ -11038,3 +11038,22 @@ button[type="submit"] {
 button[type="submit"]:hover {
   background-color: #205c84;
 }
+
+.hero-home.progresso-flex--first .bg-container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(32, 92, 132, 0.5);
+}
+
+.hero-home.progresso-flex--first
+  .bg-container
+  + .progresso-container
+  .text-col
+  h1 {
+  position: relative;
+  color: #ffffff !important;
+}

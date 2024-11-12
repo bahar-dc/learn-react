@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from "./Header";
 import { Footer } from "./Footer";
-import CourseImage2 from'../Assets/Images/Uploads/learn-03.webp';
+import CourseImage2 from'../Assets/Images/Uploads/services-img-03.webp';
 import { Helmet } from 'react-helmet';
 
 export const IeltsPreparation = () => {
@@ -48,7 +48,7 @@ export const IeltsPreparation = () => {
                                     <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-1.svg" alt="Logo" className="left-alignment" />
                                 </div>
                                 <span>8 Classes:</span>
-                                <p>Students will gain an understanding of CELPIP basics, beginning with skill-building for each module (listening comprehension, reading fluency, writing basics, and spoken responses).</p>
+                                <p> Foundation in IELTS format, introduction to reading comprehension strategies, listening accuracy, and effective approaches to essay writing.</p>
                             </article>
                         </li>
                         <li className="splide__slide">
@@ -66,7 +66,7 @@ export const IeltsPreparation = () => {
                             <img src="https://www.lingoda.com/wp-content/uploads/2024/06/june-2024-teams-lp-icon-3.svg" alt="Logo" className="left-alignment" />
                             </div>
                             <span > 20 Classes:</span>
-                            <p>Full proficiency in IELTS modules, advanced grammar and vocabulary, as well as mock exams for a real test environment.</p>
+                            <p>FFull proficiency in IELTS modules, advanced grammar and vocabulary, as well as mock exams for a real test environment.</p>
                             </article>
                         </li>
                     </ul>
