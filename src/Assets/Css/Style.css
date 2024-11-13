@@ -11018,11 +11018,11 @@ textarea {
   margin-bottom: 16px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  font-size: 14px;
   color: #333;
   font-family: "Open Sans", sans-serif;
   outline-color: #3498db !important;
   height: 50px;
+  font-size: 18px;
 }
 
 /* Submit button styling */
