@@ -9,7 +9,7 @@ import { Link } from 'react-scroll';
 
 export const Pricing = () => {
 
-    	useEffect(() => {
+    useEffect(() => {
 		const handleAccordionClick = function() {
 		  if ($(this).hasClass('active')) {
 			$(this).removeClass('active');
