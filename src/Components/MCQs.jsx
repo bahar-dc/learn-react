@@ -2,16 +2,35 @@ import React, { useState } from 'react';
 
 export const MCQs = () => {
   const [answers, setAnswers] = useState({});
+  const [contactInfo, setContactInfo] = useState({
+    firstName: '',
+    lastName: '',
+    email: '',
+    phone: ''
+  });
+
 
   const handleAnswerChange = (question, answer) => {
     setAnswers(prev => ({ ...prev, [question]: answer }));
   };
 
-  const handleSubmit = (e) => {
+  const handleContactChange = (e) => {
+    const { name, value } = e.target;
+    setContactInfo(prev => ({ ...prev, [name]: value }));
+  };
+
+
+ const handleSubmit = (e) => {
     e.preventDefault();
     const formData = new FormData();
 
-    // Add answers to the form data
+    // Append contact information fields
+    formData.append("First Name", contactInfo.firstName);
+    formData.append("Last Name", contactInfo.lastName);
+    formData.append("Email", contactInfo.email);
+    formData.append("Phone", contactInfo.phone);
+
+    // Append answers to the form data
     Object.keys(answers).forEach(key => {
       formData.append(key, answers[key]);
     });
@@ -28,6 +47,7 @@ export const MCQs = () => {
       if (response.ok) {
         alert("Form submitted successfully!");
         setAnswers({});  // Reset form answers
+        setContactInfo({ firstName: '', lastName: '', email: '', phone: '' }); // Reset contact info
       } else {
         alert("Form submission failed.");
       }
@@ -123,6 +143,50 @@ export const MCQs = () => {
 
   return (
     <form className="mcq-form" onSubmit={handleSubmit}>
+
+      {/* Contact Information Fields */}
+      <div className="contact-info-columns">
+        <label>
+          First Name:
+          <input
+            type="text"
+            name="firstName"
+            value={contactInfo.firstName}
+            onChange={handleContactChange}
+            required
+          />
+        </label>
+        <label>
+          Last Name:
+          <input
+            type="text"
+            name="lastName"
+            value={contactInfo.lastName}
+            onChange={handleContactChange}
+            required
+          />
+        </label>
+        <label>
+          Email:
+          <input
+            type="email"
+            name="email"
+            value={contactInfo.email}
+            onChange={handleContactChange}
+            required
+          />
+        </label>
+        <label>
+          Phone:
+          <input
+            type="tel"
+            name="phone"
+            value={contactInfo.phone}
+            onChange={handleContactChange}
+          />
+        </label>
+      </div>
+
       {questions.map((q, index) => (
         <div key={index}>
           {q.situation && <h3>{q.situation}</h3>}
