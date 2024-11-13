@@ -44,13 +44,14 @@ export const Pricing = () => {
 
             <Header  />
 
-            <section className="hero trustpilot style-standard  style-checklist progresso-grid--first">
+              <section className="hero-home trustpilot trustpilot-inside-hero progresso-flex--first">
                 <div className="bg-container">
-                    <img  src={bannerimage} alt="Banner pricing" />
+                    <div className="bg-img bg-img--desktop">
+                        <img  src={bannerimage} alt="Banner pricing" />
+                    </div>
                 </div>
-                <div className="progresso-container">
-                    <div className="content-container">
-                        
+                <div className="progresso-container single-col">
+                    <div className="text-col">
                         <h1>Progresso Pricing Plans</h1>
                         <p>Choose the ideal learning format for your needs and save more with our bundled packages.</p>
                         <div className="btn-wrapper"><a className="link button blue primary" href="#/see-prices">See prices and schedules</a></div>

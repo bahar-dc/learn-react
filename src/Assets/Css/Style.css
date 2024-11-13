@@ -11056,7 +11056,10 @@ button[type="submit"]:hover {
   .bg-container
   + .progresso-container
   .text-col
-  h1 {
+  h1,
+  .bg-container
+  + .progresso-container
+  .text-col p {
   position: relative;
   color: #ffffff !important;
 }

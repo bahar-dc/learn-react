@@ -23,7 +23,13 @@ export const TestYourEnglish = () => {
                 </div>
                 <div className="progresso-container single-col">
                     <div className="text-col">
-                        <h1>Test Your English</h1>
+                        <h1>Test Your English Skills – Get a Free Assessment Today!</h1>
+                        <p>
+                            Curious about your English proficiency? Take our free English skills test to understand your strengths and areas for improvement. Submit the quick assessment form, and our team will review your results and provide personalized feedback on your language level. Whether you're preparing for an exam or just looking to boost your confidence, Progresso Learning will guide you every step of the way. Start your journey toward fluency with us today!
+
+                        </p>
+
+                        <a href="#/#englishtest" className="link button blue primary">Submit Your Free English Test</a>
                     </div>
                 </div>
             </section>
@@ -33,7 +39,7 @@ export const TestYourEnglish = () => {
                 <br />
             </div>
 
-            <div className="site-container">
+            <div className="site-container" id="englishtest">
                 <MCQs />
             </div>
             <Footer  />            
