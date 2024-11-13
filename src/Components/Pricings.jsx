@@ -53,8 +53,8 @@ export const Pricing = () => {
                 </div>
                 <div className="progresso-container single-col">
                     <div className="text-col">
-                        <h1>Progresso Pricing Plans</h1>
-                        <p>Choose the ideal learning format for your needs and save more with our bundled packages.</p>
+                        <h1>At Progresso Learning we value all our courses equally</h1>
+                        <p>At Progresso Learning we value all our courses equally</p>
                         <div className="btn-wrapper">
                             <Link
                                 className="link button blue primary"
@@ -72,7 +72,7 @@ export const Pricing = () => {
            <section id="see-prices" className="courses-cards progresso-block">
             <div className="progresso-container">
                 <div id="jumplinks"></div>
-                <h2 className="toggle-heading title title--lg-dt">Pricing Plans</h2>
+                <h2 className="toggle-heading title title--lg-dt"> We have the same price for all our courses</h2>
                 <ul className="cards cards--3">
                     <li>
                         <article>
