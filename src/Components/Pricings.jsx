@@ -72,7 +72,7 @@ export const Pricing = () => {
            <section id="see-prices" className="courses-cards progresso-block">
             <div className="progresso-container">
                 <div id="jumplinks"></div>
-                <h2 className="toggle-heading title title--lg-dt"> We have the same price for all our courses</h2>
+                <h2 className="toggle-heading title title--lg-dt">Pricing Plans : We have the same price for all our courses</h2>
                 <ul className="cards cards--3">
                     <li>
                         <article>
