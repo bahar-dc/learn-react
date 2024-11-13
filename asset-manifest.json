@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.5230625d.css",
-    "main.js": "/static/js/main.d8625394.js",
+    "main.js": "/static/js/main.decf6f65.js",
     "static/js/453.70723d0f.chunk.js": "/static/js/453.70723d0f.chunk.js",
     "static/media/progresso-image-02-min.jpg": "/static/media/progresso-image-02-min.1ab37ede9941615d7e4f.jpg",
     "static/media/hero-section-banner.png": "/static/media/hero-section-banner.22ff3a945faf0d4bdcb8.png",
@@ -30,11 +30,11 @@
     "static/media/logo-07.svg": "/static/media/logo-07.9daaa50a917650bc0a7b12e6da433425.svg",
     "index.html": "/index.html",
     "main.5230625d.css.map": "/static/css/main.5230625d.css.map",
-    "main.d8625394.js.map": "/static/js/main.d8625394.js.map",
+    "main.decf6f65.js.map": "/static/js/main.decf6f65.js.map",
     "453.70723d0f.chunk.js.map": "/static/js/453.70723d0f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5230625d.css",
-    "static/js/main.d8625394.js"
+    "static/js/main.decf6f65.js"
   ]
 }
