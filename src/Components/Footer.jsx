@@ -15,6 +15,30 @@ export const Footer = () => {
         };
     }, []);
 
+   
+     useEffect(() => {
+        const initLandbot = () => {
+            if (window.Landbot) {
+                new window.Landbot.Livechat({
+                    configUrl: 'https://storage.googleapis.com/landbot.online/v3/H-2680373-BTGWIQI4AOXCTLO0/index.json',
+                });
+            }
+        };
+
+        // Dynamically load the Landbot script
+        const script = document.createElement('script');
+        script.src = 'https://cdn.landbot.io/landbot-3/landbot-3.0.0.js';
+        script.async = true;
+        script.onload = initLandbot; // Initialize Landbot when the script is loaded
+        document.body.appendChild(script);
+
+        // Clean up the script when component is unmounted
+        return () => {
+            document.body.removeChild(script);
+        };
+    }, []);
+
+
     return (
         <>
             <div style={{background:'#3498db'}}>
@@ -55,8 +79,8 @@ export const Footer = () => {
                                     <a className="link" href="#contact"><span>Support</span></a>
                                     <ul>
                                         <li><a className="link" href="#/faqs">FAQ</a></li>
-                                        <li><a className="link diva" href="#/contact-us">Contact us</a></li>
-                                        <li><a className="link" href="#/consultation">Free Consultation</a></li>
+                                        <li><a className="link diva" href="#/contact">Contact us</a></li>
+                                        <li><a className="link" href="#/contact">Free Consultation</a></li>
                                     </ul>
                                 </li>
                             </ul><a className="link" href="/become-a-teacher">Become a teacher</a>
@@ -74,6 +98,21 @@ export const Footer = () => {
                     </div>
                 </footer>
             </div>
+
+             <a 
+                href="https://wa.me/1234567890?text=Hello!%20I%20need%20some%20help" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                style={{
+                    textDecoration: 'none',
+                    color: '#fff',
+                    backgroundColor: '#25D366',
+                    padding: '10px 20px',
+                    borderRadius: '5px'
+                }}
+            >
+                Chat with us on WhatsApp
+            </a>
         </>
     )
 }
