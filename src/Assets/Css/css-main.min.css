@@ -1763,8 +1763,7 @@ input {
   font-weight: 400;
 }
 
-.dropdown button,
-input {
+.dropdown button {
   min-height: 55px;
 }
 
