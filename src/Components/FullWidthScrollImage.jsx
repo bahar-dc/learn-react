@@ -4,7 +4,7 @@ export const FullWidthScrollImage = () => {
     return (
         <>
          	<section className="fullwidth-scroll-image gsap progresso-grid">
-                <div className="image-container">
+                <div className="image-container scroll-image-container">
                         <img src={Scrollimage} alt='' />
                     <div>
                         <h2><span>90%</span> of our students speak more confidently after taking Progresso classes</h2>

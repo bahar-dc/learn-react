@@ -171,7 +171,7 @@ export const RegistrationForm = () => {
         </span>
       </label>
 
-      <button type="submit">Register Now</button>
+      <button className="register-submit-button" type="submit">Register Now</button>
     </form>
     </>
  

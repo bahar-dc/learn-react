@@ -23,6 +23,7 @@ import { InterviewAndCulturalAdaptation } from "./Components/InterviewAndCultura
 
 
 import { NotFound } from "./Components/404";
+import { TestYourEnglish } from "./Components/TestYourEnglish";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           <Route path="/confidence-and-public-speaking" element={<ConfidenceAndPublicSpeaking />} />
           <Route path="/interview-and-cultural-adaptation" element={<InterviewAndCulturalAdaptation />} />
 
+          <Route path="/test-yout-english" element={<TestYourEnglish />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         </div>

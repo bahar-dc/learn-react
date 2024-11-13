@@ -30758,3 +30758,7 @@ a:not(.link):hover {
 .dropdown-menu .wrapper.has-children:hover .dropdown-menu {
   display: block;
 }
+
+.register-submit-button {
+  margin-top: 30px;
+}

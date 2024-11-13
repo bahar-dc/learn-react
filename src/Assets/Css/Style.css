@@ -3590,7 +3590,7 @@ section.hero.style-static-img .language-buttons.tablet-revamp {
 .fullwidth-scroll-image h2 {
   font-size: 3.75rem;
   font-weight: 700;
-  line-height: 1.21;
+  line-height: 1;
   text-align: center;
   color: #ffffff;
 }
@@ -10997,7 +10997,7 @@ select {
   margin-bottom: 16px;
   border: 1px solid #ccc;
   border-radius: 6px;
-  font-size: 14px;
+  font-size: 18px;
   color: #333;
   appearance: none; /* Remove default arrow */
   background-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 6"%3E%3Cpath d="M0 0h10l-5 6z" fill="%23666"/%3E%3C/svg%3E'); /* Custom arrow */
@@ -11005,7 +11005,7 @@ select {
   background-position: right 10px center; /* Position the custom arrow */
   background-size: 10px; /* Adjust the size of the arrow */
   font-family: "Open Sans", sans-serif;
-  height: 50px;
+  height: 60px;
 }
 
 /* Styling for the textarea and input fields */
@@ -11021,7 +11021,7 @@ textarea {
   color: #333;
   font-family: "Open Sans", sans-serif;
   outline-color: #3498db !important;
-  height: 50px;
+  height: 60px;
   font-size: 18px;
 }
 
@@ -11041,7 +11041,8 @@ button[type="submit"]:hover {
   background-color: #205c84;
 }
 
-.hero-home.progresso-flex--first .bg-container::after {
+.hero-home.progresso-flex--first .bg-container::after,
+.scroll-image-container::before {
   content: "";
   position: absolute;
   top: 0;

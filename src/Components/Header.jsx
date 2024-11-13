@@ -103,10 +103,12 @@ export const Header = () => {
                             </li>
                         </ul>
                         <div className="navbar-buttons mobile">
+                            <a href="#/test-yout-english" className="link button">Test Your English</a>
                             <a href="#/enroll" className="link button blue primary">Register Now</a>
                         </div>
                     </nav>
                     <div className="navbar-buttons desktop">
+                        <a href="#/test-yout-english" className="link button">Test Your English</a>
                         <a href="#/enroll" className="link button blue primary">Register Now</a>
                         <button 
                         aria-label="Open Primary Navigation"
