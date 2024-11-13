@@ -62,7 +62,7 @@ export const Contact = () => {
                             Sunday: Closed <br /></p>
                     </div>
                     <div className="contact-us-right">
-                       <div class="contact-form">
+                       <div className="contact-form">
                             <h2>Contact Us</h2>
                             <ContactForm />
                         </div>
