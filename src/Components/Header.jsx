@@ -57,11 +57,6 @@ export const Header = () => {
                     <nav aria-label="Primary Nav">
                         <ul>
                             <li>
-                                <a href="/" className={`link ${activePath === '#/' ? 'active' : ''}`}>
-                                    <span>Home</span>
-                                </a>
-                            </li>
-                            <li>
                                 <a href="#/about-us" className={`link ${activePath === '#/about-us' ? 'active' : ''}`}>
                                     <span>About Us</span>
                                 </a>

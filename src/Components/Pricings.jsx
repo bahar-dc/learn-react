@@ -3,8 +3,9 @@ import { Header } from "./Header";
 import { Footer } from "./Footer";
 import $ from "jquery";
 import { useEffect } from 'react';
-import bannerimage from'../Assets/Images/Uploads/about-banner-img.webp';
+import bannerimage from'../Assets/Images/Uploads/course-img-02-min.png';
 import { Helmet } from 'react-helmet';
+import { Link } from 'react-scroll';
 
 export const Pricing = () => {
 
@@ -54,13 +55,23 @@ export const Pricing = () => {
                     <div className="text-col">
                         <h1>Progresso Pricing Plans</h1>
                         <p>Choose the ideal learning format for your needs and save more with our bundled packages.</p>
-                        <div className="btn-wrapper"><a className="link button blue primary" href="#/see-prices">See prices and schedules</a></div>
+                        <div className="btn-wrapper">
+                            <Link
+                                className="link button blue primary"
+                                to="jumplinks"
+                                smooth={true}
+                                duration={500}
+                                offset={-100}>
+                                See prices and schedules
+                            </Link>
+                        </div>
                     </div>
                 </div>
             </section>
 
            <section id="see-prices" className="courses-cards progresso-block">
             <div className="progresso-container">
+                <div id="jumplinks"></div>
                 <h2 className="toggle-heading title title--lg-dt">Pricing Plans</h2>
                 <ul className="cards cards--3">
                     <li>

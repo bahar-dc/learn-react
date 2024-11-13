@@ -2,7 +2,7 @@ import React from 'react';
 import { Header } from "./Header";
 import { Learning } from "./Learning";
 import { Footer } from "./Footer";
-import bannerimage from'../Assets/Images/Uploads/about-banner-img.webp';
+import bannerimage from'../Assets/Images/Uploads/learn-06.webp';
 import { Helmet } from 'react-helmet';
 
 

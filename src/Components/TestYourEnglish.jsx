@@ -4,6 +4,8 @@ import { Header } from "./Header";
 import StickyImage11 from'../Assets/Images/Uploads/about-banner-img.webp';
 import { Footer } from "./Footer";
 import { MCQs } from "./MCQs";
+import { Link } from 'react-scroll';
+
 
 export const TestYourEnglish = () => {
 
@@ -28,8 +30,14 @@ export const TestYourEnglish = () => {
                             Curious about your English proficiency? Take our free English skills test to understand your strengths and areas for improvement. Submit the quick assessment form, and our team will review your results and provide personalized feedback on your language level. Whether you're preparing for an exam or just looking to boost your confidence, Progresso Learning will guide you every step of the way. Start your journey toward fluency with us today!
 
                         </p>
-
-                        <a href="#/#englishtest" className="link button blue primary">Submit Your Free English Test</a>
+                         <Link
+                                className="link button blue primary"
+                                to="englishtest"
+                                smooth={true}
+                                duration={500}
+                                offset={-100}>
+                                Submit Your Free English Test
+                            </Link>
                     </div>
                 </div>
             </section>
@@ -37,12 +45,13 @@ export const TestYourEnglish = () => {
                 <br />
                 <br />
                 <br />
+                <div  id="englishtest"></div>
                 <h2>Test Your English Skills</h2>
                 <br />
                 <br />
             </div>
 
-            <div className="site-container" id="englishtest">
+            <div className="site-container">
                 <MCQs />
             </div>
             <Footer  />            

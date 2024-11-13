@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from "./Header";
 import { Footer } from "./Footer";
-import bannerimage from'../Assets/Images/Uploads/about-banner-img.webp';
+import bannerimage from'../Assets/Images/Uploads/learn-11.webp';
 import { Helmet } from 'react-helmet';
 
 

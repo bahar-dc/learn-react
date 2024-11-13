@@ -2,7 +2,7 @@ import React from 'react';
 import { Header } from "./Header";
 import { Faqs } from "./Faqs";
 import { Footer } from "./Footer";
-import bannerimage from'../Assets/Images/Uploads/about-banner-img.webp';
+import bannerimage from'../Assets/Images/Uploads/progresso-image-02-min.jpg';
 import { Helmet } from 'react-helmet';
 import { RegistrationForm } from "./RegistrationForm";
 export const Enroll = () => {

@@ -3,7 +3,7 @@ import { Header } from "./Header";
 import { Faqs } from "./Faqs";
 import { Footer } from "./Footer";
 import { ContactForm } from "./ContactForm";
-import bannerimage from'../Assets/Images/Uploads/about-banner-img.webp';
+import bannerimage from'../Assets/Images/Uploads/learn-08.webp';
 import { Helmet } from 'react-helmet';
 
 
