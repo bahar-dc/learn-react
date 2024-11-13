@@ -37,6 +37,9 @@ export const TestYourEnglish = () => {
                 <br />
                 <br />
                 <br />
+                <h2>Test Your English Skills</h2>
+                <br />
+                <br />
             </div>
 
             <div className="site-container" id="englishtest">

@@ -124,23 +124,25 @@ export const MCQs = () => {
   return (
     <form className="mcq-form" onSubmit={handleSubmit}>
       {questions.map((q, index) => (
-        <div key={index} className="question-box">
+        <div key={index}>
           {q.situation && <h3>{q.situation}</h3>}
+          <div className="question-box">
           <p>{q.question}</p>
-          <div className='radio-buttons-row'>
-            {q.options.map((option, i) => (
-              <label key={i} className="option-label">
-                <input
-                  type="radio"
-                  name={`question-${index}`}
-                  value={option}
-                  checked={answers[`question-${index}`] === option}
-                  onChange={() => handleAnswerChange(`question-${index}`, option)}
-                />
-                <span className="custom-radio"></span>
-                <div className="radio-data">{option}</div>
-              </label>
-            ))}
+            <div className='radio-buttons-row'>
+              {q.options.map((option, i) => (
+                <label key={i} className="option-label">
+                  <input
+                    type="radio"
+                    name={`question-${index}`}
+                    value={option}
+                    checked={answers[`question-${index}`] === option}
+                    onChange={() => handleAnswerChange(`question-${index}`, option)}
+                  />
+                  <span className="custom-radio"></span>
+                  <div className="radio-data">{option}</div>
+                </label>
+              ))}
+            </div>
           </div>
         </div>
       ))}
