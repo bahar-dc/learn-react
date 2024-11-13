@@ -584,7 +584,7 @@ tr {
 
 .button:focus {
   outline: none;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .button.primary.blue {
