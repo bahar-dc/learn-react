@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.280ce063.css",
-    "main.js": "/static/js/main.75f2f35d.js",
-    "static/js/453.86b2f617.chunk.js": "/static/js/453.86b2f617.chunk.js",
+    "main.js": "/static/js/main.3c84114f.js",
+    "static/js/453.70723d0f.chunk.js": "/static/js/453.70723d0f.chunk.js",
+    "static/media/progresso-image-02-min.jpg": "/static/media/progresso-image-02-min.1ab37ede9941615d7e4f.jpg",
     "static/media/hero-section-banner.png": "/static/media/hero-section-banner.22ff3a945faf0d4bdcb8.png",
+    "static/media/course-img-02-min.png": "/static/media/course-img-02-min.be85a5df9b06ac2d0ee7.png",
     "static/media/learn-09.webp": "/static/media/learn-09.cbb00ca0c5ae078b66e1.webp",
     "static/media/learn-01.webp": "/static/media/learn-01.c4012f792fa6b08bf178.webp",
     "static/media/scroll-image.webp": "/static/media/scroll-image.891cb5af1c4ebcf59bd1.webp",
@@ -28,11 +30,11 @@
     "static/media/logo-07.svg": "/static/media/logo-07.9daaa50a917650bc0a7b12e6da433425.svg",
     "index.html": "/index.html",
     "main.280ce063.css.map": "/static/css/main.280ce063.css.map",
-    "main.75f2f35d.js.map": "/static/js/main.75f2f35d.js.map",
-    "453.86b2f617.chunk.js.map": "/static/js/453.86b2f617.chunk.js.map"
+    "main.3c84114f.js.map": "/static/js/main.3c84114f.js.map",
+    "453.70723d0f.chunk.js.map": "/static/js/453.70723d0f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.280ce063.css",
-    "static/js/main.75f2f35d.js"
+    "static/js/main.3c84114f.js"
   ]
 }
