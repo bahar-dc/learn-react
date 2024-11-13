@@ -86,11 +86,11 @@ export const Header = () => {
                                     <span>Pricing</span>
                                 </a>
                             </li>
-                            <li>
+                            {/* <li>
                                 <a href="#/blog" className={`link ${activePath === '#/blog' ? 'active' : ''}`}>
                                     <span>Blog</span>
                                 </a>
-                            </li>
+                            </li> */}
                             <li>
                                 <a href="#/contact" className={`link ${activePath === '#/contact' ? 'active' : ''}`}>
                                     <span>Contact</span>
