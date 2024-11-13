@@ -13,7 +13,7 @@ export const Celpiptraining = () => {
 
             <Helmet>
                 <title>CELPIP Training - Progresso Learning</title>
-                <meta name="description" content="CELPIP Training - Progresso Learning" />
+                <meta name="description" content="CELPIP Training - Transforming Learning into Lasting Success" />
             </Helmet>
 
             <Header  />

@@ -2,9 +2,8 @@ import React from 'react';
 import { Header } from "./Header";
 import { Faqs } from "./Faqs";
 import { Footer } from "./Footer";
-import { RegistrationForm } from "./RegistrationForm";
 import { ContactForm } from "./ContactForm";
-import bannerimage from '../Assets/Images/Uploads/pricing-banner.webp'
+import bannerimage from'../Assets/Images/Uploads/about-banner-img.webp';
 import { Helmet } from 'react-helmet';
 
 
@@ -16,7 +15,7 @@ export const Contact = () => {
 
             <Helmet>
                 <title>Conatact - Progresso Learning</title>
-                <meta name="description" content="Conatact - Progresso Learning" />
+                <meta name="description" content="Conatact - Transforming Learning into Lasting Success" />
             </Helmet>
 
             <Header  />
@@ -71,7 +70,7 @@ export const Contact = () => {
                 </div>
             </section>
 
-           <RegistrationForm />
+        
 
              <Faqs />
 

@@ -10936,7 +10936,9 @@ p.description {
 }
 
 .registration-form h3 {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
+  font-size: 20px;
+  margin-top: 20px;
 }
 
 /* Checkbox container */

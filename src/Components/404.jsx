@@ -8,7 +8,7 @@ export const NotFound = () => {
         <>
             <Helmet>
                 <title>Error - Progresso Learning</title>
-                <meta name="description" content="Error - Progresso Learningpage" />
+                <meta name="description" content="Error - Transforming Learning into Lasting Success" />
             </Helmet>
 
             <Header  />

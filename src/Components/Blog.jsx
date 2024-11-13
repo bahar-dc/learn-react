@@ -1,7 +1,7 @@
 import React from 'react';
 import { Header } from "./Header";
 import { Footer } from "./Footer";
-import bannerimage from '../Assets/Images/Uploads/pricing-banner.webp'
+import bannerimage from'../Assets/Images/Uploads/about-banner-img.webp';
 import { Helmet } from 'react-helmet';
 
 
@@ -13,7 +13,7 @@ export const Blog = () => {
 
             <Helmet>
                 <title>Blog - Progresso Learning</title>
-                <meta name="description" content="Blog - Progresso Learning" />
+                <meta name="description" content="Blog - Transforming Learning into Lasting Success" />
             </Helmet>
             <Header  />
 

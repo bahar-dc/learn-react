@@ -40,8 +40,10 @@ export const RegistrationForm = () => {
   };
 
   return (
-    <form onSubmit={handleSubmit} className='registration-form'>
+    <>
+      <form onSubmit={handleSubmit} className='registration-form'>
 
+     <h2>Register Now</h2>
       <h3>1. Personal Information</h3>
       <input
         type="text"
@@ -171,5 +173,7 @@ export const RegistrationForm = () => {
 
       <button type="submit">Register Now</button>
     </form>
+    </>
+ 
   );
 };

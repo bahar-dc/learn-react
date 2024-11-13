@@ -14,7 +14,7 @@ export const HomePage = () => {
         <>
 
             <Helmet>
-                <title>Home - Progresso Learning</title>
+                <title>Home - Transforming Learning into Lasting Success</title>
                 <meta name="description" content="Home - Progresso Learning" />
             </Helmet>
             <Header/>

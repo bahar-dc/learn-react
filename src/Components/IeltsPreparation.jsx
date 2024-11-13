@@ -11,7 +11,7 @@ export const IeltsPreparation = () => {
         <>
 
              <Helmet>
-                <title>Ielts Preparation - Progresso Learning</title>
+                <title>Ielts Preparation - Transforming Learning into Lasting Success</title>
                 <meta name="description" content="Ielts Preparation - Progresso Learning" />
             </Helmet>
 

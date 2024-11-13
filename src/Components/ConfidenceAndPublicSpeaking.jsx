@@ -13,7 +13,7 @@ export const ConfidenceAndPublicSpeaking = () => {
 
              <Helmet>
                 <title>Confidence & Public Speaking - Progresso Learning</title>
-                <meta name="description" content="Confidence & Public Speaking - Progresso Learning" />
+                <meta name="description" content="Confidence & Public Speaking - Transforming Learning into Lasting Success" />
             </Helmet>
 
             <Header  />

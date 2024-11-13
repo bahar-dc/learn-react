@@ -11,7 +11,7 @@ export const InterviewAndCulturalAdaptation = () => {
         <>
 
              <Helmet>
-                <title>Interview & Cultural Adaptation - Progresso Learning</title>
+                <title>Interview & Cultural Adaptation - Transforming Learning into Lasting Success</title>
                 <meta name="description" content="Interview & Cultural Adaptation - Progresso Learning" />
             </Helmet>
 

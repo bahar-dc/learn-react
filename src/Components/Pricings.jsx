@@ -3,7 +3,7 @@ import { Header } from "./Header";
 import { Footer } from "./Footer";
 import $ from "jquery";
 import { useEffect } from 'react';
-import bannerimage from '../Assets/Images/Uploads/pricing-banner.webp';
+import bannerimage from'../Assets/Images/Uploads/about-banner-img.webp';
 import { Helmet } from 'react-helmet';
 
 export const Pricing = () => {
@@ -38,7 +38,7 @@ export const Pricing = () => {
         <>
 
             <Helmet>
-                <title>Pricing - Progresso Learning</title>
+                <title>Pricing - Transforming Learning into Lasting Success</title>
                 <meta name="description" content="Pricing - Progresso Learning" />
             </Helmet>
 

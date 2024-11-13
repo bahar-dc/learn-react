@@ -11,7 +11,7 @@ export const About = () => {
 
            <Helmet>
                 <title>About - Progresso Learning</title>
-                <meta name="description" content="About - Progresso Learning" />
+                <meta name="description" content="About - Transforming Learning into Lasting Success" />
             </Helmet>
 
             <Header  />

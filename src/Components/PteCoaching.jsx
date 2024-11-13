@@ -12,7 +12,7 @@ export const  PteCoaching = () => {
         <>
 
              <Helmet>
-                <title>PTE Coaching - Progresso Learning</title>
+                <title>PTE Coaching - Transforming Learning into Lasting Success</title>
                 <meta name="description" content="PTE Coaching - Progresso Learning" />
             </Helmet>
 
