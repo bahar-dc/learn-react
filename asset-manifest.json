@@ -1,17 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.716f113b.css",
-    "main.js": "/static/js/main.8b59d60b.js",
+    "main.css": "/static/css/main.4c4c0f89.css",
+    "main.js": "/static/js/main.4ce549d3.js",
     "static/js/453.70723d0f.chunk.js": "/static/js/453.70723d0f.chunk.js",
     "static/media/progresso-image-02-min.jpg": "/static/media/progresso-image-02-min.1ab37ede9941615d7e4f.jpg",
+    "static/media/interview-04.jpg": "/static/media/interview-04.9f415c8c23bc52395e20.jpg",
+    "static/media/interview-05.jpg": "/static/media/interview-05.9f415c8c23bc52395e20.jpg",
     "static/media/hero-section-banner.png": "/static/media/hero-section-banner.22ff3a945faf0d4bdcb8.png",
+    "static/media/interview-01.JPG": "/static/media/interview-01.027d78d0c1329b5feaa7.JPG",
+    "static/media/interview-02.jpg": "/static/media/interview-02.a1e4be91cf242c50f2db.jpg",
+    "static/media/interview-03.jpg": "/static/media/interview-03.53773c218599921c6bf2.jpg",
     "static/media/course-img-02-min.png": "/static/media/course-img-02-min.be85a5df9b06ac2d0ee7.png",
     "static/media/learn-09.webp": "/static/media/learn-09.cbb00ca0c5ae078b66e1.webp",
     "static/media/learn-01.webp": "/static/media/learn-01.c4012f792fa6b08bf178.webp",
+    "static/media/interview-09.jpeg": "/static/media/interview-09.b588fef13b86f2bd9408.jpeg",
+    "static/media/interview-11.jpeg": "/static/media/interview-11.8877ad6161ed96e474eb.jpeg",
+    "static/media/interview-08.jpeg": "/static/media/interview-08.f58c23fff4ba96d9afc1.jpeg",
     "static/media/scroll-image.webp": "/static/media/scroll-image.891cb5af1c4ebcf59bd1.webp",
+    "static/media/interview-06.jpeg": "/static/media/interview-06.a438d72284db98cb438d.jpeg",
     "static/media/learn-03.webp": "/static/media/learn-03.fdd4105980896fffaac6.webp",
     "static/media/learn-04.webp": "/static/media/learn-04.dde3812de46cfb2740f5.webp",
+    "static/media/interview-10.jpeg": "/static/media/interview-10.0d65ad3ea95e1c95a74c.jpeg",
     "static/media/learn-02.webp": "/static/media/learn-02.d3078a74f85a4c85c6df.webp",
+    "static/media/interview-07.jpeg": "/static/media/interview-07.65f377ce9aee11c0a3f1.jpeg",
     "static/media/learn-10.webp": "/static/media/learn-10.dc526367d9bc8ad1217b.webp",
     "static/media/scroll-image-01.webp": "/static/media/scroll-image-01.69e4f5a7ba370cd1f3f6.webp",
     "static/media/services-img-03.webp": "/static/media/services-img-03.48ab8f530844775df6a7.webp",
@@ -29,12 +40,12 @@
     "static/media/logo-02.svg": "/static/media/logo-02.9a3e554dc298d0d27f03e315db2cc5c5.svg",
     "static/media/logo-07.svg": "/static/media/logo-07.9daaa50a917650bc0a7b12e6da433425.svg",
     "index.html": "/index.html",
-    "main.716f113b.css.map": "/static/css/main.716f113b.css.map",
-    "main.8b59d60b.js.map": "/static/js/main.8b59d60b.js.map",
+    "main.4c4c0f89.css.map": "/static/css/main.4c4c0f89.css.map",
+    "main.4ce549d3.js.map": "/static/js/main.4ce549d3.js.map",
     "453.70723d0f.chunk.js.map": "/static/js/453.70723d0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.716f113b.css",
-    "static/js/main.8b59d60b.js"
+    "static/css/main.4c4c0f89.css",
+    "static/js/main.4ce549d3.js"
   ]
 }
