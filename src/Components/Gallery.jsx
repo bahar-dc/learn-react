@@ -1,5 +1,4 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 import StickyImage11 from'../Assets/Images/Uploads/about-banner-img.webp';
 
 
@@ -8,11 +7,6 @@ export const Gallery = () => {
 
     return (
         <>
-
-            <Helmet>
-                <title>Courses - Progresso Learning</title>
-                <meta name="description" content="Courses - Transforming Learning into Lasting Success" />
-            </Helmet>
 
 
                 <div className="gallery">
