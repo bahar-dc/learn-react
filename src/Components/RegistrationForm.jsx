@@ -81,10 +81,8 @@ export const RegistrationForm = () => {
         <option value="CELPIP Training">CELPIP Training</option>
         <option value="PTE Coaching">PTE Coaching</option>
         <option value="English Language Classes">English Language Classes</option>
-        <option value="Public Speaking">Public Speaking</option>
-        <option value="Confidence Building">Confidence Building</option>
-        <option value="Interview Preparation">Interview Preparation</option>
-        <option value="Newcomer Adjustment Program">Newcomer Adjustment Program</option>
+        <option value="Public Speaking">Confidence & Public Speaking Essentials</option>
+        <option value="Confidence Building">Flourish Abroad with Everyday English</option>
       </select>
 
       <select name="courseType" value={formData.courseType} onChange={handleChange}>
