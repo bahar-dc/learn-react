@@ -11187,3 +11187,41 @@ button[type="submit"]:hover {
 .gallery-item:nth-child(4n + 12) {
   grid-column: span 2;
 }
+
+.bottom-data {
+  margin-top: 80px;
+}
+.bottom-data ul {
+  list-style: disc;
+  margin-left: 20px;
+  margin-top: 40px;
+}
+.bottom-data li {
+  padding-left: 30px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.cards ul {
+  list-style: disc;
+  padding-left: 20px;
+  margin: 10px 0;
+  display: block !important;
+}
+
+.cards ul li {
+  margin-bottom: 10px;
+}
+
+.cards article {
+  overflow: visible;
+}
+
+strong.price {
+  font-size: 30px;
+  vertical-align: middle;
+}
+
+.pricing-cards article p {
+  padding-bottom: 20px;
+}

@@ -73,54 +73,171 @@ export const Pricing = () => {
             <div className="progresso-container">
                 <div id="jumplinks"></div>
                 <h2 className="toggle-heading title title--lg-dt">Pricing Plans : We have the same price for all our courses</h2>
-                <ul className="cards cards--3">
-                    <li>
-                        <article>
-                        <div>
-                            <div className="card-title title title--sm-mb">1:1 Classes</div>
-                        </div>
-                        <p className="text">1-month challenge with big rewards – for learners who want extra motivation.</p>
-                        <ul>
-                            <li><span className="text"><strong>Per Class : </strong>$35</span></li>
-                            <li> <span className="text"><strong>8-Class Package : </strong>$270 (save 5%)</span></li>
-                            <li><span className="text"><strong>12-Class Package : </strong>$375 (save 10%)</span></li>
-                            <li><span className="text"><strong>20-Class Package : </strong>$599 (save 15%) + 1 Free Bonus Class</span></li>
-                        </ul>
-                        <a href="https://www.lingoda.com/en/sprint/" className="link button secondary blue">Enroll Now</a>
-                        </article>
-                    </li>
-                    <li>
-                        <article className="gradient">
-                        <div>
-                            <div className="card-title title title--sm-mb">Small Group</div>
-                        </div>
-                        <p className="text">Build your own language journey – for learners who want more flexibility.</p>
-                        <ul>
-                             <li><span className="text"><strong>Per Class : </strong>$28</span></li>
-                            <li> <span className="text"><strong>8-Class Package: </strong>$210 (save 5%)</span></li>
-                            <li><span className="text"><strong>12-Class Package: </strong>$300 (save 10%)</span></li>
-                            <li><span className="text"><strong>20-Class Package: </strong>$475 (save 15%) + 1 Free Bonus Class</span></li>
-                        </ul>
-                        <a href="https://www.lingoda.com/en/flex/" className="link button primary white">Enroll Now</a>
-                        </article>
-                    </li>
-                    <li>
-                        <article>
-                        <div>
-                            <div className="card-title title title--sm-mb">Bring Your Buddy</div>
-                        </div>
-                        <p className="text">Pre-booked classes with a dedicated team – for learners who want structure and support.</p>
-                        <ul>
-                            <li><span className="text"><strong>Per Class : </strong>$32</span></li>
-                            <li> <span className="text"><strong>8-Class Package : </strong>$245 (save 5%)</span></li>
-                            <li><span className="text"><strong>12-Class Package : </strong>$345 (save 10%)</span></li>
-                            <li><span className="text"><strong>20-Class Package : </strong>$545 (save 15%) + 1 Free Bonus Class</span></li>
-                        </ul>
-                        <a href="https://www.lingoda.com/en/teams/" className="link button secondary blue">Enroll Now</a>
-                        </article>
-                    </li>
+              
+
+                <ul className="cards pricing-cards">
+                <li>
+                    <article>
+                    <div>
+                        <div className="card-title title title--sm-mb">One-on-One Classes</div>
+                    </div>
+                    <p className="text">
+                        Ideal for individuals who prefer focused, personalized attention or who
+                        have specific learning goals, such as passing a high-stakes exam,
+                        mastering public speaking, or adapting quickly to life in Canada. This
+                        option is perfect for those who may require a custom-tailored
+                        curriculum based on their unique strengths and improvement areas.
+                    </p>
+                    <ul>
+                        <li className="text">Tailored Lesson Plans</li>
+                        <li className="text">Dedicated Feedback & Coaching</li>
+                        <li className="text">Flexible Scheduling</li>
+                        <li className="text">Focused Practice Tests</li>
+                    
+                        <li>
+                        <span className="text">
+                            <strong>Per Class: </strong>
+                            <strong className='price'>$35</strong>
+                        </span>
+                        </li>
+                        <li>
+                        <span className="text">
+                            <strong>8-Class Package: </strong>
+                            <strong className='price'>$270</strong> (save 5%)
+                        </span>
+                        </li>
+                        <li>
+                        <span className="text">
+                            <strong>12-Class Package: </strong>
+                            <strong className='price'>$375</strong> (save 10%)
+                        </span>
+                        </li>
+                        <li>
+                        <span className="text">
+                            <strong>20-Class Package: </strong>
+                            <strong className='price'>$599</strong> (save 15%) + 1 Free Bonus Class
+                        </span>
+                        </li>
+                    </ul>
+                    <a
+                        href="#/enroll"
+                        className="link button secondary blue"
+                    >
+                        Enroll Now
+                    </a>
+                    </article>
+                </li>
+                <li>
+                    <article className="gradient">
+                    <div>
+                        <div className="card-title title title--sm-mb">Small Group Classes</div>
+                    </div>
+                    <p className="text">
+                        Ideal for individuals who enjoy a collaborative learning environment
+                        and prefer interaction with peers, while still having a relatively
+                        small class size for individualized attention.
+                    </p>
+                    <ul>
+                        <li className="text">Interactive Learning Environment</li>
+                        <li className="text">Peer Support & Feedback</li>
+                        <li className="text">Structured Learning Modules</li>
+                        <li className="text">Group Practice Sessions</li>
+                    
+                        <li>
+                        <span className="text">
+                            <strong>Per Class: </strong>
+                            <strong className='price'>$28</strong>
+                        </span>
+                        </li>
+                        <li>
+                        <span className="text">
+                            <strong>8-Class Package: </strong>
+                            <strong className='price'>$210</strong> (save 5%)
+                        </span>
+                        </li>
+                        <li>
+                        <span className="text">
+                            <strong>12-Class Package: </strong>
+                            <strong className='price'>$300</strong> (save 10%)
+                        </span>
+                        </li>
+                        <li>
+                        <span className="text">
+                            <strong>20-Class Package: </strong>
+                            <strong className='price'>$475</strong> (save 15%) + 1 Free Bonus Class
+                        </span>
+                        </li>
+                    </ul>
+                    <a
+                        href="#/enroll"
+                        className="link button primary white"
+                    >
+                        Enroll Now
+                    </a>
+                    </article>
+                </li>
+                <li>
+                    <article>
+                    <div>
+                        <div className="card-title title title--sm-mb">Bring Your Buddy</div>
+                    </div>
+                    <p className="text">
+                        Ideal for friends, family members, or partners who want to learn
+                        together in a more affordable, semi-private setting.
+                    </p>
+                    <ul>
+                        <li className="text">Shared Learning Experience</li>
+                        <li className="text">Personalized, Pair-Based Instruction</li>
+                        <li className="text">Dynamic Class Activities</li>
+                    
+                        <li>
+                        <span className="text">
+                            <strong>Per Class: </strong>
+                            <strong className='price'>$32</strong>
+                        </span>
+                        </li>
+                        <li>
+                        <span className="text">
+                            <strong>8-Class Package: </strong>
+                            <strong className='price'>$245</strong> (save 5%)
+                        </span>
+                        </li>
+                        <li>
+                        <span className="text">
+                            <strong>12-Class Package: </strong>
+                            <strong className='price'>$345</strong> (save 10%)
+                        </span>
+                        </li>
+                        <li>
+                        <span className="text">
+                            <strong>20-Class Package: </strong>
+                            <strong className='price'>$545</strong> (save 15%) + 1 Free Bonus Class
+                        </span>
+                        </li>
+                    </ul>
+                    <a
+                        href="#/enroll"
+                        className="link button secondary blue"
+                    >
+                        Enroll Now
+                    </a>
+                    </article>
+                </li>
                 </ul>
-                <p>Select your preferred package and start your journey with our professional instructors.</p>
+
+
+                
+               <div className="bottom-data">
+                 <h3>Promotion Offer Ends on <span>28th of February 2025:</span> All the 8-class, 12-class, and 20-class packages all include FIVE additional FREE bonus classes that will include:</h3>
+                <ul>
+                    <li>A trial class of 45 minutes with our Progresso Learning Expert</li>
+                    <li>A test assessment and discussion of the mistakes and how to improve it</li>
+                    <li>A Cheat Sheet for each of the courses separately</li>
+                    <li>A Full Practice Test 1 week before the exam or competition you are participating in</li>
+                    <li>Vocabulary Course 101: We will provide a specific tailor made Vocabulary List for your course</li>
+                </ul>
+               </div>
+            
             </div>
             </section>
 
