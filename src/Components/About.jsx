@@ -1,6 +1,7 @@
 import React from 'react';
 import { Header } from "./Header";
 import { Footer } from "./Footer";
+import { Gallery } from "./Gallery";
 import StickyImage11 from'../Assets/Images/Uploads/about-banner-img.webp';
 import BottomImage from'../Assets/Images/Uploads/scroll-image-01.webp';
 import { Helmet } from 'react-helmet';
@@ -102,6 +103,8 @@ export const About = () => {
                     </div>
                 </div>
             </section>
+
+            <Gallery />
 
             <section className="img-and-text img-left tablet-row border-rad progresso-block">
                 <div className="progresso-container">
