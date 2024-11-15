@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.5230625d.css",
-    "main.js": "/static/js/main.decf6f65.js",
+    "main.css": "/static/css/main.5aee0e9d.css",
+    "main.js": "/static/js/main.b3db9e4e.js",
     "static/js/453.70723d0f.chunk.js": "/static/js/453.70723d0f.chunk.js",
     "static/media/progresso-image-02-min.jpg": "/static/media/progresso-image-02-min.1ab37ede9941615d7e4f.jpg",
     "static/media/hero-section-banner.png": "/static/media/hero-section-banner.22ff3a945faf0d4bdcb8.png",
@@ -29,12 +29,12 @@
     "static/media/logo-02.svg": "/static/media/logo-02.9a3e554dc298d0d27f03e315db2cc5c5.svg",
     "static/media/logo-07.svg": "/static/media/logo-07.9daaa50a917650bc0a7b12e6da433425.svg",
     "index.html": "/index.html",
-    "main.5230625d.css.map": "/static/css/main.5230625d.css.map",
-    "main.decf6f65.js.map": "/static/js/main.decf6f65.js.map",
+    "main.5aee0e9d.css.map": "/static/css/main.5aee0e9d.css.map",
+    "main.b3db9e4e.js.map": "/static/js/main.b3db9e4e.js.map",
     "453.70723d0f.chunk.js.map": "/static/js/453.70723d0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5230625d.css",
-    "static/js/main.decf6f65.js"
+    "static/css/main.5aee0e9d.css",
+    "static/js/main.b3db9e4e.js"
   ]
 }
