@@ -11178,6 +11178,7 @@ button[type="submit"]:hover {
   height: 100%;
   object-fit: cover;
   transition: transform 0.3s ease;
+  max-height: 300px;
 }
 
 .gallery-item:hover img {

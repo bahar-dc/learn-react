@@ -4,6 +4,17 @@ import { Footer } from "./Footer";
 import CourseImage2 from'../Assets/Images/Uploads/services-img-03.webp';
 import BottomImage from'../Assets/Images/Uploads/scroll-image-01.webp';
 import { Helmet } from 'react-helmet';
+import Interview1 from'../Assets/Images/Uploads/interview-01.JPG';
+import Interview2 from'../Assets/Images/Uploads/interview-02.jpg';
+import Interview3 from'../Assets/Images/Uploads/interview-03.jpg';
+import Interview4 from'../Assets/Images/Uploads/interview-04.jpg';
+import Interview5 from'../Assets/Images/Uploads/interview-05.jpg';
+import Interview6 from'../Assets/Images/Uploads/interview-06.jpeg';
+import Interview7 from'../Assets/Images/Uploads/interview-07.jpeg';
+import Interview8 from'../Assets/Images/Uploads/interview-08.jpeg';
+import Interview9 from'../Assets/Images/Uploads/interview-09.jpeg';
+import Interview10 from'../Assets/Images/Uploads/interview-10.jpeg';
+import Interview11 from'../Assets/Images/Uploads/interview-11.jpeg';
 
 export const InterviewAndCulturalAdaptation = () => {
 
@@ -103,6 +114,20 @@ export const InterviewAndCulturalAdaptation = () => {
                     <p>Adjusting to a new culture and language can be challenging, especially in a professional setting. This course not only improves English fluency but also teaches the social and cultural norms essential for career growth and personal well-being in Canada. Students gain confidence in everyday interactions, ensuring they thrive in both their personal and professional lives.</p>
                 </div>
             </section>
+
+            <div className="gallery">
+                <div className="gallery-item"><img src={Interview1} alt="Gallery 1" /></div>
+                <div className="gallery-item"><img src={Interview2} alt="Gallery 2" /></div>
+                <div className="gallery-item"><img src={Interview3} alt="Gallery 3" /></div>
+                <div className="gallery-item"><img src={Interview4} alt="Gallery 4" /></div>
+                <div className="gallery-item"><img src={Interview5} alt="Gallery 5" /></div>
+                <div className="gallery-item"><img src={Interview6} alt="Gallery 6" /></div>
+                <div className="gallery-item"><img src={Interview7} alt="Gallery 6" /></div>
+                <div className="gallery-item"><img src={Interview8} alt="Gallery 6" /></div>
+                <div className="gallery-item"><img src={Interview9} alt="Gallery 6" /></div>
+                <div className="gallery-item"><img src={Interview10} alt="Gallery 6" /></div>
+                <div className="gallery-item"><img src={Interview11} alt="Gallery 6" /></div>
+            </div>
 
             <section className="text-banner alt progresso-block">
                 <div className="progresso-container text-white light-blue-container">
