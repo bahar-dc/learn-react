@@ -98,21 +98,6 @@ export const Footer = () => {
                     </div>
                 </footer>
             </div>
-
-             <a 
-                href="https://wa.me/1234567890?text=Hello!%20I%20need%20some%20help" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                style={{
-                    textDecoration: 'none',
-                    color: '#fff',
-                    backgroundColor: '#25D366',
-                    padding: '10px 20px',
-                    borderRadius: '5px'
-                }}
-            >
-                Chat with us on WhatsApp
-            </a>
         </>
     )
 }
