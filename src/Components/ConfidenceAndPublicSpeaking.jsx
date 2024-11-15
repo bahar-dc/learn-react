@@ -5,6 +5,22 @@ import CourseImage2 from'../Assets/Images/Uploads/services-img-02.webp';
 import BottomImage from'../Assets/Images/Uploads/scroll-image-01.webp';
 import { Helmet } from 'react-helmet';
 
+import Interview1 from'../Assets/Images/Uploads/confidence-1.jpg';
+import Interview2 from'../Assets/Images/Uploads/confidence-2.jpg';
+import Interview3 from'../Assets/Images/Uploads/confidence-3.jpg';
+import Interview4 from'../Assets/Images/Uploads/confidence-4.jpg';
+import Interview5 from'../Assets/Images/Uploads/confidence-5.jpg';
+import Interview6 from'../Assets/Images/Uploads/confidence-6.jpg';
+import Interview7 from'../Assets/Images/Uploads/confidence-7.jpg';
+import Interview8 from'../Assets/Images/Uploads/confidence-8.jpg';
+import Interview9 from'../Assets/Images/Uploads/confidence-9.jpg';
+import Interview10 from'../Assets/Images/Uploads/confidence-10.jpg';
+import Interview11 from'../Assets/Images/Uploads/confidence-11.JPG';
+import Interview12 from'../Assets/Images/Uploads/confidence-12.jpg';
+import Interview13 from'../Assets/Images/Uploads/confidence-13.jpg';
+import Interview14 from'../Assets/Images/Uploads/confidence-14.jpg';
+import Interview15 from'../Assets/Images/Uploads/confidence-15.jpg';
+
 
 export const ConfidenceAndPublicSpeaking = () => {
 
@@ -104,6 +120,24 @@ export const ConfidenceAndPublicSpeaking = () => {
                    <p> Public speaking is not only a critical skill in professional and academic settings but also essential for personal development. Progresso’s training helps individuals articulate their ideas clearly, engage effectively with others, and approach opportunities with confidence.</p>
                 </div>
             </section>
+
+             <div className="gallery">
+                <div className="gallery-item"><img src={Interview1} alt="Gallery 1" /></div>
+                <div className="gallery-item"><img src={Interview2} alt="Gallery 2" /></div>
+                <div className="gallery-item"><img src={Interview3} alt="Gallery 3" /></div>
+                <div className="gallery-item"><img src={Interview4} alt="Gallery 4" /></div>
+                <div className="gallery-item"><img src={Interview5} alt="Gallery 5" /></div>
+                <div className="gallery-item"><img src={Interview6} alt="Gallery 6" /></div>
+                <div className="gallery-item"><img src={Interview7} alt="Gallery 6" /></div>
+                <div className="gallery-item"><img src={Interview8} alt="Gallery 6" /></div>
+                <div className="gallery-item"><img src={Interview9} alt="Gallery 6" /></div>
+                <div className="gallery-item"><img src={Interview10} alt="Gallery 6" /></div>
+                <div className="gallery-item"><img src={Interview11} alt="Gallery 6" /></div>
+                <div className="gallery-item"><img src={Interview12} alt="Gallery 6" /></div>
+                <div className="gallery-item"><img src={Interview13} alt="Gallery 6" /></div>
+                <div className="gallery-item"><img src={Interview14} alt="Gallery 6" /></div>
+                <div className="gallery-item"><img src={Interview15} alt="Gallery 6" /></div>
+            </div>
 
             <section className="text-banner alt progresso-block">
                 <div className="progresso-container text-white light-blue-container">
