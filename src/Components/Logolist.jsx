@@ -36,7 +36,7 @@ export const Logolist = () => {
 						</div>
 					</div>
 					
-					<a href='/join-our-community' className="button primary white cursor">Join Our Community</a>
+					<a href='#/enroll' className="button primary white cursor">Join Our Community</a>
 				</div>        
                 </div>
             </section>
