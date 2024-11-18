@@ -7,7 +7,7 @@ import { Twocolumntext } from "./Twocolumn";
 import { Learning } from "./Learning";
 import { FullWidthScrollImage } from "./FullWidthScrollImage";
 import { StickyWIthText } from "./StickyWIthText";
-import { Logolist } from "./Logolist";
+// import { Logolist } from "./Logolist";
 import { Footer } from "./Footer";
 import { Helmet } from 'react-helmet';
 
