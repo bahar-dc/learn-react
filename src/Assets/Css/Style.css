@@ -11239,4 +11239,12 @@ strong.price {
     margin-bottom: 6px;
     font-size: 18px;
   }
+
+  .lottie-column {
+    margin-bottom: 0;
+  }
+
+  .progresso-container {
+    padding: 0 5%;
+  }
 }
