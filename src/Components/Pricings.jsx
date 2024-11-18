@@ -84,16 +84,14 @@ export const Pricing = () => {
                     <p className="text">
                         Ideal for individuals who prefer focused, personalized attention or who
                         have specific learning goals, such as passing a high-stakes exam,
-                        mastering public speaking, or adapting quickly to life in Canada. This
-                        option is perfect for those who may require a custom-tailored
-                        curriculum based on their unique strengths and improvement areas.
+                        mastering public speaking, or adapting quickly to life in Canada.
                     </p>
                     <ul>
-                        <li className="text">Tailored Lesson Plans</li>
+                        {/* <li className="text">Tailored Lesson Plans</li>
                         <li className="text">Dedicated Feedback & Coaching</li>
                         <li className="text">Flexible Scheduling</li>
                         <li className="text">Focused Practice Tests</li>
-                    
+                     */}
                         <li>
                         <span className="text">
                             <strong>Per Class: </strong>
@@ -138,10 +136,10 @@ export const Pricing = () => {
                         small class size for individualized attention.
                     </p>
                     <ul>
-                        <li className="text">Interactive Learning Environment</li>
+                        {/* <li className="text">Interactive Learning Environment</li>
                         <li className="text">Peer Support & Feedback</li>
                         <li className="text">Structured Learning Modules</li>
-                        <li className="text">Group Practice Sessions</li>
+                        <li className="text">Group Practice Sessions</li> */}
                     
                         <li>
                         <span className="text">
@@ -179,16 +177,16 @@ export const Pricing = () => {
                 <li>
                     <article>
                     <div>
-                        <div className="card-title title title--sm-mb">Bring Your Buddy</div>
+                        <div className="card-title title title--sm-mb">Study with Buddy</div>
                     </div>
                     <p className="text">
                         Ideal for friends, family members, or partners who want to learn
                         together in a more affordable, semi-private setting.
                     </p>
                     <ul>
-                        <li className="text">Shared Learning Experience</li>
+                        {/* <li className="text">Shared Learning Experience</li>
                         <li className="text">Personalized, Pair-Based Instruction</li>
-                        <li className="text">Dynamic Class Activities</li>
+                        <li className="text">Dynamic Class Activities</li> */}
                     
                         <li>
                         <span className="text">

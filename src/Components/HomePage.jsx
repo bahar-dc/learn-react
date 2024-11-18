@@ -28,9 +28,7 @@ export const HomePage = () => {
 		  }
 		};
 	
-		  $('li button.link').on('click', handleAccordionClick);
-		
-	
+		$('li button.link').on('click', handleAccordionClick);
 		// Cleanup function to remove the event listener when component unmounts
 		return () => {
 		  $('li button.link').off('click', handleAccordionClick);
@@ -38,7 +36,6 @@ export const HomePage = () => {
 	  }, []);
     return (
         <>
-
             <Helmet>
                 <title>Home - Transforming Learning into Lasting Success</title>
                 <meta name="description" content="Home - Progresso Learning" />
