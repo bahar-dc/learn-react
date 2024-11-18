@@ -11228,3 +11228,15 @@ strong.price {
 .pricing-cards article p {
   padding-bottom: 20px;
 }
+
+@media (max-width: 767px) {
+  .navbar-buttons.desktop a.button.link:nth-child(1) {
+    display: none;
+  }
+
+  .bottom-data li {
+    padding-left: 10px;
+    margin-bottom: 6px;
+    font-size: 18px;
+  }
+}
