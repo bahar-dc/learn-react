@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4c4c0f89.css",
-    "main.js": "/static/js/main.0da2f663.js",
+    "main.js": "/static/js/main.60a5d9dc.js",
     "static/js/453.70723d0f.chunk.js": "/static/js/453.70723d0f.chunk.js",
     "static/media/progresso-image-02-min.jpg": "/static/media/progresso-image-02-min.1ab37ede9941615d7e4f.jpg",
     "static/media/interview-12.jpg": "/static/media/interview-12.6bc332cf37a3ed0b4cac.jpg",
@@ -49,20 +49,13 @@
     "static/media/about-banner-img.webp": "/static/media/about-banner-img.299b81b995c485b7e4d4.webp",
     "static/media/learn-11.webp": "/static/media/learn-11.303f6909d9c8eccd3eda.webp",
     "static/media/learn-06.webp": "/static/media/learn-06.1b3d0113124012081ae4.webp",
-    "static/media/logo-04.svg": "/static/media/logo-04.be7332e6a35957587370d4457102db06.svg",
-    "static/media/logo-01.svg": "/static/media/logo-01.0bef12a32f3e502528bea4c11c84f755.svg",
-    "static/media/logo-05.svg": "/static/media/logo-05.11ec79ea5515f5a79032f41f7196a419.svg",
-    "static/media/logo-03.svg": "/static/media/logo-03.0ce7c645ed27392e8df8f247b4878e05.svg",
-    "static/media/logo-06.svg": "/static/media/logo-06.3fd2867bb2385156d6470526514df980.svg",
-    "static/media/logo-02.svg": "/static/media/logo-02.9a3e554dc298d0d27f03e315db2cc5c5.svg",
-    "static/media/logo-07.svg": "/static/media/logo-07.9daaa50a917650bc0a7b12e6da433425.svg",
     "index.html": "/index.html",
     "main.4c4c0f89.css.map": "/static/css/main.4c4c0f89.css.map",
-    "main.0da2f663.js.map": "/static/js/main.0da2f663.js.map",
+    "main.60a5d9dc.js.map": "/static/js/main.60a5d9dc.js.map",
     "453.70723d0f.chunk.js.map": "/static/js/453.70723d0f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4c4c0f89.css",
-    "static/js/main.0da2f663.js"
+    "static/js/main.60a5d9dc.js"
   ]
 }
