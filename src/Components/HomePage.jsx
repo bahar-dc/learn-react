@@ -49,7 +49,7 @@ export const HomePage = () => {
             <Learning />
             <FullWidthScrollImage />
             <StickyWIthText />
-            <Logolist />
+            {/* <Logolist /> */}
 
             <section className="accordion">
                 <div className="progresso-container">
