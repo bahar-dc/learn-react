@@ -76,151 +76,151 @@ export const Pricing = () => {
               
 
                 <ul className="cards pricing-cards">
-                <li>
-                    <article>
-                    <div>
-                        <div className="card-title title title--sm-mb">One-on-One Classes</div>
-                    </div>
-                    <p className="text">
-                        Ideal for individuals who prefer focused, personalized attention or who
-                        have specific learning goals, such as passing a high-stakes exam,
-                        mastering public speaking, or adapting quickly to life in Canada.
-                    </p>
-                    <ul>
-                        {/* <li className="text">Tailored Lesson Plans</li>
-                        <li className="text">Dedicated Feedback & Coaching</li>
-                        <li className="text">Flexible Scheduling</li>
-                        <li className="text">Focused Practice Tests</li>
-                     */}
-                        <li>
-                        <span className="text">
-                            <strong>Per Class: </strong>
-                            <strong className='price'>$35</strong>
-                        </span>
-                        </li>
-                        <li>
-                        <span className="text">
-                            <strong>8-Class Package: </strong>
-                            <strong className='price'>$270</strong> (save 5%)
-                        </span>
-                        </li>
-                        <li>
-                        <span className="text">
-                            <strong>12-Class Package: </strong>
-                            <strong className='price'>$375</strong> (save 10%)
-                        </span>
-                        </li>
-                        <li>
-                        <span className="text">
-                            <strong>20-Class Package: </strong>
-                            <strong className='price'>$599</strong> (save 15%) + 1 Free Bonus Class
-                        </span>
-                        </li>
-                    </ul>
-                    <a
-                        href="#/enroll"
-                        className="link button secondary blue"
-                    >
-                        Enroll Now
-                    </a>
-                    </article>
-                </li>
-                <li>
-                    <article className="gradient">
-                    <div>
-                        <div className="card-title title title--sm-mb">Small Group Classes</div>
-                    </div>
-                    <p className="text">
-                        Ideal for individuals who enjoy a collaborative learning environment
-                        and prefer interaction with peers, while still having a relatively
-                        small class size for individualized attention.
-                    </p>
-                    <ul>
-                        {/* <li className="text">Interactive Learning Environment</li>
-                        <li className="text">Peer Support & Feedback</li>
-                        <li className="text">Structured Learning Modules</li>
-                        <li className="text">Group Practice Sessions</li> */}
-                    
-                        <li>
-                        <span className="text">
-                            <strong>Per Class: </strong>
-                            <strong className='price'>$28</strong>
-                        </span>
-                        </li>
-                        <li>
-                        <span className="text">
-                            <strong>8-Class Package: </strong>
-                            <strong className='price'>$210</strong> (save 5%)
-                        </span>
-                        </li>
-                        <li>
-                        <span className="text">
-                            <strong>12-Class Package: </strong>
-                            <strong className='price'>$300</strong> (save 10%)
-                        </span>
-                        </li>
-                        <li>
-                        <span className="text">
-                            <strong>20-Class Package: </strong>
-                            <strong className='price'>$475</strong> (save 15%) + 1 Free Bonus Class
-                        </span>
-                        </li>
-                    </ul>
-                    <a
-                        href="#/enroll"
-                        className="link button primary white"
-                    >
-                        Enroll Now
-                    </a>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                    <div>
-                        <div className="card-title title title--sm-mb">Study with Buddy</div>
-                    </div>
-                    <p className="text">
-                        Ideal for friends, family members, or partners who want to learn
-                        together in a more affordable, semi-private setting.
-                    </p>
-                    <ul>
-                        {/* <li className="text">Shared Learning Experience</li>
-                        <li className="text">Personalized, Pair-Based Instruction</li>
-                        <li className="text">Dynamic Class Activities</li> */}
-                    
-                        <li>
-                        <span className="text">
-                            <strong>Per Class: </strong>
-                            <strong className='price'>$32</strong>
-                        </span>
-                        </li>
-                        <li>
-                        <span className="text">
-                            <strong>8-Class Package: </strong>
-                            <strong className='price'>$245</strong> (save 5%)
-                        </span>
-                        </li>
-                        <li>
-                        <span className="text">
-                            <strong>12-Class Package: </strong>
-                            <strong className='price'>$345</strong> (save 10%)
-                        </span>
-                        </li>
-                        <li>
-                        <span className="text">
-                            <strong>20-Class Package: </strong>
-                            <strong className='price'>$545</strong> (save 15%) + 1 Free Bonus Class
-                        </span>
-                        </li>
-                    </ul>
-                    <a
-                        href="#/enroll"
-                        className="link button secondary blue"
-                    >
-                        Enroll Now
-                    </a>
-                    </article>
-                </li>
+                    <li>
+                        <article>
+                            <div>
+                                <div className="card-title title title--sm-mb">One-on-One Classes</div>
+                            </div>
+                            <p className="text">
+                                Ideal for individuals who prefer focused, personalized attention or who
+                                have specific learning goals, such as passing a high-stakes exam,
+                                mastering public speaking, or adapting quickly to life in Canada.
+                            </p>
+                            <ul>
+                                {/* <li className="text">Tailored Lesson Plans</li>
+                                <li className="text">Dedicated Feedback & Coaching</li>
+                                <li className="text">Flexible Scheduling</li>
+                                <li className="text">Focused Practice Tests</li>
+                            */}
+                                <li>
+                                <span className="text">
+                                    <strong>Per Class: </strong>
+                                    <strong className='price'>$35</strong>
+                                </span>
+                                </li>
+                                <li>
+                                <span className="text">
+                                    <strong>8-Class Package: </strong>
+                                    <strong className='price'>$270</strong> (save 5%)
+                                </span>
+                                </li>
+                                <li>
+                                <span className="text">
+                                    <strong>12-Class Package: </strong>
+                                    <strong className='price'>$375</strong> (save 10%)
+                                </span>
+                                </li>
+                                <li>
+                                <span className="text">
+                                    <strong>20-Class Package: </strong>
+                                    <strong className='price'>$599</strong> (save 15%) + 1 Free Bonus Class
+                                </span>
+                                </li>
+                            </ul>
+                            <a
+                                href="#/enroll"
+                                className="link button secondary blue"
+                            >
+                                Enroll Now
+                            </a>
+                        </article>
+                    </li>
+                    <li>
+                        <article className="gradient">
+                        <div>
+                            <div className="card-title title title--sm-mb">Study with Buddy</div>
+                        </div>
+                        <p className="text">
+                            Ideal for friends, family members, or partners who want to learn
+                            together in a more affordable, semi-private setting.
+                        </p>
+                        <ul>
+                            {/* <li className="text">Shared Learning Experience</li>
+                            <li className="text">Personalized, Pair-Based Instruction</li>
+                            <li className="text">Dynamic Class Activities</li> */}
+                        
+                            <li>
+                            <span className="text">
+                                <strong>Per Class: </strong>
+                                <strong className='price'>$32</strong>
+                            </span>
+                            </li>
+                            <li>
+                            <span className="text">
+                                <strong>8-Class Package: </strong>
+                                <strong className='price'>$245</strong> (save 5%)
+                            </span>
+                            </li>
+                            <li>
+                            <span className="text">
+                                <strong>12-Class Package: </strong>
+                                <strong className='price'>$345</strong> (save 10%)
+                            </span>
+                            </li>
+                            <li>
+                            <span className="text">
+                                <strong>20-Class Package: </strong>
+                                <strong className='price'>$545</strong> (save 15%) + 1 Free Bonus Class
+                            </span>
+                            </li>
+                        </ul>
+                        <a
+                            href="#/enroll"
+                            className="link button primary white"
+                        >
+                            Enroll Now
+                        </a>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                        <div>
+                            <div className="card-title title title--sm-mb">Small Group Classes</div>
+                        </div>
+                        <p className="text">
+                            Ideal for individuals who enjoy a collaborative learning environment
+                            and prefer interaction with peers, while still having a relatively
+                            small class size for individualized attention.
+                        </p>
+                        <ul>
+                            {/* <li className="text">Interactive Learning Environment</li>
+                            <li className="text">Peer Support & Feedback</li>
+                            <li className="text">Structured Learning Modules</li>
+                            <li className="text">Group Practice Sessions</li> */}
+                        
+                            <li>
+                            <span className="text">
+                                <strong>Per Class: </strong>
+                                <strong className='price'>$28</strong>
+                            </span>
+                            </li>
+                            <li>
+                            <span className="text">
+                                <strong>8-Class Package: </strong>
+                                <strong className='price'>$210</strong> (save 5%)
+                            </span>
+                            </li>
+                            <li>
+                            <span className="text">
+                                <strong>12-Class Package: </strong>
+                                <strong className='price'>$300</strong> (save 10%)
+                            </span>
+                            </li>
+                            <li>
+                            <span className="text">
+                                <strong>20-Class Package: </strong>
+                                <strong className='price'>$475</strong> (save 15%) + 1 Free Bonus Class
+                            </span>
+                            </li>
+                        </ul>
+                        <a
+                            href="#/enroll"
+                            className="link button secondary blue "
+                        >
+                            Enroll Now
+                        </a>
+                        </article>
+                    </li>
                 </ul>
 
 

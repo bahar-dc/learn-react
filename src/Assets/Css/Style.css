@@ -6926,7 +6926,7 @@ button.splide__pagination__page.is-active {
 .courses-cards article p:nth-last-child(2),
 .courses-cards article ul:nth-last-child(2),
 .courses-cards article > div:nth-last-child(2) {
-  padding-bottom: 6.25rem;
+  padding-bottom: 1rem;
 }
 @media (max-width: 767px) {
   .courses-cards article p:nth-last-child(2),
