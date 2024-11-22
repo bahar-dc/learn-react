@@ -4,19 +4,20 @@ import { Footer } from "./Footer";
 import CourseImage2 from'../Assets/Images/Uploads/services-img-03.webp';
 import BottomImage from'../Assets/Images/Uploads/scroll-image-01.webp';
 import { Helmet } from 'react-helmet';
-import Interview1 from'../Assets/Images/Uploads/interview-01.jpeg';
-import Interview2 from'../Assets/Images/Uploads/interview-02.jpeg';
-import Interview3 from'../Assets/Images/Uploads/interview-03.jpeg';
-import Interview4 from'../Assets/Images/Uploads/interview-04.jpeg';
-import Interview5 from'../Assets/Images/Uploads/interview-05.jpeg';
-import Interview6 from'../Assets/Images/Uploads/interview-06.jpeg';
-import Interview7 from'../Assets/Images/Uploads/interview-07.jpg';
-import Interview8 from'../Assets/Images/Uploads/interview-08.jpg';
-import Interview9 from'../Assets/Images/Uploads/interview-09.jpg';
-import Interview10 from'../Assets/Images/Uploads/interview-10.jpg';
-import Interview11 from'../Assets/Images/Uploads/interview-11.JPG';
-import Interview12 from'../Assets/Images/Uploads/interview-12.jpg';
-import Interview13 from'../Assets/Images/Uploads/interview-13.jpg';
+
+// import Interview1 from'../Assets/Images/Uploads/interview-01.jpeg';
+// import Interview2 from'../Assets/Images/Uploads/interview-02.jpeg';
+// import Interview3 from'../Assets/Images/Uploads/interview-03.jpeg';
+// import Interview4 from'../Assets/Images/Uploads/interview-04.jpeg';
+// import Interview5 from'../Assets/Images/Uploads/interview-05.jpeg';
+// import Interview6 from'../Assets/Images/Uploads/interview-06.jpeg';
+// import Interview7 from'../Assets/Images/Uploads/interview-07.jpg';
+// import Interview8 from'../Assets/Images/Uploads/interview-08.jpg';
+// import Interview9 from'../Assets/Images/Uploads/interview-09.jpg';
+// import Interview10 from'../Assets/Images/Uploads/interview-10.jpg';
+// import Interview11 from'../Assets/Images/Uploads/interview-11.JPG';
+// import Interview12 from'../Assets/Images/Uploads/interview-12.jpg';
+// import Interview13 from'../Assets/Images/Uploads/interview-13.jpg';
 
 export const InterviewAndCulturalAdaptation = () => {
 
@@ -117,7 +118,7 @@ export const InterviewAndCulturalAdaptation = () => {
                 </div>
             </section>
 
-            <div className="gallery">
+            {/* <div className="gallery">
                 <div className="gallery-item"><img src={Interview1} alt="Gallery 1" /></div>
                 <div className="gallery-item"><img src={Interview2} alt="Gallery 2" /></div>
                 <div className="gallery-item"><img src={Interview3} alt="Gallery 3" /></div>
@@ -131,7 +132,7 @@ export const InterviewAndCulturalAdaptation = () => {
                 <div className="gallery-item"><img src={Interview11} alt="Gallery 6" /></div>
                 <div className="gallery-item"><img src={Interview12} alt="Gallery 6" /></div>
                 <div className="gallery-item"><img src={Interview13} alt="Gallery 6" /></div>
-            </div>
+            </div> */}
 
             <section className="text-banner alt progresso-block">
                 <div className="progresso-container text-white light-blue-container">
