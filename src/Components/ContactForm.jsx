@@ -1,56 +1,48 @@
-import React, { useState } from 'react';
-import axios from "axios";
+import React, {  useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 export const ContactForm = () => {
+  const form = useRef();
 
-  const [formData, setFormData] = useState({ name: "", email: "", message: "" });
-  const handleChange = (e) => {
-        const { name, value } = e.target;
-        setFormData({ ...formData, [name]: value });
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm('service_5rfgvvb', 'template_facpitm', form.current, {
+        publicKey: 'PmnGQS0cZ8bZATe2u',
+      })
+      .then(
+        () => {
+          console.log('SUCCESS!');
+        },
+        (error) => {
+          console.log('FAILED...', error.text);
+        },
+      );
   };
-  const handleSubmit = async (e) => {
-      e.preventDefault();
-      try {
-          await axios.post("http://localhost:5001/api/contact", formData);
-          alert("Form submitted successfully!");
-      } catch (err) {
-          alert("Error submitting form.");
-      }
-  };
+
 
   return (
-    <form name="contact" onSubmit={handleSubmit} method="POST">
-      <div className="form-group">
-        <input
-          type="text"
-          name="name"
-          value={formData.name} onChange={handleChange}
-          required
-          placeholder="Enter your full name"
-        />
-      </div>
-      <div className="form-group">
-        <input
-          type="email"
-          name="email"
-          value={formData.email} onChange={handleChange}
-          required
-          placeholder="Your email (e.g., name@example.com)"
-        />
-      </div>
-      <div className="form-group">
-        <textarea
-          name="message"
-          value={formData.message} onChange={handleChange}
-          required
-          placeholder="Enter your message"
-        />
-      </div>
-      <div className="form-group">
+    <div>
+      <h2>Contact Us</h2>
+      <form ref={form} onSubmit={sendEmail}>
+        <div className="form-group">
+          <label>Name</label>
+          <input type="text" name="user_name" />  
+        </div>
+        <div className="form-group">
+        <label>Email</label>
+        <input type="email" name="user_email" />
+        </div>
+        <div className="form-group">
+          <label>Message</label>
+          <textarea name="message" />
+        </div>
+        <div className="form-group">
         <input type="submit" value="Send Message" />
-      </div>
-      <input type="hidden" name="_next" value="https://progressolearning.ca/#/thank-you" />
-      <input type="hidden" name="_subject" value="New contact form submission" />
-    </form>
+        </div>
+      </form>
+    </div>
   );
 };
+

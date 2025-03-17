@@ -63,7 +63,6 @@ export const Contact = () => {
                     </div>
                     <div className="contact-us-right">
                        <div className="contact-form">
-                            <h2>Contact Us</h2>
                             <ContactForm />
                         </div>
                     </div>
