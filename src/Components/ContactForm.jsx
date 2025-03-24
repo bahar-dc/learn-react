@@ -69,6 +69,7 @@ export const ContactForm = () => {
           required
           value={formData.message}
           onChange={handleChange}
+          
         ></textarea>
         <button type="submit">Send</button>
       </form>
