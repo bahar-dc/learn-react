@@ -57,13 +57,11 @@ export const Header = () => {
                     <nav aria-label="Primary Nav">
                         <ul>
                             <li>
-                                <a href="/about-us" className={`link ${activePath === '/about-us' ? 'active' : ''}`}>
-                                    <span>About Us</span>
+                                <a href="#/about-us" className={`link ${activePath === '#/about-us' ? 'active' : ''}`}>                                    <span>About Us</span>
                                 </a>
                             </li>
                             <li className="dropdown">
-                                <a href='/courses' className={`link ${activePath === '/courses' ? 'active' : ''}`}>
-                                    <span>Courses</span>
+                                <a href='#/courses' className={`link ${activePath === '#/courses' ? 'active' : ''}`}>                                    <span>Courses</span>
                                     <svg className="chevron" aria-hidden="true" viewBox="0 0 12 8" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path fillRule="evenodd" clipRule="evenodd"
@@ -72,18 +70,16 @@ export const Header = () => {
                                     </svg>
                                 </a>
                                 <ul className="sub-menu">
-                                    <li><a href="/ielts-preparation" className={`link ${activePath === '/ielts-preparation' ? 'active' : ''}`}>IELTS Preparation</a></li>
-                                    <li><a href="/celpip-training" className={`link ${activePath === '/celpip-training' ? 'active' : ''}`}>CELPIP Training</a></li>
-                                    <li><a href="/pte-coaching" className={`link ${activePath === '/pte-coaching' ? 'active' : ''}`}>PTE Coaching</a></li>
-                                    <li><a href="/english-language-courses" className={`link ${activePath === '/english-language-courses' ? 'active' : ''}`}>English Language Classes</a></li>
-                                    <li><a href="/confidence-and-public-speaking" className={`link ${activePath === '/confidence-and-public-speaking' ? 'active' : ''}`}>Confidence & Public Speaking Essentials</a></li>
-                                    <li><a href="/interview-and-cultural-adaptation" className={`link ${activePath === '/interview-and-cultural-adaptation' ? 'active' : ''}`}> Interview & Cultural Adaptation</a></li>
-                                    {/* Add the other sub-menu items here */}
+                                    <li><a href="#/ielts-preparation" className={`link ${activePath === '#/ielts-preparation' ? 'active' : ''}`}>IELTS Preparation</a></li>
+                                     <li><a href="#/celpip-training" className={`link ${activePath === '#/celpip-training' ? 'active' : ''}`}>CELPIP Training</a></li>
+                                     <li><a href="#/pte-coaching" className={`link ${activePath === '#/pte-coaching' ? 'active' : ''}`}>PTE Coaching</a></li>
+                                     <li><a href="#/english-language-courses" className={`link ${activePath === '#/english-language-courses' ? 'active' : ''}`}>English Language Classes</a></li>
+                                     <li><a href="#/confidence-and-public-speaking" className={`link ${activePath === '#/confidence-and-public-speaking' ? 'active' : ''}`}>Confidence & Public Speaking Essentials</a></li>
+                                     <li><a href="#/interview-and-cultural-adaptation" className={`link ${activePath === '#/interview-and-cultural-adaptation' ? 'active' : ''}`}> Interview & Cultural Adaptation</a></li>
                                 </ul>
                             </li>
                             <li>
-                                <a href="/pricing" className={`link ${activePath === '/pricing' ? 'active' : ''}`}>
-                                    <span>Pricing</span>
+                                <a href="#/pricing" className={`link ${activePath === '#/pricing' ? 'active' : ''}`}>                                    <span>Pricing</span>
                                 </a>
                             </li>
                             {/* <li>
@@ -92,19 +88,18 @@ export const Header = () => {
                                 </a>
                             </li> */}
                             <li>
-                                <a href="/contact" className={`link ${activePath === '/contact' ? 'active' : ''}`}>
-                                    <span>Contact</span>
+                                <a href="#/contact" className={`link ${activePath === '#/contact' ? 'active' : ''}`}>                                    <span>Contact</span>
                                 </a>
                             </li>
                         </ul>
                         <div className="navbar-buttons mobile">
-                            <a href="/test-yout-english" className="link button">Test Your English</a>
-                            <a href="/enroll" className="link button blue primary">Register Now</a>
+                             <a href="#/test-yout-english" className="link button">Test Your English</a>
+                             <a href="#/enroll" className="link button blue primary">Register Now</a>
                         </div>
                     </nav>
                     <div className="navbar-buttons desktop">
-                        <a href="/test-yout-english" className="link button">Test Your English</a>
-                        <a href="/enroll" className="link button blue primary">Register Now</a>
+                         <a href="#/test-yout-english" className="link button">Test Your English</a>
+                         <a href="#/enroll" className="link button blue primary">Register Now</a>
                         <button 
                         aria-label="Open Primary Navigation"
                         data-open="Open Primary Navigation"
