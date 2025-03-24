@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import axios from "axios"; // Import Axios
+import axios from "axios";
 
 export const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -36,7 +36,7 @@ export const ContactForm = () => {
       if (response.status === 201) {
         setMessage("Message sent successfully!");
         setMessageType("success");
-        setFormData({ user_name: "", user_email: "", message: "" }); // Clear form
+        setFormData({ user_name: "", user_email: "", message: "" });
       }
     } catch (error) {
       setMessage("Failed to send message. Please try again.");

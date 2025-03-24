@@ -6,13 +6,9 @@ import { ContactForm } from "./ContactForm";
 import bannerimage from'../Assets/Images/Uploads/learn-08.webp';
 import { Helmet } from 'react-helmet';
 
-
-
 export const Contact = () => {
-
     return (
         <>
-
             <Helmet>
                 <title>Conatact - Progresso Learning</title>
                 <meta name="description" content="Conatact - Transforming Learning into Lasting Success" />
