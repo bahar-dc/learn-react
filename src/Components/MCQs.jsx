@@ -54,31 +54,69 @@ export const MCQs = () => {
   //     .catch(() => alert("An error occurred while submitting the form."));
   //   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
 
-    const payload = {
-      firstName: contactInfo.firstName,
-      lastName: contactInfo.lastName,
-      email: contactInfo.email,
-      phone: contactInfo.phone,
-      answers: answers,
-    };
+  //   const payload = {
+  //     firstName: contactInfo.firstName,
+  //     lastName: contactInfo.lastName,
+  //     email: contactInfo.email,
+  //     phone: contactInfo.phone,
+  //     answers: answers,
+  //   };
 
-    try {
-      const response = await axios.post(
-        "https://progresso-backend.vercel.app/api/test-your-english",
-        payload
-      );
-      console.log("Success:", response.data);
-      alert("Form submitted successfully!");
-      setAnswers({});
-      setContactInfo({ firstName: "", lastName: "", email: "", phone: "" });
-    } catch (error) {
-      console.error("Error:", error);
-      alert("An error occurred while submitting the form.");
-    }
-  };
+  //   try {
+  //     const response = await axios.post(
+  //       "https://progresso-backend.vercel.app/api/test-your-english",
+  //       payload
+  //     );
+  //     console.log("Success:", response.data);
+  //     alert("Form submitted successfully!");
+  //     setAnswers({});
+  //     setContactInfo({ firstName: "", lastName: "", email: "", phone: "" });
+  //   } catch (error) {
+  //     console.error("Error:", error);
+  //     alert("An error occurred while submitting the form.");
+  //   }
+  // };
+
+ const handleSubmit = async (e) => {
+  e.preventDefault();
+
+  const formData = new FormData();
+
+  formData.append("firstName", contactInfo.firstName);
+  formData.append("lastName", contactInfo.lastName);
+  formData.append("email", contactInfo.email);
+  formData.append("phone", contactInfo.phone);
+
+  Object.keys(answers).forEach((key) => {
+    formData.append(key, answers[key]);
+  });
+
+  try {
+    const response = await axios.post(
+      "https://progresso-backend.vercel.app/api/test-your-english",
+      formData,
+      {
+        headers: {
+          "Content-Type": "multipart/form-data",
+        },
+      }
+    );
+
+    console.log("✅ Success:", response.data);
+    alert("Form submitted successfully!");
+
+    setAnswers({});
+    setContactInfo({ firstName: "", lastName: "", email: "", phone: "" });
+  } catch (error) {
+    console.error("❌ Error:", error);
+    alert("An error occurred while submitting the form.");
+  }
+};
+
+
 
   const questions = [
     {

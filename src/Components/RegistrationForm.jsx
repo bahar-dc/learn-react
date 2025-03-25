@@ -39,34 +39,81 @@ export const RegistrationForm = () => {
   //   console.log('Form submitted:', formData);
   // };
 
+  // const handleSubmit = async (e) => {
+  //   e.preventDefault();
+
+  //   try {
+  //     const response = await fetch(
+  //       "https://progresso-backend.vercel.app/api/enroll",
+  //       {
+  //         method: "POST",
+  //         headers: {
+  //           "Content-Type": "application/json",
+  //         },
+  //         body: JSON.stringify(formData),
+  //       }
+  //     );
+
+  //     const result = await response.json();
+  //     console.log("API Response:", result);
+
+  //     if (response.ok) {
+  //       alert("Enrollment Successful!");
+  //     } else {
+  //       alert("Error: " + result.message);
+  //     }
+  //   } catch (error) {
+  //     console.error("Error submitting form:", error);
+  //     alert("Something went wrong. Please try again.");
+  //   }
+  // };
+
   const handleSubmit = async (e) => {
-    e.preventDefault();
+  e.preventDefault();
 
-    try {
-      const response = await fetch(
-        "https://progresso-backend.vercel.app/api/enroll",
-        {
-          method: "POST",
-          headers: {
-            "Content-Type": "application/json",
-          },
-          body: JSON.stringify(formData),
-        }
-      );
-
-      const result = await response.json();
-      console.log("API Response:", result);
-
-      if (response.ok) {
-        alert("Enrollment Successful!");
-      } else {
-        alert("Error: " + result.message);
+  try {
+    const response = await fetch(
+      "https://progresso-backend.vercel.app/api/enroll",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
       }
-    } catch (error) {
-      console.error("Error submitting form:", error);
-      alert("Something went wrong. Please try again.");
+    );
+
+    const result = await response.json();
+    console.log("API Response:", result);
+
+    if (response.ok) {
+      alert("Enrollment Successful!");
+
+      // ✅ Reset form after successful submission
+      setFormData({
+        fullName: "",
+        email: "",
+        phoneNumber: "",
+        dob: "",
+        program: "",
+        courseType: "",
+        classPackage: "",
+        scheduleDays: [],
+        preferredTime: "",
+        paymentOption: "",
+        discountCode: "",
+        goals: "",
+        referralSource: "",
+        agreement: false,
+      });
+    } else {
+      alert("Error: " + result.message);
     }
-  };
+  } catch (error) {
+    console.error("Error submitting form:", error);
+    alert("Something went wrong. Please try again.");
+  }
+};
 
   return (
     <>
