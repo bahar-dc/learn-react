@@ -370,6 +370,7 @@ export const MCQs = () => {
       payload
     );
 
+    console.log('response',response)
     Swal.fire({
       icon: "success",
       title: "Submitted!",
