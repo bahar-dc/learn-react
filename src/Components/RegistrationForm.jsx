@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Swal from "sweetalert2";
 
 export const RegistrationForm = () => {
   const [formData, setFormData] = useState({
@@ -34,41 +35,54 @@ export const RegistrationForm = () => {
     }
   };
 
-  // const handleSubmit = (e) => {
-  //   e.preventDefault();
-  //   console.log('Form submitted:', formData);
-  // };
+//   const handleSubmit = async (e) => {
+//   e.preventDefault();
 
-  // const handleSubmit = async (e) => {
-  //   e.preventDefault();
+//   try {
+//     const response = await fetch(
+//       "https://progresso-backend.vercel.app/api/enroll",
+//       {
+//         method: "POST",
+//         headers: {
+//           "Content-Type": "application/json",
+//         },
+//         body: JSON.stringify(formData),
+//       }
+//     );
 
-  //   try {
-  //     const response = await fetch(
-  //       "https://progresso-backend.vercel.app/api/enroll",
-  //       {
-  //         method: "POST",
-  //         headers: {
-  //           "Content-Type": "application/json",
-  //         },
-  //         body: JSON.stringify(formData),
-  //       }
-  //     );
+//     const result = await response.json();
+//     console.log("API Response:", result);
 
-  //     const result = await response.json();
-  //     console.log("API Response:", result);
+//     if (response.ok) {
+//       alert("Enrollment Successful!");
 
-  //     if (response.ok) {
-  //       alert("Enrollment Successful!");
-  //     } else {
-  //       alert("Error: " + result.message);
-  //     }
-  //   } catch (error) {
-  //     console.error("Error submitting form:", error);
-  //     alert("Something went wrong. Please try again.");
-  //   }
-  // };
+//       // ✅ Reset form after successful submission
+//       setFormData({
+//         fullName: "",
+//         email: "",
+//         phoneNumber: "",
+//         dob: "",
+//         program: "",
+//         courseType: "",
+//         classPackage: "",
+//         scheduleDays: [],
+//         preferredTime: "",
+//         paymentOption: "",
+//         discountCode: "",
+//         goals: "",
+//         referralSource: "",
+//         agreement: false,
+//       });
+//     } else {
+//       alert("Error: " + result.message);
+//     }
+//   } catch (error) {
+//     console.error("Error submitting form:", error);
+//     alert("Something went wrong. Please try again.");
+//   }
+// };
 
-  const handleSubmit = async (e) => {
+const handleSubmit = async (e) => {
   e.preventDefault();
 
   try {
@@ -87,7 +101,12 @@ export const RegistrationForm = () => {
     console.log("API Response:", result);
 
     if (response.ok) {
-      alert("Enrollment Successful!");
+      Swal.fire({
+        title: "Success!",
+        text: "Enrollment Successful!",
+        icon: "success",
+        confirmButtonText: "OK",
+      });
 
       // ✅ Reset form after successful submission
       setFormData({
@@ -107,11 +126,21 @@ export const RegistrationForm = () => {
         agreement: false,
       });
     } else {
-      alert("Error: " + result.message);
+      Swal.fire({
+        title: "Error!",
+        text: result.message || "Something went wrong!",
+        icon: "error",
+        confirmButtonText: "Try Again",
+      });
     }
   } catch (error) {
     console.error("Error submitting form:", error);
-    alert("Something went wrong. Please try again.");
+    Swal.fire({
+      title: "Oops!",
+      text: "Something went wrong. Please try again.",
+      icon: "error",
+      confirmButtonText: "OK",
+    });
   }
 };
 
@@ -286,3 +315,4 @@ export const RegistrationForm = () => {
     </>
   );
 };
+
