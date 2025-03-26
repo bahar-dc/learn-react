@@ -90,7 +90,7 @@
 
 import React, { useState } from "react";
 import axios from "axios";
-import Swal from "sweetalert2"; // Import SweetAlert
+import Swal from "sweetalert2";
 
 export const ContactForm = () => {
   const [formData, setFormData] = useState({
@@ -99,7 +99,7 @@ export const ContactForm = () => {
     message: "",
   });
 
-  const [loading, setLoading] = useState(false); // Loader state
+  const [loading, setLoading] = useState(false);
 
   const handleChange = (event) => {
     setFormData({ ...formData, [event.target.name]: event.target.value });
@@ -107,7 +107,7 @@ export const ContactForm = () => {
 
   const handleSubmit = async (event) => {
     event.preventDefault();
-    setLoading(true); // Start loader
+    setLoading(true);
 
     try {
       const response = await axios.post(
@@ -129,7 +129,7 @@ export const ContactForm = () => {
           text: "Message sent successfully!",
         });
 
-        setFormData({ user_name: "", user_email: "", message: "" }); // Reset form
+        setFormData({ user_name: "", user_email: "", message: "" });
       }
     } catch (error) {
       Swal.fire({
@@ -138,7 +138,7 @@ export const ContactForm = () => {
         text: "Failed to send message. Please try again.",
       });
     } finally {
-      setLoading(false); // Stop loader
+      setLoading(false);
     }
   };
 
